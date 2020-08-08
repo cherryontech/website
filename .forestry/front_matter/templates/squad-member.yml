@@ -14,4 +14,5 @@ fields:
   label: Member Image
   description: 'Upload an image to use on the members bio.  '
 pages:
+- content/squad/fpo-cherry-boss-dolls.md
 - content/squad/fpo-cherry-boss.md
