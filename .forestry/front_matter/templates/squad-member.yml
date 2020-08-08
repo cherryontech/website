@@ -13,3 +13,5 @@ fields:
     maxSize: 64
   label: Member Image
   description: 'Upload an image to use on the members bio.  '
+pages:
+- content/squad/fpo-cherry-boss.md
