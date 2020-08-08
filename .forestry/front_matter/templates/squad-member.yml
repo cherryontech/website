@@ -13,6 +13,15 @@ fields:
     maxSize: 64
   label: Member Image
   description: 'Upload an image to use on the members bio.  '
+- name: cherryBirthDay
+  type: datetime
+  label: Cherry birth day
+  description: Wish the Cherry Happy BIrthday
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 pages:
 - content/squad/fpo-cherry-boss-dolls.md
 - content/squad/fpo-cherry-boss.md
