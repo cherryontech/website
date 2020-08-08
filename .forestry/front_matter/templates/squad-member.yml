@@ -1,4 +1,15 @@
 ---
 label: Squad Member
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Member Name
+- name: memberImage
+  type: file
+  config:
+    maxSize: 64
+  label: Member Image
+  description: 'Upload an image to use on the members bio.  '
