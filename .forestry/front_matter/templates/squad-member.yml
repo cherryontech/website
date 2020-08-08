@@ -23,5 +23,6 @@ fields:
     time_format: 
     display_utc: false
 pages:
+- content/squad/fpo-cherry-boss-1.md
 - content/squad/fpo-cherry-boss-dolls.md
 - content/squad/fpo-cherry-boss.md
