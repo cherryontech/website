@@ -12,5 +12,8 @@
     "@gridsome/vue-remark": "^0.2.2",
     "@noxify/gridsome-plugin-remark-embed": "^1.2.1",
     "gridsome": "^0.7.0"
+  },
+  "devDependencies": {
+    "gridsome-plugin-tailwindcss": "^3.0.1"
   }
 }

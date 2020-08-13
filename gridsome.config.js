@@ -8,6 +8,9 @@ module.exports = {
   siteName: 'Gridsome',
   plugins: [
     {
+      use: "gridsome-plugin-tailwindcss"
+    },
+    {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'blog/**/*.md',
