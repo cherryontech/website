@@ -1,4 +1,5 @@
 <template>
+<div class="wrapper">
   <div class="layout">
     <header class="header">
       <strong>
@@ -11,6 +12,7 @@
     </header>
     <slot/>
   </div>
+</div>
 </template>
 
 <static-query>
@@ -22,11 +24,11 @@ query {
 </static-query>
 
 <style>
-body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
+.wrapper {
+  background-image: url("../../static/homepage-bg.png");
+  background-color: #8878a5;
+  background-size: cover;
+  background-position: center top;
 }
 
 .layout {
