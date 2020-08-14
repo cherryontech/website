@@ -1,5 +1,5 @@
 <template>
-<div class="wrapper">
+<div class="wrapper h-screen">
   <div class="layout">
     <header class="header">
       <strong>
