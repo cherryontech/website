@@ -1,33 +1,38 @@
 <template>
-  <Layout>
+  <div class="wrapper pb-6">
+    <div class="max-w-screen-md my-0 mx-auto px-5 flex flex-col items-center">
+      <img
+        class="pt-10 max-w-screen lg:max-w-lg m-3"
+        src="../../static/cot-name.png"
+        alt="Coming Soon - Cherry on Tech"
+      />
 
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
+      <h1 class="text-white text-center text-5xl">We are a tech squad</h1>
 
-    <h1>Hello, world!</h1>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
-
-    <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-    </p>
-
-  </Layout>
+      <h2 class="text-white text-center text-2xl max-w-sm mb-4">
+        We dream, scheme, and support each other in our careers
+      </h2>
+      <BaseButton class="bg-gray-100">Stay Updated</BaseButton>
+    </div>
+  </div>
 </template>
 
 <script>
+import BaseButton from "@/components/controls/base/BaseButton.vue";
 export default {
+  components: { BaseButton },
   metaInfo: {
-    title: 'Hello, world!'
-  }
-}
+    title: "Coming soon! Cherry on Tech",
+  },
+};
 </script>
 
 <style>
-.home-links a {
-  margin-right: 1rem;
+.wrapper {
+  background-image: url("../../static/homepage-bg.png");
+  background-color: #8878a5;
+  background-size: cover;
+  background-position: center top;
+  min-height: 100vh;
 }
 </style>
