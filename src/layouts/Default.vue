@@ -1,18 +1,18 @@
 <template>
-<div class="wrapper h-screen">
-  <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
-      </nav>
-    </header>
-    <slot/>
+  <div class="wrapper">
+    <div class="max-w-screen-md my-0 mx-auto px-5">
+      <header class="header">
+        <strong>
+          <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+        </strong>
+        <nav class="nav">
+          <g-link class="nav__link" to="/">Home</g-link>
+          <g-link class="nav__link" to="/about/">About</g-link>
+        </nav>
+      </header>
+      <slot />
+    </div>
   </div>
-</div>
 </template>
 
 <static-query>
@@ -29,13 +29,6 @@ query {
   background-color: #8878a5;
   background-size: cover;
   background-position: center top;
-}
-
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .header {
