@@ -40,6 +40,16 @@ fields:
     required: false
   label: Instagram handle
   description: Add your instagram handle
+- name: dribbleUrl
+  type: text
+  config:
+    required: false
+  label: Dribble URL
+- name: portfolioUrl
+  type: text
+  config:
+    required: false
+  label: Personal site/protfolio URL
 pages:
 - content/squad/fpo-cherry-boss-1.md
 - content/squad/fpo-cherry-boss-dolls.md
