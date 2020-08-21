@@ -12,18 +12,26 @@
       <h2 class="text-white text-center text-2xl max-w-sm mb-4">
         We dream, scheme, and support each other in our careers
       </h2>
-      <BaseButton class="bg-gray-100">Stay Updated</BaseButton>
+      <BaseButton @click="showDialog = true" class="bg-gray-100">Stay Updated</BaseButton>
+      <Dialog v-if="showDialog === true" @close="showDialog = false" />
     </div>
   </div>
 </template>
 
 <script>
 import BaseButton from "@/components/controls/base/BaseButton.vue";
+import Dialog from "@/components/controls/dialogs/Dialog.vue";
+
 export default {
-  components: { BaseButton },
+  components: { BaseButton, Dialog },
   metaInfo: {
     title: "Coming soon! Cherry on Tech",
   },
+  data () {
+    return {
+      showDialog: false
+    }
+  }
 };
 </script>
 
