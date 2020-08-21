@@ -22,6 +22,34 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+- name: twitterHandle
+  type: text
+  config:
+    required: false
+  label: Twitter handle
+  description: Please don't add the @ sign - we'll add that later.
+- name: linkedinUrl
+  type: text
+  config:
+    required: false
+  label: LinkedIn URL
+  description: Add the URL to your LinkedIn profile, if you wish.
+- name: instagramHandle
+  type: text
+  config:
+    required: false
+  label: Instagram handle
+  description: Add your instagram handle
+- name: dribbleUrl
+  type: text
+  config:
+    required: false
+  label: Dribble URL
+- name: portfolioUrl
+  type: text
+  config:
+    required: false
+  label: Personal site/protfolio URL
 pages:
 - content/squad/fpo-cherry-boss-1.md
 - content/squad/fpo-cherry-boss-dolls.md
