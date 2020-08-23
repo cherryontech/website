@@ -75,4 +75,5 @@ fields:
     required: false
   label: Medium name
 pages:
+- content/squad/allie-quintano.md
 - content/squad/fpo-cherry-boss-dolls.md
