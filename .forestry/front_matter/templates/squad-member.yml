@@ -7,6 +7,13 @@ fields:
   config:
     required: false
   label: Member Name
+- name: pronouns
+  type: text
+  config:
+    required: false
+  label: Pronouns
+  description: Pronouns are often written in the format pronoun/possessive (e.g. she/her).
+    Please use whatever best identifies you!
 - name: memberImage
   type: file
   config:
@@ -19,7 +26,7 @@ fields:
   description: Wish the Cherry Happy BIrthday
   config:
     required: false
-    date_format: 
+    date_format: MM.DD
     time_format: 
     display_utc: false
 - name: twitterHandle
