@@ -75,6 +75,5 @@ fields:
     required: false
   label: Medium name
 pages:
-- content/squad/fpo-cherry-boss-1.md
 - content/squad/fpo-cherry-boss-dolls.md
 - content/squad/fpo-cherry-boss.md
