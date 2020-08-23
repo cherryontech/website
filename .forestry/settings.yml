@@ -5,6 +5,13 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: content/blog
+  label: Blog posts
+  create: documents
+  match: "**/*"
+  templates:
+  - bog-post
+- type: directory
   path: content/squad
   label: Squad Members
   create: documents
