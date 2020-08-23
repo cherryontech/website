@@ -69,6 +69,11 @@ fields:
   config:
     required: false
   label: Dribble URL
+- name: mediumName
+  type: text
+  config:
+    required: false
+  label: Medium name
 pages:
 - content/squad/fpo-cherry-boss-1.md
 - content/squad/fpo-cherry-boss-dolls.md
