@@ -40,8 +40,10 @@ Outside of work, this kind of closeness is harder to find. I want to demonstrate
 
 I want support and accountability from a few people who really know me - they've seen my features _and_ my bugs. I want people who can see me in my weaker moments and help me out - whether through giving me reality checks, technical advice, or just their vote of confidence.
 
-I also want to _give_ support. Giving support reminds me that I'm not alone, and that I do, in fact, know some stuff. (It also makes me double check the stuff I think I know!) I have been in tech for a few years, and now it's my turn to open the gates even wider. For other cherries,Sharing that with other cherries Being in a squad means I can get to know the people really well. I can help look for resources and opportunities that are really tailored to their situation. I can help them address their own worries and insecurities early and often.
+I also want to _give_ support and accountability. I have been in tech for a few years, and now it's my turn to open the gates even wider. I meet with other cherries often, and I can see the ongoing impact of our interactions. The resources, mentors, and opportunities that I can suggest are better tailored to their situations. The help that I can offer them as they face their own worries and insecurities comes earlier, and more often. To me, this feels more sustainable.
 
-### Prepare for the job market
+To me, giving each other support and accountability reminds us that we're not alone, and that we do, in fact, know some stuff. (Plus, it reminds us to double check what we think we know!)
+
+### Preparation for the job market
 
 Right now I have a job I love, and I hope that doesn't change! That said, I strongly believe in being prepared for a changing market - if not for myself, then in order to support our other squad members. Many of the other cherries are currently on the job market, and it is part of my mission to help them get jobs they love, too. (If you are looking to hire, send us a [DM on Twitter]()!)
