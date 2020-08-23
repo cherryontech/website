@@ -2,55 +2,86 @@
 label: Squad Member
 hide_body: false
 fields:
+- name: draft
+  type: boolean
+  label: Draft
+  description: If the draft status is ON, then this content will NOT appear on the
+    website.
 - name: title
   type: text
   config:
     required: false
-  label: Member Name
+  label: Member name
+  description: This field will be user-facing.
+- name: pronouns
+  type: text
+  config:
+    required: false
+  label: Pronouns
+  description: Pronouns are often written in the format pronoun/possessive (e.g. she/her).
+    Please use whatever best identifies you!
+- name: cherryNickname
+  type: text
+  config:
+    required: false
+  label: Cherry nickname
+  description: Think spice girls :)
+- name: cherryBirthDay
+  type: datetime
+  label: Cherry birth day
+  description: Wish the Cherry Happy Birthday (this is just for internal use).
+  config:
+    required: false
+    date_format: MM.DD
+    time_format: 
+    display_utc: false
 - name: memberImage
   type: file
   config:
     maxSize: 64
   label: Member Image
   description: 'Upload an image to use on the members bio.  '
-- name: cherryBirthDay
-  type: datetime
-  label: Cherry birth day
-  description: Wish the Cherry Happy BIrthday
+- name: portfolioUrl
+  type: text
   config:
     required: false
-    date_format: 
-    time_format: 
-    display_utc: false
+  label: Personal site/protfolio URL
+- name: githubName
+  type: text
+  config:
+    required: false
+  label: Github name
 - name: twitterHandle
   type: text
   config:
     required: false
   label: Twitter handle
   description: Please don't add the @ sign - we'll add that later.
-- name: linkedinUrl
-  type: text
-  config:
-    required: false
-  label: LinkedIn URL
-  description: Add the URL to your LinkedIn profile, if you wish.
 - name: instagramHandle
   type: text
   config:
     required: false
   label: Instagram handle
   description: Add your instagram handle
-- name: dribbleUrl
+- name: linkedinUrl
   type: text
   config:
     required: false
-  label: Dribble URL
-- name: portfolioUrl
+  label: LinkedIn URL
+  description: Add the URL to your LinkedIn profile, if you wish.
+- name: dribbleName
   type: text
   config:
     required: false
-  label: Personal site/protfolio URL
+  label: Dribble name
+- name: mediumName
+  type: text
+  config:
+    required: false
+  label: Medium name
 pages:
-- content/squad/fpo-cherry-boss-1.md
-- content/squad/fpo-cherry-boss-dolls.md
-- content/squad/fpo-cherry-boss.md
+- content/squad/adryenne-w.md
+- content/squad/allie-quintano.md
+- content/squad/julieth-fajardo.md
+- content/squad/novella-c.md
+- content/squad/yoonie-lee.md
