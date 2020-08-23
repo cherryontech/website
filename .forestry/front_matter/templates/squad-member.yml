@@ -64,11 +64,11 @@ fields:
     required: false
   label: LinkedIn URL
   description: Add the URL to your LinkedIn profile, if you wish.
-- name: dribbleUrl
+- name: dribbleName
   type: text
   config:
     required: false
-  label: Dribble URL
+  label: Dribble name
 - name: mediumName
   type: text
   config:
