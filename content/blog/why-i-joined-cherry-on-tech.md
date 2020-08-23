@@ -30,11 +30,11 @@ Being an avid overthinker, I just sat with that wisdom for a bit. Then, sometime
 
 ## Why join a tech squad?
 
-### Life long learning...out loud
+### Lifelong learning...out loud
 
 Tech professionals are often pictured alone, coding without interacting. In my experience, that's pretty far from the truth. I spend almost as much time working with my teammates as I do working alone. We give and receive feedback, discuss problems and ideas, and pair program (a lot!). We support each other with information, understanding, and lots of GIFs. 
 
-Outside of work, this kind of closeness is harder to find. I want to demonstrate the skills that I am developing with real projects. I also want to teach others what I do know. For me, working collaboratively is the best way to achieve both of those objectives.
+Outside of work, this kind of closeness is harder to find. I want to demonstrate the skills that I am developing with real projects. I also want to teach others what I do know. For me, working collaboratively is the best way to achieve both of those objectives. Doing this work out loud means we can demonstrate skills to employers and inspire community members who want to do something similar.
 
 ### Support and accountability
 
