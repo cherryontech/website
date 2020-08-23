@@ -14,6 +14,16 @@ fields:
   config:
     required: false
   label: Title
+- name: authors
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: squad-members
+  label: Authors
 - name: datePublished
   type: datetime
   label: Date published
