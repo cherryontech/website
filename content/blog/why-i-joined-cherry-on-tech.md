@@ -4,7 +4,7 @@ tags:
 - community
 - inspiration
 draft: true
-title: My welcome to Cherry on Tech
+title: Why I Joined Cherry on Tech
 datePublished: 2020-08-23T04:00:00Z
 authors:
 - content/squad/novella-c.md
