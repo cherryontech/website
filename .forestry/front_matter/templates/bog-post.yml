@@ -7,6 +7,8 @@ fields:
   type: boolean
   label: Draft
   hidden: false
+  description: If draft is set to ON, then this content will NOT be visible on the
+    website.
 - name: title
   type: text
   config:
