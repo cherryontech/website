@@ -75,6 +75,7 @@ fields:
     required: false
   label: Medium name
 pages:
+- content/squad/adryenne-w.md
 - content/squad/allie-quintano.md
 - content/squad/fpo-cherry-boss-dolls.md
 - content/squad/julieth-fajardo.md
