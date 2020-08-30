@@ -10,27 +10,20 @@
       target="_blank"
       novalidate
     >
-      <div id="mc_embed_signup_scroll">
-        <div class="mc-field-group">
-          <label for="mce-EMAIL">Email Address </label>
+      <div
+        id="mc_embed_signup_scroll"
+        class="flex items-stretch justify-between bg-white p-5 rounded"
+      >
+        <div class="mc-field-group w-full">
+          <label for="mce-EMAIL" class="sr-only">Email Address </label>
           <input
             type="email"
             value=""
             name="EMAIL"
-            class="required email"
+            class="required email w-full h-full"
             id="mce-EMAIL"
             v-model="email"
-          />
-        </div>
-        <div class="mc-field-group">
-          <label for="mce-FNAME">First Name </label>
-          <input
-            type="text"
-            value=""
-            name="FNAME"
-            class=""
-            id="mce-FNAME"
-            v-model="firstName"
+            placeholder="Type your email"
           />
         </div>
         <div id="mce-responses" class="clear">
@@ -60,7 +53,8 @@
             value="Subscribe"
             name="subscribe"
             id="mc-embedded-subscribe"
-            class="button"
+            class="button bg-gray-400 py-2 px-12 rounded"
+            :disabled="disableBtn"
           />
         </div>
       </div>
