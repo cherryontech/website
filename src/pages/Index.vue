@@ -12,7 +12,9 @@
       <h2 class="text-white text-center text-2xl max-w-sm mb-4">
         We dream, scheme, and support each other in our careers
       </h2>
-      <BaseButton @click="showDialog = true" class="bg-gray-100">Stay Updated</BaseButton>
+      <BaseButton @click="showDialog = true" class="bg-gray-100 font-serif"
+        >Stay Updated</BaseButton
+      >
       <Dialog v-if="showDialog === true" @close="showDialog = false" />
     </div>
   </div>
@@ -27,11 +29,11 @@ export default {
   metaInfo: {
     title: "Coming soon! Cherry on Tech",
   },
-  data () {
+  data() {
     return {
-      showDialog: false
-    }
-  }
+      showDialog: false,
+    };
+  },
 };
 </script>
 
