@@ -4,7 +4,9 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@gridsome/source-filesystem": "^0.6.2",
@@ -14,6 +16,13 @@
     "gridsome": "^0.7.0"
   },
   "devDependencies": {
-    "gridsome-plugin-tailwindcss": "^3.0.1"
+    "@babel/core": "^7.11.5",
+    "@storybook/addon-actions": "^6.0.21",
+    "@storybook/addon-essentials": "^6.0.21",
+    "@storybook/addon-links": "^6.0.21",
+    "@storybook/vue": "^6.0.21",
+    "babel-loader": "^8.1.0",
+    "gridsome-plugin-tailwindcss": "^3.0.1",
+    "react-is": "^16.13.1"
   }
 }
