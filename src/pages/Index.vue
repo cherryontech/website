@@ -1,9 +1,10 @@
 <template>
   <div class="wrapper pb-6">
     <div class="max-w-screen-md my-0 mx-auto px-5 flex flex-col items-center">
-      <img
+      <g-image
         class="pt-10 max-w-screen lg:max-w-lg m-3"
-        src="../../static/cot-name.png"
+        width="500"
+        src="~/assets/images/cot-name.png"
         alt="Coming Soon - Cherry on Tech"
       />
 
