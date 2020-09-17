@@ -11,3 +11,4 @@ export default function(Vue, { router, head, isClient }) {
 // Require our fonts globally
 require("typeface-nunito");
 require("typeface-nunito-sans");
+require("typeface-orbitron");
