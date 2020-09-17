@@ -8,13 +8,19 @@
         alt="Coming Soon - Cherry on Tech"
       />
 
-      <h1 class="text-white text-center text-5xl">We are a tech squad</h1>
+      <h1
+        class="text-white text-center text-5xl font-serif font-bold uppercase"
+      >
+        We are a tech squad
+      </h1>
 
-      <h2 class="text-white text-center text-2xl max-w-sm mb-4">
+      <h2 class="text-white text-center text-2xl max-w-sm mb-4 font-body">
         We dream, scheme, and support each other in our careers
       </h2>
-      <BaseButton @click="showDialog = true" class="bg-gray-100 font-serif"
-        >Stay Updated</BaseButton
+      <BaseButton
+        @click="showDialog = true"
+        class="bg-gray-100 font-sans uppercase font-extrabold"
+        >Keep me updated</BaseButton
       >
       <Dialog v-if="showDialog === true" @close="showDialog = false" />
     </div>
