@@ -55,12 +55,11 @@
             id="mc-embedded-subscribe"
             class="button bg-gray-400 py-2 px-12 rounded"
             :disabled="disableBtn"
+            :aria-disabled="disableBtn"
           />
         </div>
       </div>
     </form>
-    {{ email }}
-    {{ firstName }}
   </div>
 
   <!--End mc_embed_signup-->
