@@ -1,0 +1,6 @@
+---
+title: Mac
+definition: ''
+perspectives: []
+
+---
