@@ -5,7 +5,7 @@ fields:
 - name: title
   type: text
   config:
-    required: false
+    required: true
   label: Word/phrase to be defined
 - name: definition
   type: text
@@ -17,12 +17,6 @@ fields:
 - name: perspectives
   type: field_group_list
   fields:
-  - name: role
-    type: tag_list
-    default: []
-    label: Role
-    description: This is the &lt;role&gt; in the sentence, "As a &lt;role&gt;, &lt;term&gt;
-      means &lt;meaning&gt;."
   - name: meaning
     type: text
     config:
@@ -30,6 +24,13 @@ fields:
     label: Meaning
     description: This should be the &lt;meaning&gt; in the sentence, "As a &lt;role&gt;,
       &lt;term&gt; means &lt;meaning&gt;."
+  - name: role
+    type: text
+    config:
+      required: false
+    label: Role
+    description: This is the &lt;role&gt; in the sentence, "As a &lt;role&gt;, &lt;term&gt;
+      means &lt;meaning&gt;."
   config:
     min: 
     max: 
