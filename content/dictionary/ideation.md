@@ -1,0 +1,6 @@
+---
+title: ideation
+definition: ''
+perspectives: []
+
+---
