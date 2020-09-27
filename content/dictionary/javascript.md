@@ -1,0 +1,6 @@
+---
+title: JavaScript
+definition: ''
+perspectives: []
+
+---
