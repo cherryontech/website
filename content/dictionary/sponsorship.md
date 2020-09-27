@@ -1,0 +1,6 @@
+---
+title: sponsorship
+definition: ''
+perspectives: []
+
+---

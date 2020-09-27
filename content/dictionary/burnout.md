@@ -1,0 +1,6 @@
+---
+title: burnout
+definition: ''
+perspectives: []
+
+---
