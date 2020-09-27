@@ -37,6 +37,7 @@ fields:
     labelField: role
   label: Perspectives
 pages:
+- content/dictionary/ascii.md
 - content/dictionary/bar.md
 - content/dictionary/baz.md
 - content/dictionary/command-line-application-cli.md
