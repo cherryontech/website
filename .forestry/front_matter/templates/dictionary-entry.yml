@@ -48,6 +48,7 @@ pages:
 - content/dictionary/ci-cd.md
 - content/dictionary/command-line-application-cli.md
 - content/dictionary/feature-branch.md
+- content/dictionary/feature.md
 - content/dictionary/foo.md
 - content/dictionary/git.md
 - content/dictionary/github.md
@@ -59,6 +60,7 @@ pages:
 - content/dictionary/open-source-software-oss.md
 - content/dictionary/persona.md
 - content/dictionary/pull-request-pr.md
+- content/dictionary/repository.md
 - content/dictionary/software-as-a-service-saas.md
 - content/dictionary/sticker-driven-developer.md
 - content/dictionary/tech-squad.md
