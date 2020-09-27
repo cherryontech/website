@@ -15,7 +15,7 @@ module.exports = {
       options: {
         path: "content/dictionary/**/*.md",
         typeName: "Dictionarypost",
-        route: "dictionary/:title",
+        route: "dictionary/entry/:title",
         remark: {
           // remark options
           plugins: [
