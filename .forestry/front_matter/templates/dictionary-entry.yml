@@ -1,4 +1,37 @@
 ---
 label: Dictionary entry
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Word/phrase to be defined
+- name: definition
+  type: text
+  config:
+    required: false
+  label: Definition
+  description: If you believe there is <em>one</em> definition which readily explains
+    this word, add it here.
+- name: perspectives
+  type: field_group_list
+  fields:
+  - name: role
+    type: tag_list
+    default: []
+    label: Role
+    description: This is the &lt;role&gt; in the sentence, "As a &lt;role&gt;, &lt;term&gt;
+      means &lt;meaning&gt;."
+  - name: meaning
+    type: text
+    config:
+      required: false
+    label: Meaning
+    description: This should be the &lt;meaning&gt; in the sentence, "As a &lt;role&gt;,
+      &lt;term&gt; means &lt;meaning&gt;."
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Perspectives
