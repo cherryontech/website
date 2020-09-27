@@ -1,6 +1,9 @@
 <template>
-  <div class="wrapper pb-6">
-    <div class="max-w-screen-md my-0 mx-auto px-5 flex flex-col items-center">
+  <main @keydown.esc="showDialog = false" class="wrapper pb-6">
+    <div
+      :aria-hidden="hideContentAria"
+      class="max-w-screen-md my-0 mx-auto px-5 flex flex-col items-center"
+    >
       <g-image
         class="pt-10 max-w-screen lg:max-w-lg m-3"
         width="500"
@@ -18,7 +21,7 @@
       >
       <Dialog v-if="showDialog === true" @close="showDialog = false" />
     </div>
-  </div>
+  </main>
 </template>
 
 <script>
@@ -34,6 +37,11 @@ export default {
     return {
       showDialog: false,
     };
+  },
+  computed: {
+    hideContentAria() {
+      return this.showDialog.toString();
+    },
   },
 };
 </script>
