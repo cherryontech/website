@@ -76,6 +76,7 @@ pages:
 - content/dictionary/jira.md
 - content/dictionary/junior.md
 - content/dictionary/level-of-effort-loe.md
+- content/dictionary/markup.md
 - content/dictionary/microservices.md
 - content/dictionary/midlevel.md
 - content/dictionary/open-source-software-oss.md
@@ -96,3 +97,4 @@ pages:
 - content/dictionary/trello-board.md
 - content/dictionary/version-control-system-vcs.md
 - content/dictionary/waterfall.md
+- content/dictionary/wireframe.md
