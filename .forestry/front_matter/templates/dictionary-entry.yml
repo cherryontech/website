@@ -47,6 +47,7 @@ pages:
 - content/dictionary/foo.md
 - content/dictionary/ideation.md
 - content/dictionary/jenkins.md
+- content/dictionary/microservices.md
 - content/dictionary/open-source-software-oss.md
 - content/dictionary/persona.md
 - content/dictionary/sticker-driven-developer.md
