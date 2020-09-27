@@ -1,0 +1,6 @@
+---
+title: bitmap
+definition: ''
+perspectives: []
+
+---
