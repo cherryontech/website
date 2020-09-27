@@ -37,4 +37,5 @@ fields:
     labelField: role
   label: Perspectives
 pages:
+- content/dictionary/command-line-application-cli.md
 - content/dictionary/tech-squad.md
