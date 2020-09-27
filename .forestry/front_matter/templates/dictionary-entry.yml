@@ -54,6 +54,7 @@ pages:
 - content/dictionary/branching.md
 - content/dictionary/bug.md
 - content/dictionary/burnout.md
+- content/dictionary/c-level.md
 - content/dictionary/callback-hell.md
 - content/dictionary/case-study.md
 - content/dictionary/ci-cd.md
@@ -69,6 +70,7 @@ pages:
 - content/dictionary/divitis.md
 - content/dictionary/edge-case.md
 - content/dictionary/em.md
+- content/dictionary/engineering-manager.md
 - content/dictionary/feature-branch.md
 - content/dictionary/feature.md
 - content/dictionary/fontface.md
