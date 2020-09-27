@@ -1,0 +1,6 @@
+---
+title: numeronym
+definition: ''
+perspectives: []
+
+---
