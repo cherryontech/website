@@ -126,6 +126,7 @@ pages:
 - content/dictionary/quality-assurance-qa.md
 - content/dictionary/random-access-memory-ram.md
 - content/dictionary/raster-graphics.md
+- content/dictionary/react.md
 - content/dictionary/rem.md
 - content/dictionary/repository.md
 - content/dictionary/ruby-on-rails.md
@@ -158,6 +159,7 @@ pages:
 - content/dictionary/vector.md
 - content/dictionary/version-control-system-vcs.md
 - content/dictionary/vlog.md
+- content/dictionary/vue.md
 - content/dictionary/waterfall.md
 - content/dictionary/webpack.md
 - content/dictionary/wireframe.md
