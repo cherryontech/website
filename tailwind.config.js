@@ -4,9 +4,9 @@ module.exports = {
   purge: [],
   theme: {
     fontFamily: {
-      sans: ["Nunito\\ Sans", ...defaultTheme.fontFamily.sans],
+      sans: ['"Nunito Sans"', ...defaultTheme.fontFamily.sans],
       serif: ["Nunito", ...defaultTheme.fontFamily.serif],
-      body: ["Orbitron"],
+      orbitron: ["Orbitron", "sans-serif"],
     },
   },
 };
