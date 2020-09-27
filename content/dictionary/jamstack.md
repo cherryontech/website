@@ -1,0 +1,6 @@
+---
+title: Jamstack
+definition: ''
+perspectives: []
+
+---
