@@ -8,6 +8,7 @@
         <nav class="nav">
           <g-link class="nav__link" to="/">Home</g-link>
           <g-link class="nav__link" to="/about/">About</g-link>
+          <g-link class="nav__link" to="/dictionary/">Dictionary</g-link>
         </nav>
       </header>
       <slot />
@@ -25,7 +26,6 @@ query {
 
 <style>
 .wrapper {
-  background-image: url("../../static/homepage-bg.png");
   background-color: #8878a5;
   background-size: cover;
   background-position: center top;

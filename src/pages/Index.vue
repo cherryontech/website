@@ -52,7 +52,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .wrapper {
   background-image: url("../../static/homepage-bg.png");
   background-color: #8878a5;
