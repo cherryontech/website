@@ -47,6 +47,7 @@ pages:
 - content/dictionary/argument.md
 - content/dictionary/ascii-art.md
 - content/dictionary/ascii.md
+- content/dictionary/atomic-design.md
 - content/dictionary/bar.md
 - content/dictionary/baz.md
 - content/dictionary/blog.md
@@ -128,6 +129,7 @@ pages:
 - content/dictionary/test-case.md
 - content/dictionary/tl-dr.md
 - content/dictionary/trello-board.md
+- content/dictionary/unit-test.md
 - content/dictionary/version-control-system-vcs.md
 - content/dictionary/vlog.md
 - content/dictionary/waterfall.md
