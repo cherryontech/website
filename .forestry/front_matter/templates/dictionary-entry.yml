@@ -48,6 +48,7 @@ pages:
 - content/dictionary/case-study.md
 - content/dictionary/ci-cd.md
 - content/dictionary/command-line-application-cli.md
+- content/dictionary/em.md
 - content/dictionary/feature-branch.md
 - content/dictionary/feature.md
 - content/dictionary/foo.md
@@ -66,5 +67,6 @@ pages:
 - content/dictionary/repository.md
 - content/dictionary/software-as-a-service-saas.md
 - content/dictionary/sticker-driven-developer.md
+- content/dictionary/story-points.md
 - content/dictionary/tech-squad.md
 - content/dictionary/version-control-system-vcs.md
