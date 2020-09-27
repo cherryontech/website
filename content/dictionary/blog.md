@@ -1,0 +1,6 @@
+---
+title: blog
+definition: ''
+perspectives: []
+
+---
