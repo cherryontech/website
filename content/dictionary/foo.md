@@ -1,0 +1,6 @@
+---
+title: foo
+definition: ''
+perspectives: []
+
+---
