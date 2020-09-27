@@ -49,6 +49,8 @@ pages:
 - content/dictionary/feature-branch.md
 - content/dictionary/foo.md
 - content/dictionary/git.md
+- content/dictionary/github.md
+- content/dictionary/gitlab.md
 - content/dictionary/ideation.md
 - content/dictionary/jenkins.md
 - content/dictionary/microservices.md
