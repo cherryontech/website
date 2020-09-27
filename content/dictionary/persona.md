@@ -1,0 +1,6 @@
+---
+title: persona
+definition: ''
+perspectives: []
+
+---
