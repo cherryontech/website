@@ -46,6 +46,7 @@ pages:
 - content/dictionary/branch.md
 - content/dictionary/branching.md
 - content/dictionary/bug.md
+- content/dictionary/callback-hell.md
 - content/dictionary/case-study.md
 - content/dictionary/ci-cd.md
 - content/dictionary/command-line-application-cli.md
