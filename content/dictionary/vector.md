@@ -1,0 +1,6 @@
+---
+title: vector
+definition: ''
+perspectives: []
+
+---
