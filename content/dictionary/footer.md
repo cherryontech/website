@@ -1,0 +1,6 @@
+---
+title: footer
+definition: ''
+perspectives: []
+
+---
