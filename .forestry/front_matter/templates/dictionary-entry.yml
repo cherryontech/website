@@ -120,6 +120,7 @@ pages:
 - content/dictionary/landing-page.md
 - content/dictionary/leaner-style-sheets-less.md
 - content/dictionary/level-of-effort-loe.md
+- content/dictionary/linux.md
 - content/dictionary/manual-qa.md
 - content/dictionary/markup.md
 - content/dictionary/mentorship.md
@@ -179,6 +180,7 @@ pages:
 - content/dictionary/trello-board.md
 - content/dictionary/turing-complete.md
 - content/dictionary/unit-test.md
+- content/dictionary/unix.md
 - content/dictionary/vector.md
 - content/dictionary/version-control-system-vcs.md
 - content/dictionary/vlog.md
