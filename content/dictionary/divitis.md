@@ -1,0 +1,6 @@
+---
+title: divitis
+definition: ''
+perspectives: []
+
+---
