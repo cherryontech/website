@@ -42,11 +42,13 @@ pages:
 - content/dictionary/bar.md
 - content/dictionary/baz.md
 - content/dictionary/branch.md
+- content/dictionary/branching.md
 - content/dictionary/case-study.md
 - content/dictionary/ci-cd.md
 - content/dictionary/command-line-application-cli.md
 - content/dictionary/feature-branch.md
 - content/dictionary/foo.md
+- content/dictionary/git.md
 - content/dictionary/ideation.md
 - content/dictionary/jenkins.md
 - content/dictionary/microservices.md
