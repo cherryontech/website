@@ -1,0 +1,6 @@
+---
+title: vlog
+definition: ''
+perspectives: []
+
+---
