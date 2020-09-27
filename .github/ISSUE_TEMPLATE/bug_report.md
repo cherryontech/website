@@ -1,3 +1,11 @@
+---
+name: Bug report
+about: Report that something on our site is not working properly
+title: ""
+labels: "bug"
+assignees: ""
+---
+
 **Yikes! Briefly, what seems wrong?**
 Replace this text with a short version of the bug.
 
