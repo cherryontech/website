@@ -54,6 +54,7 @@ pages:
 - content/dictionary/case-study.md
 - content/dictionary/ci-cd.md
 - content/dictionary/command-line-application-cli.md
+- content/dictionary/database.md
 - content/dictionary/div.md
 - content/dictionary/diversity-and-inclusion-d-i.md
 - content/dictionary/diversity-equity-and-inclusion-dei.md
@@ -83,6 +84,7 @@ pages:
 - content/dictionary/markup.md
 - content/dictionary/microservices.md
 - content/dictionary/midlevel.md
+- content/dictionary/migration.md
 - content/dictionary/nav.md
 - content/dictionary/navigation.md
 - content/dictionary/open-source-software-oss.md
