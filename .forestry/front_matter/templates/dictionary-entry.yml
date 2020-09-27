@@ -44,6 +44,7 @@ pages:
 - content/dictionary/case-study.md
 - content/dictionary/ci-cd.md
 - content/dictionary/command-line-application-cli.md
+- content/dictionary/feature-branch.md
 - content/dictionary/foo.md
 - content/dictionary/ideation.md
 - content/dictionary/jenkins.md
