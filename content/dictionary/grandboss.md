@@ -1,0 +1,6 @@
+---
+title: grandboss
+definition: ''
+perspectives: []
+
+---
