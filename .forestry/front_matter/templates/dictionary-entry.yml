@@ -37,6 +37,7 @@ fields:
     labelField: role
   label: Perspectives
 pages:
+- content/dictionary/.net.md
 - content/dictionary/1.md
 - content/dictionary/10x-developer.md
 - content/dictionary/42.md
