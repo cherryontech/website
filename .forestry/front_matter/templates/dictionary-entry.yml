@@ -38,6 +38,7 @@ fields:
   label: Perspectives
 pages:
 - content/dictionary/1.md
+- content/dictionary/agile.md
 - content/dictionary/ascii-art.md
 - content/dictionary/ascii.md
 - content/dictionary/bar.md
