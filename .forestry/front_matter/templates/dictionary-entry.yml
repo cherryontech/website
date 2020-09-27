@@ -37,6 +37,7 @@ fields:
     labelField: role
   label: Perspectives
 pages:
+- content/dictionary/bar.md
 - content/dictionary/command-line-application-cli.md
 - content/dictionary/foo.md
 - content/dictionary/tech-squad.md

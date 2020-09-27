@@ -1,0 +1,6 @@
+---
+title: bar
+definition: ''
+perspectives: []
+
+---
