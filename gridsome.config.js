@@ -5,25 +5,29 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: "Cherry On Tech",
   plugins: [
     {
-      use: "gridsome-plugin-tailwindcss"
+      use: "gridsome-plugin-tailwindcss",
     },
     {
-      use: '@gridsome/source-filesystem',
+      use: "@gridsome/source-filesystem",
       options: {
-        path: 'blog/**/*.md',
-        typeName: 'Post',
+        path: "content/dictionary/**/*.md",
+        typeName: "Dictionarypost",
+        route: "dictionary/:title",
         remark: {
           // remark options
           plugins: [
-            [ '@noxify/gridsome-plugin-remark-embed', {
-                'enabledProviders' : ['Youtube', 'Twitter', 'Gist'],
-            }]
-          ]
-        }
-      }
-    }
-  ]
-}
+            [
+              "@noxify/gridsome-plugin-remark-embed",
+              {
+                enabledProviders: ["Youtube", "Twitter", "Gist"],
+              },
+            ],
+          ],
+        },
+      },
+    },
+  ],
+};
