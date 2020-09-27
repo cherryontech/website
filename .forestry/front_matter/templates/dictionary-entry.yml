@@ -77,6 +77,7 @@ pages:
 - content/dictionary/commit.md
 - content/dictionary/contribute.md
 - content/dictionary/database.md
+- content/dictionary/desktop.md
 - content/dictionary/developer.md
 - content/dictionary/devops.md
 - content/dictionary/devsecops.md
@@ -129,6 +130,7 @@ pages:
 - content/dictionary/n-1.md
 - content/dictionary/nav.md
 - content/dictionary/navigation.md
+- content/dictionary/nix.md
 - content/dictionary/nth.md
 - content/dictionary/numeronym.md
 - content/dictionary/onboarding.md
