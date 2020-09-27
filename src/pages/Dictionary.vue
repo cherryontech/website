@@ -10,7 +10,7 @@
     <div
       v-for="post in $page.dictionaryposts.edges"
       :key="post.id"
-      class="border-purple-900 border-t py-2"
+      class="py-2 border-t border-purple-900"
     >
       <g-link :to="post.node.path" class="font-bold">{{
         post.node.title
@@ -28,7 +28,7 @@
     <!-- Pagination -->
     <PaginationDictionaryposts
       v-if="$page.dictionaryposts.pageInfo.totalPages > 1"
-      base="/blog"
+      base="/dictionary"
       :totalPages="$page.dictionaryposts.pageInfo.totalPages"
       :currentPage="$page.dictionaryposts.pageInfo.currentPage"
     />
