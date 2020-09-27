@@ -48,6 +48,7 @@ pages:
 - content/dictionary/ascii-art.md
 - content/dictionary/ascii.md
 - content/dictionary/atomic-design.md
+- content/dictionary/automation.md
 - content/dictionary/bar.md
 - content/dictionary/baz.md
 - content/dictionary/behavior-driven-development.md
@@ -131,6 +132,7 @@ pages:
 - content/dictionary/storybook.md
 - content/dictionary/stream.md
 - content/dictionary/tech-squad.md
+- content/dictionary/technical-debt.md
 - content/dictionary/technical-lead.md
 - content/dictionary/technical-writer.md
 - content/dictionary/test-case.md
