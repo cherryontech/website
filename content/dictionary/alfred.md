@@ -1,0 +1,6 @@
+---
+title: Alfred
+definition: ''
+perspectives: []
+
+---
