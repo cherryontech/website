@@ -90,6 +90,7 @@ pages:
 - content/dictionary/homepage.md
 - content/dictionary/ideation.md
 - content/dictionary/integration-test.md
+- content/dictionary/ios.md
 - content/dictionary/issue.md
 - content/dictionary/jamstack.md
 - content/dictionary/java.md
@@ -105,6 +106,7 @@ pages:
 - content/dictionary/microservices.md
 - content/dictionary/midlevel.md
 - content/dictionary/migration.md
+- content/dictionary/mobile-development.md
 - content/dictionary/nav.md
 - content/dictionary/navigation.md
 - content/dictionary/onboarding.md
