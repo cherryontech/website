@@ -1,0 +1,6 @@
+---
+title: argument
+definition: ''
+perspectives: []
+
+---
