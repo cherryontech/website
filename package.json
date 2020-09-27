@@ -11,7 +11,10 @@
     "@gridsome/transformer-remark": "^0.6.1",
     "@gridsome/vue-remark": "^0.2.2",
     "@noxify/gridsome-plugin-remark-embed": "^1.2.1",
-    "gridsome": "^0.7.0"
+    "gridsome": "^0.7.0",
+    "typeface-nunito": "^1.1.3",
+    "typeface-nunito-sans": "^0.0.72",
+    "typeface-orbitron": "^1.1.3"
   },
   "devDependencies": {
     "gridsome-plugin-tailwindcss": "^3.0.1"
