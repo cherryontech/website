@@ -59,6 +59,7 @@ pages:
 - content/dictionary/ideation.md
 - content/dictionary/issue.md
 - content/dictionary/jenkins.md
+- content/dictionary/jira.md
 - content/dictionary/level-of-effort-loe.md
 - content/dictionary/microservices.md
 - content/dictionary/open-source-software-oss.md
@@ -71,5 +72,6 @@ pages:
 - content/dictionary/sticker-driven-developer.md
 - content/dictionary/story-points.md
 - content/dictionary/tech-squad.md
+- content/dictionary/trello-board.md
 - content/dictionary/version-control-system-vcs.md
 - content/dictionary/waterfall.md
