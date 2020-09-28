@@ -16,4 +16,4 @@ This website is built using Gridsome, a static site generator based on VueJS. It
 
 ## Contributing
 
-We welcome you to contribute to our "Tech Dictionary," where we share tech terms from different _perspectives_. To get involved, read (CONTRIBUTING.md)[CONTRIBUTING.md].
+We welcome you to contribute to our "Tech Dictionary," where we share tech terms from different _perspectives_. To get involved, read [CONTRIBUTING.md](CONTRIBUTING.md).
