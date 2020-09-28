@@ -4,18 +4,18 @@ This is an open source website, currently licensed under the MIT license. While 
 
 ## Where can I contribute?
 
-You can contribute to our dictionary, or by making a bug report. For installation instructions, see our (README.md file)[README.md].
+You can contribute to our dictionary, or by making a bug report. For installation instructions, see our [README.md file](README.md).
 
 ### Bug Reports
 
-We always welcome you to (submit a bug report)[https://github.com/cherryontech/website/issues/new?assignees=&labels=bug&template=bug_report.md&title=] if you see something wrong or confusing on the website.
+We always welcome you to [submit a bug report](https://github.com/cherryontech/website/issues/new?assignees=&labels=bug&template=bug_report.md&title=) if you see something wrong or confusing on the website.
 
 ### Tech Dictionary
 
-We also welcome contributions to our (tech dictionary)[https://cherryon.tech/dictionary].
+We also welcome contributions to our [tech dictionary](https://cherryon.tech/dictionary).
 
 **What is it?**
-We have created a dictionary of tech terms that we think will help squad members and community members alike. We know that tech terms can have many meanings, depending on your point of view. In response, our tech dictionary strives to explain terms from different _perspectives_.
+We have created a dictionary of tech terms that we think will help squad members and community members alike. We know that tech terms can have many meanings, depending on your point of view. In response, our tech dictionary explains terms from different _perspectives_.
 
 **How do I contribute?**
 If you see a dictionary entry on our site that does not yet have a definition, you may submit a pull request to address it. Here's how we think about the dictionary entries:
