@@ -14,6 +14,20 @@ fields:
   label: Definition
   description: If you believe there is <em>one</em> definition which readily explains
     this word, add it here.
+- name: sources
+  type: field_group_list
+  fields:
+  - name: sourceurl
+    type: text
+    config:
+      required: false
+    label: Link to source
+    description: Add a citation if you have quoted anyone.
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Sources
 - name: perspectives
   type: field_group_list
   fields:
@@ -96,6 +110,7 @@ pages:
 - content/dictionary/em.md
 - content/dictionary/end-to-end-test-e2e.md
 - content/dictionary/engineering-manager.md
+- content/dictionary/example-phrase.md
 - content/dictionary/feature-branch.md
 - content/dictionary/feature.md
 - content/dictionary/fontface.md
