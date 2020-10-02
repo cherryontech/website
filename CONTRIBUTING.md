@@ -16,7 +16,8 @@ We have created a dictionary of tech terms that we think will help squad members
 
 ### How do I contribute?
 
-If you see a dictionary entry on our site that does not yet have a definition, you may submit a pull request to address it. Here's how we think about the dictionary entries:
+1. Navigate to the [Dictionary page](https://cherryon.tech/dictionary/) of our website, and find an entry you would like contribute to.
+1. If you see a dictionary entry on our site that does not yet have a definition, you may submit a pull request to address it. Here's how we think about the dictionary entries:
 
 - If a term probably only has one meaning, then we give it a _definition_.
 - If a term could mean different things to different roles, then we give it one or more _perspectives_.
