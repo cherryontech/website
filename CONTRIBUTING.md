@@ -22,7 +22,7 @@ We have created a dictionary of tech terms that we think will help squad members
 - If a term probably only has one meaning, then we give it a _definition_.
 - If a term could mean different things to different roles, then we give it one or more _perspectives_.
 
-All entries must be written in the following format, so that they can be processed properly.
+All entries must be written in the following format, so that they can be processed properly. Please note that admins may edit the entry for clarity and/or formatting.
 
 ### Tech Dictionary example
 
