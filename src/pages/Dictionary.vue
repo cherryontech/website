@@ -12,7 +12,20 @@
       :key="post.id"
       class="py-2 border-t border-purple-900"
     >
-      <g-link :to="post.node.path" class="font-bold">{{
+      <g-link
+        v-if="!post.node.definition && !post.node.perspectives.length"
+        :to="
+          `https://github.com/cherryontech/website/blob/pit/${
+            post.node.fileInfo.path
+          }`
+        "
+        class="font-bold"
+        >{{ post.node.title }}
+        <span class="font-normal"
+          >doesn't have any definition or perspectives yet.</span
+        ><span class="font-normal underline"> Add yours!</span></g-link
+      >
+      <g-link v-else :to="post.node.path" class="font-bold">{{
         post.node.title
       }}</g-link>
       <p class="italic">{{ post.node.definition }}</p>
@@ -52,6 +65,9 @@ query Dictionaryposts ($page: Int) {
           meaning
         }
         path
+        fileInfo {
+          path
+        }
       }
     }
   }
