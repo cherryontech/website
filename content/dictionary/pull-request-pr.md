@@ -1,6 +1,8 @@
 ---
 title: pull request (PR)
 definition: ''
-perspectives: []
+perspectives:
+- role: software engineer
+  meaning: others can review and approve my code changes before I merge them
 
 ---
