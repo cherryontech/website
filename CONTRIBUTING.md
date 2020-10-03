@@ -50,7 +50,7 @@ sources:
 - sourceurl: https://example.com/example-link-here
 definition: Computer programs with a text interface, which you usually run directly
   from your terminal.
-perspectives: []
+perspectives:
 
 ---
 ```
