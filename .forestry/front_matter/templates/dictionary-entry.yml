@@ -7,6 +7,7 @@ fields:
   config:
     required: true
   label: Word/phrase to be defined
+  default: replaceme
 - name: definition
   type: text
   config:
@@ -14,6 +15,7 @@ fields:
   label: Definition
   description: If you believe there is <em>one</em> definition which readily explains
     this word, add it here.
+  default: replace with with your own definition
 - name: sources
   type: field_group_list
   fields:
@@ -23,6 +25,7 @@ fields:
       required: false
     label: Link to source
     description: Add a citation if you have quoted anyone.
+    default: replace with with your own source link
   config:
     min: 
     max: 
@@ -38,6 +41,7 @@ fields:
     label: Meaning
     description: This should be the &lt;meaning&gt; in the sentence, "As a &lt;role&gt;,
       &lt;term&gt; means &lt;meaning&gt;."
+    default: replace with with your own meaning
   - name: role
     type: text
     config:
@@ -45,34 +49,12 @@ fields:
     label: Role
     description: This is the &lt;role&gt; in the sentence, "As a &lt;role&gt;, &lt;term&gt;
       means &lt;meaning&gt;."
+    default: replace with with your own role
   config:
     min: 
     max: 
     labelField: role
   label: Perspectives
-- name: infoField
-  type: textarea
-  default: |-
-    ---
-    title: command line application
-    sources:
-    - sourceurl: https://example.com/example-link-here
-    definition: Computer programs with a text interface, which you usually run directly
-      from your terminal.
-    perspectives:
-    - meaning: a div is a container that holds content
-      role: Web Developer
-
-    ---
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Info Field
-  description: Don't write anything here silly! It is just to provide a comment for
-    users to see when they are contributing a definition or perspective.
-  hidden: true
 pages:
 - content/dictionary/.net.md
 - content/dictionary/1-on-1.md
