@@ -1,9 +1,20 @@
 <template>
   <Layout>
     <h1 class="text-3xl">Tech Dictionary</h1>
-    <p class="mb-6">
+    <p>
       This is our take on a dictionary/glossary of tech terms. It's a little
       different because we try to provide <em>perspectives</em> on each term.
+    </p>
+    <h2 class="mt-2 text-xl font-semibold">
+      Want to contribute?
+    </h2>
+    <p class="mb-6">
+      Choose a word below that needs a definition or a perspective. Then read
+      our
+      <a href="https://github.com/cherryontech/website/blob/pit/CONTRIBUTING.md"
+        >Contributing HowTo</a
+      >
+      to get started!
     </p>
 
     <!-- Print the first page of dictionary entries -->
