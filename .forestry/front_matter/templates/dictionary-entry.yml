@@ -50,6 +50,29 @@ fields:
     max: 
     labelField: role
   label: Perspectives
+- name: infoField
+  type: textarea
+  default: |-
+    ---
+    title: command line application
+    sources:
+    - sourceurl: https://example.com/example-link-here
+    definition: Computer programs with a text interface, which you usually run directly
+      from your terminal.
+    perspectives:
+    - meaning: a div is a container that holds content
+      role: Web Developer
+
+    ---
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Info Field
+  description: Don't write anything here silly! It is just to provide a comment for
+    users to see when they are contributing a definition or perspective.
+  hidden: true
 pages:
 - content/dictionary/.net.md
 - content/dictionary/1-on-1.md
