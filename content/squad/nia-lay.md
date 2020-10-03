@@ -6,7 +6,7 @@ cherryNickname: Cherry Cola
 cherryBirthDay: 2020-12-16T05:00:00Z
 memberImage: ''
 portfolioUrl: ''
-githubName: ''
+githubName: 'NiaCLay'
 twitterHandle: ''
 instagramHandle: ''
 linkedinUrl: ''
