@@ -1,0 +1,7 @@
+---
+title: Technical Debt
+definition: replace with with your own definition
+sources: []
+perspectives: []
+
+---
