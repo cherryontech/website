@@ -12,7 +12,7 @@ linkedinUrl: https://www.linkedin.com/in/julietafb/
 dribbleUrl: julietafb
 mediumName: julietafb
 draft: false
-dribbleName: ''
+dribbleName: julietafb
 
 ---
 Julieth is a curious and courageous UX/UI designer, that leverages conceptual thinking, researches and critical reason to bring a unique design perspective on the overall user experience. She loves to eat donuts, ride her scooter and lift heavy.
