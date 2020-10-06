@@ -26,31 +26,18 @@ All entries must be written in the following format, so that they can be process
 
 ### Tech Dictionary example
 
-Here is an example that uses perspectives:
-
 ```
 ---
-title: div
-definition:
+title: naptime
+definition: 'a nap is a short period of sleep'
 sources:
-- sourceurl: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
+- sourceurl: https://example.com/things-i-need/naptime
 perspectives:
-- meaning: a div is a container that holds content
-  role: Web Developer
+- meaning: a terrible time when I can't play anymore
+  role: child
+- meaning: a wonderful time when I get a break
+  role: parent
 
 ---
 ```
 
-Here is an example that uses a definition instead of perspectives:
-
-```
----
-title: command line application
-sources:
-- sourceurl: https://example.com/example-link-here
-definition: Computer programs with a text interface, which you usually run directly
-  from your terminal.
-perspectives:
-
----
-```
