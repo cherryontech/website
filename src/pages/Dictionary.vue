@@ -17,9 +17,8 @@
       to get started!
     </p>
 
-    <!-- Print the first page of dictionary entries -->
     <div
-      v-for="post in $page.dictionaryposts.edges"
+      v-for="post in entries"
       :key="post.id"
       class="py-2 border-t border-purple-900"
     >
@@ -48,25 +47,13 @@
         </p>
       </div>
     </div>
-
-    <!-- Pagination -->
-    <PaginationDictionaryposts
-      v-if="$page.dictionaryposts.pageInfo.totalPages > 1"
-      base="/dictionary"
-      :totalPages="$page.dictionaryposts.pageInfo.totalPages"
-      :currentPage="$page.dictionaryposts.pageInfo.currentPage"
-    />
   </Layout>
 </template>
 
 <page-query>
-query Dictionaryposts ($page: Int) {
-  dictionaryposts: allDictionarypost (sortBy: "title", order: ASC, perPage: 10, page: $page) @paginate {
+query Dictionaryposts {
+  dictionaryposts: allDictionarypost {
     totalCount
-    pageInfo {
-      totalPages
-      currentPage
-    }
     edges {
       node {
         title
@@ -86,11 +73,33 @@ query Dictionaryposts ($page: Int) {
 </page-query>
 
 <script>
-import PaginationDictionaryposts from "@/components/controls/pagination/PaginationDictionaryposts.vue";
 export default {
-  components: { PaginationDictionaryposts },
   metaInfo: {
     title: "Dictionary",
+  },
+  data() {
+    return {
+      entries: [],
+    };
+  },
+  created() {
+    this.entries = this.sortEntries(this.$page.dictionaryposts.edges);
+  },
+  methods: {
+    sortEntries(allentries) {
+      // sort by title, a property of the node object
+      return allentries.sort(function(a, b) {
+        var nameA = a.node.title.toUpperCase(); // ignore upper and lowercase
+        var nameB = b.node.title.toUpperCase(); // ignore upper and lowercase
+        if (nameA < nameB) {
+          return -1; //nameA comes first
+        }
+        if (nameA > nameB) {
+          return 1; // nameB comes first
+        }
+        return 0; // names must be equal
+      });
+    },
   },
 };
 </script>
