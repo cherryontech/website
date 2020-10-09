@@ -87,7 +87,6 @@ export default {
     return {
       search: "",
       entries: [],
-      dictSearchTerm: "",
     };
   },
   created() {
