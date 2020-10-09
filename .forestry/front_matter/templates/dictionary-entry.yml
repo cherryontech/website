@@ -16,48 +16,66 @@ fields:
     description:
       If you believe there is <em>one</em> definition which readily explains
       this word, add it here.
-    default:
+    default: ""
   - name: sources
     type: field_group_list
     fields:
       - name: sourceurl
         type: text
         config:
-          required: false
-        label: Link to source
-        description: Add a citation if you have quoted anyone.
-        default: replace with with your own source link
-    config:
-      min:
-      max:
-      labelField:
-    label: Sources
-  - name: perspectives
-    type: field_group_list
-    fields:
-      - name: meaning
+          required: true
+        label: Word/phrase to be defined
+        default: replaceme
+      - name: definition
         type: text
         config:
           required: false
-        label: Meaning
+        label: Definition
         description:
-          This should be the &lt;meaning&gt; in the sentence, "As a &lt;role&gt;,
-          &lt;term&gt; means &lt;meaning&gt;."
-        default: replace with with your own meaning
-      - name: role
-        type: text
+          If you believe there is <em>one</em> definition which readily explains
+          this word, add it here.
+        default:
+      - name: sources
+        type: field_group_list
+        fields:
+          - name: sourceurl
+            type: text
+            config:
+              required: false
+            label: Link to source
+            description: Add a citation if you have quoted anyone.
+            default: replace with with your own source link
         config:
-          required: false
-        label: Role
-        description:
-          This is the &lt;role&gt; in the sentence, "As a &lt;role&gt;, &lt;term&gt;
-          means &lt;meaning&gt;."
-        default: replace with with your own role
-    config:
-      min:
-      max:
-      labelField: role
-    label: Perspectives
+          min:
+          max:
+          labelField:
+        label: Sources
+      - name: perspectives
+        type: field_group_list
+        fields:
+          - name: meaning
+            type: text
+            config:
+              required: false
+            label: Meaning
+            description:
+              This should be the &lt;meaning&gt; in the sentence, "As a &lt;role&gt;,
+              &lt;term&gt; means &lt;meaning&gt;."
+            default: replace with with your own meaning
+          - name: role
+            type: text
+            config:
+              required: false
+            label: Role
+            description:
+              This is the &lt;role&gt; in the sentence, "As a &lt;role&gt;, &lt;term&gt;
+              means &lt;meaning&gt;."
+            default: replace with with your own role
+        config:
+          min:
+          max:
+          labelField: role
+        label: Perspectives
 pages:
   - content/dictionary/.net.md
   - content/dictionary/1-on-1.md
