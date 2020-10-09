@@ -11,14 +11,16 @@
     <p class="mb-6">
       Choose a word below that needs a definition or a perspective. Then read
       our
-      <a href="https://github.com/cherryontech/website/blob/pit/CONTRIBUTING.md"
+      <a
+        class="underline"
+        href="https://github.com/cherryontech/website/blob/pit/CONTRIBUTING.md"
         >Contributing HowTo</a
       >
       to get started!
     </p>
-
+    <BaseInput v-model="search" label="Search the dictionary: " />
     <div
-      v-for="post in entries"
+      v-for="post in filteredTerms"
       :key="post.id"
       class="py-2 border-t border-purple-900"
     >
@@ -73,17 +75,30 @@ query Dictionaryposts {
 </page-query>
 
 <script>
+import BaseInput from "@/components/controls/base/BaseInput.vue";
 export default {
+  components: {
+    BaseInput,
+  },
   metaInfo: {
     title: "Dictionary",
   },
   data() {
     return {
+      search: "",
       entries: [],
+      dictSearchTerm: "",
     };
   },
   created() {
     this.entries = this.sortEntries(this.$page.dictionaryposts.edges);
+  },
+  computed: {
+    filteredTerms() {
+      return this.entries.filter((entry) => {
+        return entry.node.title.toLowerCase().match(this.search.toLowerCase());
+      });
+    },
   },
   methods: {
     sortEntries(allentries) {
