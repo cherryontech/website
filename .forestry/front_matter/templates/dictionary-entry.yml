@@ -15,7 +15,7 @@ fields:
   label: Definition
   description: If you believe there is <em>one</em> definition which readily explains
     this word, add it here.
-  default: replace with with your own definition
+  default: ''
 - name: sources
   type: field_group_list
   fields:
