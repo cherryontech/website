@@ -1,7 +1,6 @@
 ---
 title: Heat Maps
-definition: replace with with your own definition
+definition:
 sources: []
 perspectives: []
-
 ---
