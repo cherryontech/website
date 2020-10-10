@@ -1,4 +1,4 @@
-@tailwind base;
+@import base;
 
 @tailwind components;
 
