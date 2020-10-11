@@ -7,5 +7,11 @@ module.exports = {
       serif: ["Nunito", ...defaultTheme.fontFamily.serif],
       orbitron: ["Orbitron", "sans-serif"],
     },
+    extend: {
+      backgroundImage: {
+        // Background images are relative to main.css
+        'outerspace': "url('assets/images/outerspace.png')"
+      }
+    }
   },
 };
