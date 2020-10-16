@@ -4,7 +4,7 @@ definition: Angular is an application design framework and development platform 
 sources: 
 - sourceurl: https://angular.io/docs
 perspectives: 
-- meaning: Angular is a front end framework used to develop web applications. It competes with React and Vue. It is commonly used in stacks like the MEAN stack.
+- meaning: a front end framework used to develop web applications. It competes with React and Vue. It is commonly used in stacks like the MEAN stack.
   role: Web Developer
 
 ---
