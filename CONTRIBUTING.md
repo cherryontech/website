@@ -22,35 +22,22 @@ We have created a dictionary of tech terms that we think will help squad members
 - If a term probably only has one meaning, then we give it a _definition_.
 - If a term could mean different things to different roles, then we give it one or more _perspectives_.
 
-All entries must be written in the following format, so that they can be processed properly.
+All entries must be written in the following format, so that they can be processed properly. Please note that admins may edit the entry for clarity and/or formatting.
 
 ### Tech Dictionary example
 
-Here is an example that uses perspectives:
-
 ```
 ---
-title: div
-definition:
+title: naptime
+definition: 'a nap is a short period of sleep'
 sources:
-- sourceurl: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
+- sourceurl: https://example.com/things-i-need/naptime
 perspectives:
-- meaning: a div is a container that holds content
-  role: Web Developer
+- meaning: a terrible time when I can't play anymore
+  role: child
+- meaning: a wonderful time when I get a break
+  role: parent
 
 ---
 ```
 
-Here is an example that uses a definition instead of perspectives:
-
-```
----
-title: command line application
-sources:
-- sourceurl: https://example.com/example-link-here
-definition: Computer programs with a text interface, which you usually run directly
-  from your terminal.
-perspectives: []
-
----
-```

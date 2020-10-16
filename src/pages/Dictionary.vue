@@ -1,14 +1,26 @@
 <template>
   <Layout>
     <h1 class="text-3xl">Tech Dictionary</h1>
-    <p class="mb-6">
+    <p>
       This is our take on a dictionary/glossary of tech terms. It's a little
       different because we try to provide <em>perspectives</em> on each term.
     </p>
-
-    <!-- Print the first page of dictionary entries -->
+    <h2 class="mt-2 text-xl font-semibold">
+      Want to contribute?
+    </h2>
+    <p class="mb-6">
+      Choose a word below that needs a definition or a perspective. Then read
+      our
+      <a
+        class="underline"
+        href="https://github.com/cherryontech/website/blob/pit/CONTRIBUTING.md"
+        >Contributing HowTo</a
+      >
+      to get started!
+    </p>
+    <BaseInput v-model="search" label="Search the dictionary: " />
     <div
-      v-for="post in $page.dictionaryposts.edges"
+      v-for="post in filteredTerms"
       :key="post.id"
       class="py-2 border-t border-purple-900"
     >
@@ -37,25 +49,13 @@
         </p>
       </div>
     </div>
-
-    <!-- Pagination -->
-    <PaginationDictionaryposts
-      v-if="$page.dictionaryposts.pageInfo.totalPages > 1"
-      base="/dictionary"
-      :totalPages="$page.dictionaryposts.pageInfo.totalPages"
-      :currentPage="$page.dictionaryposts.pageInfo.currentPage"
-    />
   </Layout>
 </template>
 
 <page-query>
-query Dictionaryposts ($page: Int) {
-  dictionaryposts: allDictionarypost (sortBy: "title", order: ASC, perPage: 10, page: $page) @paginate {
+query Dictionaryposts {
+  dictionaryposts: allDictionarypost {
     totalCount
-    pageInfo {
-      totalPages
-      currentPage
-    }
     edges {
       node {
         title
@@ -75,11 +75,45 @@ query Dictionaryposts ($page: Int) {
 </page-query>
 
 <script>
-import PaginationDictionaryposts from "@/components/controls/pagination/PaginationDictionaryposts.vue";
+import BaseInput from "@/components/controls/base/BaseInput.vue";
 export default {
-  components: { PaginationDictionaryposts },
+  components: {
+    BaseInput,
+  },
   metaInfo: {
     title: "Dictionary",
+  },
+  data() {
+    return {
+      search: "",
+      entries: [],
+    };
+  },
+  created() {
+    this.entries = this.sortEntries(this.$page.dictionaryposts.edges);
+  },
+  computed: {
+    filteredTerms() {
+      return this.entries.filter((entry) => {
+        return entry.node.title.toLowerCase().match(this.search.toLowerCase());
+      });
+    },
+  },
+  methods: {
+    sortEntries(allentries) {
+      // sort by title, a property of the node object
+      return allentries.sort(function(a, b) {
+        var nameA = a.node.title.toUpperCase(); // ignore upper and lowercase
+        var nameB = b.node.title.toUpperCase(); // ignore upper and lowercase
+        if (nameA < nameB) {
+          return -1; //nameA comes first
+        }
+        if (nameA > nameB) {
+          return 1; // nameB comes first
+        }
+        return 0; // names must be equal
+      });
+    },
   },
 };
 </script>
