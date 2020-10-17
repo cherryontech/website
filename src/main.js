@@ -9,7 +9,7 @@ export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
   Vue.use(VueGtag, {
-  config: { id: "UA-1234567-1" }
+  config: { id: "G-6P9YW352WJ" }
 });
 }
 
