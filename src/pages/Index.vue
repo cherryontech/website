@@ -4,7 +4,7 @@
       <div class="pb-12 bg-cover bg-outerspace">
         <div
           :aria-hidden="hideContentAria"
-          class="flex flex-col items-center max-w-screen-md px-5 mx-auto my-0"
+          class="flex flex-col items-center px-5 mx-auto my-0"
         >
           <g-image
             class="pt-10 m-3 max-w-screen lg:max-w-lg"
@@ -30,6 +30,21 @@
             >Keep me updated</BaseButton
           >
           <Dialog v-if="showDialog === true" @close="showDialog = false" />
+          <div class="w-full mt-20">
+            <p class="font-light text-gray-500">
+              Photo by
+              <a
+                target="_blank"
+                href="https://unsplash.com/@andyjh07?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                >Andy Holmes</a
+              >
+              on
+              <a
+                href="https://unsplash.com/@andyjh07?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                >Unsplash</a
+              >
+            </p>
+          </div>
         </div>
       </div>
     </main>
