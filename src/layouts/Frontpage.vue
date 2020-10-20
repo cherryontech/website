@@ -2,7 +2,7 @@
   <div class="h-screen">
     <div class="relative flex flex-col items-stretch justify-between h-full">
       <header class="absolute flex items-stretch justify-between w-full h-16">
-        <g-link class="flex items-center px-4 xl:px-16" to="/">
+        <g-link class="flex items-center mx-4 xl:mx-16" to="/">
           <g-image
             width="44"
             src="~/assets/images/squareLogoBgPinkMainGreen.png"
