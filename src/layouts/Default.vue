@@ -2,9 +2,13 @@
   <div class="wrapper">
     <div class="max-w-screen-md my-0 mx-auto px-5">
       <header class="header">
-        <strong>
-          <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-        </strong>
+        <g-link to="/">
+          <g-image
+            width="50"
+            src="~/assets/images/squareLogoBgPinkMainGreen.png"
+            alt="cherry on tech logo"
+          />
+        </g-link>
         <nav class="nav">
           <g-link class="nav__link" to="/">Home</g-link>
           <g-link class="nav__link" to="/about/">About</g-link>
