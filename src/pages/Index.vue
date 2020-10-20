@@ -1,6 +1,6 @@
 <template>
-  <Layout>
-    <main @keydown.esc="showDialog = false" class="pb-6 wrapper">
+  <Frontpage>
+    <main @keydown.esc="showDialog = false" class="h-full pb-6 wrapper">
       <div class="pb-12 bg-cover bg-outerspace">
         <div
           :aria-hidden="hideContentAria"
@@ -33,15 +33,16 @@
         </div>
       </div>
     </main>
-  </Layout>
+  </Frontpage>
 </template>
 
 <script>
 import BaseButton from "@/components/controls/base/BaseButton.vue";
 import Dialog from "@/components/controls/dialogs/Dialog.vue";
+import Frontpage from "@/layouts/Frontpage.vue";
 
 export default {
-  components: { BaseButton, Dialog },
+  components: { Frontpage, BaseButton, Dialog },
   metaInfo: {
     title: "Coming soon! Cherry on Tech",
   },
@@ -57,10 +58,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.wrapper {
-  background-color: #8878a5;
-  min-height: 100vh;
-}
-</style>
