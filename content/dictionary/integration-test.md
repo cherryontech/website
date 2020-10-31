@@ -1,6 +1,6 @@
 ---
 title: integration test
-definition: ''
+definition: 'A level of software testing where components/interfaces are combined and tested as a group. '
 perspectives: []
 
 ---
