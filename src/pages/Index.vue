@@ -20,7 +20,7 @@
           </h1>
 
           <h2
-            class="max-w-sm mb-4 text-2xl text-center text-white font-orbitron"
+            class="max-w-md mb-4 text-2xl text-center text-white font-orbitron"
           >
             We dream, scheme, and support each other in our careers
           </h2>
