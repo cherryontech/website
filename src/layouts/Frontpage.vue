@@ -17,6 +17,9 @@
           <g-link class="px-4 py-2 font-bold text-white" to="/dictionary/"
             >Dictionary</g-link
           >
+          <g-link class="px-4 py-2 font-bold text-white" to="/blog/"
+            >Blog</g-link
+          >
         </nav>
       </header>
       <div class="flex-grow">
