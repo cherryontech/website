@@ -1,6 +1,6 @@
 <template>
   <div class="h-screen">
-    <div class="relative flex flex-col items-stretch justify-between h-full">
+    <div class="relative flex flex-col items-stretch justify-between">
       <header class="absolute flex items-stretch justify-between w-full h-16">
         <g-link class="flex items-center mx-4 xl:mx-16" to="/">
           <g-image
@@ -25,9 +25,7 @@
       <div class="flex-grow">
         <slot />
       </div>
-      <div>
-        Footer
-      </div>
+      <Footer class="border border-pink-400" />
     </div>
   </div>
 </template>
@@ -39,6 +37,15 @@ query {
   }
 }
 </static-query>
+
+<script>
+import Footer from "@/components/navigation/Footer.vue";
+export default {
+  components: {
+    Footer,
+  },
+};
+</script>
 
 <style scoped>
 nav a.active--exact {

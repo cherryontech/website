@@ -1,63 +1,69 @@
 <template>
-  <Frontpage>
-    <main @keydown.esc="showDialog = false" class="h-full pb-6 wrapper">
-      <div class="pb-12 bg-cover bg-outerspace">
-        <div
-          :aria-hidden="hideContentAria"
-          class="flex flex-col items-center px-5 mx-auto my-0"
-        >
+  <div
+    class="flex flex-col justify-between min-h-screen border-4 border-pink-400"
+  >
+    <div class="relative h-12">
+      <Header class="absolute" />
+    </div>
+    <main
+      class="flex flex-col flex-grow bg-pink-500"
+      @keydown.esc="showDialog = false"
+    >
+      <!-- Intro / Outerspace theme -->
+      <div class="-mt-12 bg-cover bg-outerspace" :aria-hidden="hideContentAria">
+        <div class="mt-12">
           <g-image
-            class="pt-10 m-3 max-w-screen lg:max-w-lg"
+            class="m-auto max-w-screen lg:max-w-lg"
             width="500"
             src="~/assets/images/cot-name.png"
             alt="Coming Soon - Cherry on Tech"
           />
-
           <h1
             class="font-serif text-5xl font-bold text-center text-white uppercase"
           >
             We are a tech squad
           </h1>
 
-          <h2
-            class="max-w-md mb-4 text-2xl text-center text-white font-orbitron"
-          >
-            We dream, scheme, and support each other in our careers
-          </h2>
+          <!-- Newsletter dialog -->
           <BaseButton
             @click="showDialog = true"
-            class="font-sans font-extrabold uppercase bg-gray-100"
+            class="block m-auto bg-gray-100"
             >Keep me updated</BaseButton
           >
           <Dialog v-if="showDialog === true" @close="showDialog = false" />
-          <div class="w-full mt-20">
-            <p class="font-light text-gray-500">
-              Photo by
-              <a
-                target="_blank"
-                href="https://unsplash.com/@andyjh07?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
-                >Andy Holmes</a
-              >
-              on
-              <a
-                href="https://unsplash.com/@andyjh07?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
-                >Unsplash</a
-              >
-            </p>
-          </div>
+
+          <p class="mt-24 font-light text-gray-500 lg:ml-16">
+            Photo by
+            <a
+              target="_blank"
+              href="https://unsplash.com/@andyjh07?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+              >Andy Holmes</a
+            >
+            on
+            <a
+              href="https://unsplash.com/@andyjh07?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+              >Unsplash</a
+            >
+          </p>
         </div>
       </div>
+      <div class="bg-pink-300">
+        Rest of page down here
+      </div>
     </main>
-  </Frontpage>
+    <Footer />
+  </div>
 </template>
 
 <script>
 import BaseButton from "@/components/controls/base/BaseButton.vue";
 import Dialog from "@/components/controls/dialogs/Dialog.vue";
 import Frontpage from "@/layouts/Frontpage.vue";
+import Header from "@/components/navigation/Header.vue";
+import Footer from "@/components/navigation/Footer.vue";
 
 export default {
-  components: { Frontpage, BaseButton, Dialog },
+  components: { Frontpage, BaseButton, Dialog, Header, Footer },
   metaInfo: {
     title: "Coming soon! Cherry on Tech",
   },
