@@ -1,20 +1,13 @@
 <template>
-  <header
-    class="flex items-stretch justify-between w-full h-16 border border-pink-100"
-  >
-    <g-link
-      class="flex items-center mx-4 border border-pink-100 xl:mx-16"
-      to="/"
-    >
+  <header class="flex items-stretch justify-between w-full h-16">
+    <g-link class="flex items-center mx-4 xl:mx-16" to="/">
       <g-image
         width="44"
         src="~/assets/images/squareLogoBgPinkMainGreen.png"
         alt="cherry on tech logo"
       />
     </g-link>
-    <nav
-      class="flex items-center flex-grow border border-pink-100 justify-evenly"
-    >
+    <nav class="flex items-center flex-grow justify-evenly">
       <g-link
         class="px-4 py-2 font-bold"
         :class="{

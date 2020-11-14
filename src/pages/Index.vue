@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="flex flex-col justify-between min-h-screen border-4 border-pink-400"
-  >
+  <div class="flex flex-col justify-between min-h-screen">
     <div class="relative h-16">
       <Header class="absolute" darkMode />
     </div>
@@ -32,7 +30,7 @@
           >
           <Dialog v-if="showDialog === true" @close="showDialog = false" />
 
-          <p class="mt-24 font-light text-gray-500 lg:ml-16">
+          <p class="mt-24 mb-16 font-light text-gray-500 lg:ml-16">
             Photo by
             <a
               target="_blank"
