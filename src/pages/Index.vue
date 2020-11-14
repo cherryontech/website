@@ -1,6 +1,7 @@
 <template>
   <div class="flex flex-col justify-between min-h-screen">
-    <div class="relative h-16">
+    <!-- The height of this div must match the height of the header, which is set in the header component -->
+    <div class="relative h-20">
       <Header class="absolute" darkMode />
     </div>
     <main
@@ -8,8 +9,9 @@
       @keydown.esc="showDialog = false"
     >
       <!-- Intro / Outerspace theme -->
-      <div class="-mt-16 bg-cover bg-outerspace" :aria-hidden="hideContentAria">
-        <div class="mt-16">
+      <!-- Since we want our bg image to come up beneath the header, match the margins to the height of the header -->
+      <div class="-mt-20 bg-cover bg-outerspace" :aria-hidden="hideContentAria">
+        <div class="mt-20">
           <g-image
             class="m-auto max-w-screen lg:max-w-lg"
             width="500"

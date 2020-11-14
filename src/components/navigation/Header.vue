@@ -1,5 +1,5 @@
 <template>
-  <header class="flex items-stretch justify-between w-full h-16">
+  <header class="flex items-stretch justify-between w-full h-20">
     <g-link class="flex items-center mx-4 xl:mx-16" to="/">
       <g-image
         width="44"
