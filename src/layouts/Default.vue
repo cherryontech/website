@@ -6,7 +6,7 @@
         <slot />
       </div>
       <div>
-        Footer
+        <Footer />
       </div>
     </div>
   </div>
@@ -22,9 +22,10 @@ query {
 
 <script>
 import Header from "@/components/navigation/Header.vue";
+import Footer from "@/components/navigation/Footer.vue";
 
 export default {
-  components: { Header },
+  components: { Header, Footer },
 };
 </script>
 
