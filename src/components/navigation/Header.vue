@@ -1,6 +1,6 @@
 <template>
   <header
-    class="flex items-stretch justify-between w-full border border-pink-100"
+    class="flex items-stretch justify-between w-full h-16 border border-pink-100"
   >
     <g-link
       class="flex items-center mx-4 border border-pink-100 xl:mx-16"
@@ -15,18 +15,49 @@
     <nav
       class="flex items-center flex-grow border border-pink-100 justify-evenly"
     >
-      <g-link class="px-4 py-2 font-bold text-white" to="/">Home</g-link>
-      <g-link class="px-4 py-2 font-bold text-white" to="/about/">About</g-link>
-      <g-link class="px-4 py-2 font-bold text-white" to="/dictionary/"
-        >Dictionary</g-link
+      <g-link
+        class="px-4 py-2 font-bold"
+        :class="{
+          'text-white darkMode': darkMode,
+          'text-purple-900': !darkMode,
+        }"
+        v-for="(link, index) in links"
+        :key="index"
+        :to="link.url"
+        >{{ link.title }}</g-link
       >
-      <g-link class="px-4 py-2 font-bold text-white" to="/blog/">Blog</g-link>
     </nav>
   </header>
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    darkMode: {
+      type: Boolean,
+      default: false,
+    },
+  },
+  data() {
+    return {
+      links: [
+        { url: "/", title: "Home" },
+        { url: "/about/", title: "About" },
+        { url: "/dictionary/", title: "Dictionary" },
+        { url: "/blog/", title: "Blog" },
+      ],
+    };
+  },
+};
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.active--exact {
+  @apply text-pink-600;
+  @apply underline;
+  @apply rounded-lg;
+}
+.darkMode.active--exact {
+  @apply bg-white;
+}
+</style>
