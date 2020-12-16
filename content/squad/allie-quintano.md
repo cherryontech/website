@@ -14,7 +14,7 @@ mediumName: ''
 draft: false
 dribbleName: ''
 contact_links:
-  linkedin_url: ''
+  linkedin_url: https://www.linkedin.com/in/alliequintano/
   medium_name: ''
   dribble_name: ''
   instagram_name: ''
