@@ -116,7 +116,10 @@ fields:
       min: 
       max: 
       source:
-        type: simple
+        type: documents
+        section: vocabulary-collections
+        file: content/vocabulary/roles.md
+        path: terms
       options:
       - Designer
       - UX designer
