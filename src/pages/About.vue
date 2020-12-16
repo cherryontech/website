@@ -3,8 +3,16 @@
     <h1>About us</h1>
     <div class="grid md:grid-cols-3 md:gap-8">
       <div v-for="(member, index) in $page.squadposts.edges" :key="index">
-        {{ member.node.title }}
+        <g-image :src="member.node.memberImage" :alt="member.node.title" />
+        {{ member.node.memberImage }}
       </div>
+    </div>
+    <div>
+      <g-image
+        width="100"
+        src="~/assets/images/uploads/tortillapup.jpg"
+        alt="cherry on tech logo"
+      />
     </div>
   </Layout>
 </template>
@@ -59,13 +67,6 @@ query Squadposts {
 export default {
   metaInfo: {
     title: "About us",
-  },
-  computed: {
-    publishedMembers() {
-      return this.$page.squadposts.edges.filter((entry) => {
-        return entry.node.draft === false;
-      });
-    },
   },
 };
 </script>
