@@ -1,4 +1,21 @@
 ---
 label: Taxonomy
 hide_body: true
-fields: []
+fields:
+- name: test
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+    options:
+    - one
+    - two
+    - thre
+    - four
+    - fiv
+    - six
+    - seven
+  label: test
