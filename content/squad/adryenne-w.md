@@ -13,7 +13,7 @@ dribbleName: ''
 mediumName: ''
 draft: false
 contact_links:
-  linkedin_url: ''
+  linkedin_url: https://www.linkedin.com/in/adryennewilson/
   medium_name: ''
   dribble_name: ''
   instagram_name: dreamy26_
