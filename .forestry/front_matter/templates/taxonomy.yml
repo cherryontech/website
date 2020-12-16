@@ -19,3 +19,7 @@ fields:
     - six
     - seven
   label: test
+- name: test2
+  type: tag_list
+  default: []
+  label: test2
