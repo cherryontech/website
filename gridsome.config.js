@@ -15,9 +15,9 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
-        path: "content/dictionary/**/*.md",
         typeName: "Dictionarypost",
-        route: "dictionary/entry/:title",
+        baseDir: "./content/",
+        path: "dictionary/**/*.md",
         remark: {
           // remark options
           plugins: [
