@@ -32,44 +32,6 @@ fields:
     maxSize: 64
   label: Member Image
   description: 'Upload an image to use on the members bio.  '
-- name: portfolioUrl
-  type: text
-  config:
-    required: false
-  label: Personal site/protfolio URL
-- name: githubName
-  type: text
-  config:
-    required: false
-  label: Github name
-- name: twitterHandle
-  type: text
-  config:
-    required: false
-  label: Twitter handle
-  description: Please don't add the @ sign - we'll add that later.
-- name: instagramHandle
-  type: text
-  config:
-    required: false
-  label: Instagram handle
-  description: Add your instagram handle
-- name: dribbleName
-  type: text
-  config:
-    required: false
-  label: Dribble name
-- name: mediumName
-  type: text
-  config:
-    required: false
-  label: Medium name
-- name: linkedinUrl
-  type: text
-  config:
-    required: false
-  label: LinkedIn URL
-  description: Add the URL to your LinkedIn profile, if you wish.
 - name: contact_links
   type: field_group
   config: {}
