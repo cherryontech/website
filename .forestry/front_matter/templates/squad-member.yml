@@ -26,15 +26,6 @@ fields:
     required: false
   label: Cherry nickname
   description: Think spice girls :)
-- name: cherryBirthDay
-  type: datetime
-  label: Cherry birth day
-  description: Wish the Cherry Happy Birthday (this is just for internal use).
-  config:
-    required: false
-    date_format: MM.DD
-    time_format: 
-    display_utc: false
 - name: memberImage
   type: file
   config:
@@ -63,12 +54,6 @@ fields:
     required: false
   label: Instagram handle
   description: Add your instagram handle
-- name: linkedinUrl
-  type: text
-  config:
-    required: false
-  label: LinkedIn URL
-  description: Add the URL to your LinkedIn profile, if you wish.
 - name: dribbleName
   type: text
   config:
@@ -79,6 +64,52 @@ fields:
   config:
     required: false
   label: Medium name
+- name: linkedinUrl
+  type: text
+  config:
+    required: false
+  label: LinkedIn URL
+  description: Add the URL to your LinkedIn profile, if you wish.
+- name: contact_links
+  type: field_group
+  config: {}
+  fields:
+  - name: linkedin_url
+    type: text
+    config:
+      required: false
+    label: LinkedIn URL
+  - name: medium_url
+    type: text
+    config:
+      required: false
+    label: Medium URL
+  - name: dribble_url
+    type: text
+    config:
+      required: false
+    label: Dribble URL
+  - name: instagram_url
+    type: text
+    config:
+      required: false
+    label: Instagram URL
+  - name: twitter_url
+    type: text
+    config:
+      required: false
+    label: Twitter URL
+  - name: github_url
+    type: text
+    config:
+      required: false
+    label: Github URL
+  - name: portfolio_url
+    type: text
+    config:
+      required: false
+    label: Personal site/portfolio URL
+  label: Contact Links
 pages:
 - content/squad/adryenne-w.md
 - content/squad/allie-quintano.md
