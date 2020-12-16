@@ -15,7 +15,7 @@ draft: false
 dribbleName: julietafb
 contact_links:
   portfolio_url: www.juliethfajardo.com
-  linkedin_url: ''
+  linkedin_url: https://www.linkedin.com/in/julietafb/
   medium_url: ''
   dribble_url: ''
   instagram_url: ''
