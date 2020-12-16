@@ -11,6 +11,17 @@ sections:
   match: "**/*"
   templates:
   - blog-post
+- type: document
+  path: src/assets/content/data/authors.json
+  label: Authors List
+- type: document
+  path: src/assets/content/data/info.json
+  label: Info Page
+- type: heading
+  label: Config
+- type: document
+  path: src/assets/content/data/config.json
+  label: Site Config
 - type: directory
   path: content/dictionary
   label: Dictionary entries
