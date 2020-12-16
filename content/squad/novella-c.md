@@ -19,7 +19,7 @@ contact_links:
   medium_url: ''
   dribble_url: ''
   instagram_url: ''
-  twitter_url: ''
+  twitter_url: https://twitter.com/novelladev
   portfolio_url: ''
 
 ---
