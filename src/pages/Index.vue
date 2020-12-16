@@ -47,9 +47,10 @@
           </p>
         </div>
       </div>
-      <div class="bg-pink-300">
+      <!-- Tech squad benefits grid -->
+      <!-- <div class="bg-pink-300">
         Rest of page down here
-      </div>
+      </div> -->
     </main>
     <Footer />
   </div>
