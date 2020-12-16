@@ -21,6 +21,11 @@ contact_links:
   instagram_url: ''
   twitter_url: https://twitter.com/novelladev
   portfolio_url: ''
+  medium_name: ''
+  dribble_name: ''
+  instagram_name: ''
+  twitter_name: novelladev
+  github_name: novellac
 
 ---
 Novella is a frontend software engineer who specializes in VueJS. When she's not off bedazzling the web, she enjoys puppies, desserts, and punny jokes.
