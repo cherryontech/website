@@ -3,7 +3,7 @@ title: Novella C.
 pronouns: she/her
 cherryNickname: Cherry Tomato
 cherryBirthDay: '2020-06-08T04:00:00.000+00:00'
-memberImage: "/uploads/screen-shot-2020-12-15-at-5-36-45-pm.png"
+memberImage: "/src/assets/images/uploads/screen-shot-2020-12-15-at-5-36-45-pm.png"
 portfolioUrl: https://novella.dev
 githubName: novellac
 twitterHandle: novelladev
