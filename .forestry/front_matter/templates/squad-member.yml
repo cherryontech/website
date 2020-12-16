@@ -129,6 +129,19 @@ fields:
     max: 
     labelField: link_title
   label: Links
+- name: primary_role
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - ok
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Primary role
 pages:
 - content/squad/adryenne-w.md
 - content/squad/allie-quintano.md
