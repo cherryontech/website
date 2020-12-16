@@ -31,6 +31,25 @@ module.exports = {
         },
       },
     },
+        {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "content/squad/**/*.md",
+        typeName: "Squadpost",
+        route: "squad/:title",
+        remark: {
+          // remark options
+          plugins: [
+            [
+              "@noxify/gridsome-plugin-remark-embed",
+              {
+                enabledProviders: ["Youtube", "Twitter", "Gist"],
+              },
+            ],
+          ],
+        },
+      },
+    },
   ],
   css: {
     loaderOptions: {
