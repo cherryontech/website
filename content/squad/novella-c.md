@@ -27,6 +27,16 @@ contact_links:
   twitter_name: novelladev
   github_name: novellac
 links:
+- link_title: Fpo project about something nice
+  link_description: We made a project and it turned out really nice. FPO This is not
+    text we want actually. tktk
+  link_url: https://cherryon.tech/about
+  link_image: "/uploads/img_0254.jpg"
+  link_role:
+  - Data analyst
+  link_tags:
+  - onething
+  - cows
 - link_image: "/uploads/img_0254.jpg"
   link_tags:
   - concept1
