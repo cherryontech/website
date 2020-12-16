@@ -20,5 +20,10 @@ contact_links:
   instagram_url: ''
   twitter_url: ''
   portfolio_url: ''
+  medium_name: ''
+  dribble_name: ''
+  instagram_name: ''
+  twitter_name: ''
+  github_name: NiaCLay
 
 ---
