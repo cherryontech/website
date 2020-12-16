@@ -16,11 +16,11 @@ dribbleName: julietafb
 contact_links:
   portfolio_url: www.juliethfajardo.com
   linkedin_url: https://www.linkedin.com/in/julietafb/
-  medium_url: ''
-  dribble_url: ''
-  instagram_url: ''
-  twitter_url: ''
-  github_url: ''
+  medium_url: julietafb
+  dribble_url: julietafb
+  instagram_url: julietafb
+  twitter_url: julietafb
+  github_url: julietafb
 
 ---
 Julieth is a curious and courageous UX/UI designer, that leverages conceptual thinking, researches and critical reason to bring a unique design perspective on the overall user experience. She loves to eat donuts, ride her scooter and lift heavy.
