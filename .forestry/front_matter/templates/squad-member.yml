@@ -26,6 +26,18 @@ fields:
     required: false
   label: Cherry nickname
   description: Think spice girls :)
+- name: primary_role
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: vocabulary-collections
+      file: content/vocabulary/roles.md
+      path: terms
+  label: Primary role
 - name: memberImage
   type: file
   config:
@@ -129,18 +141,6 @@ fields:
     max: 
     labelField: link_title
   label: Links
-- name: primary_role
-  type: select
-  default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: documents
-      section: taxonomy-collections
-      file: content/taxonomy/asdf.md
-      path: test2
-  label: Primary role
 pages:
 - content/squad/adryenne-w.md
 - content/squad/allie-quintano.md
