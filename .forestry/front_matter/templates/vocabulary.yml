@@ -2,6 +2,13 @@
 label: Vocabulary
 hide_body: true
 fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title of vocabulary
+  description: Give the vocabulary a title. For example, if you are creating a vocabulary
+    of fruits, call the vocabulary "Fruits".
 - name: terms
   type: tag_list
   default: []
