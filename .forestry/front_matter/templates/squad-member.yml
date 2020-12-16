@@ -72,38 +72,9 @@ fields:
       required: false
     label: Personal site/portfolio URL
   label: Contact Links
-- name: project_links
-  type: field_group
-  config: {}
+- name: links
+  type: field_group_list
   fields:
-  - name: link_title
-    type: text
-    config:
-      required: true
-    label: Title
-  - name: link_url
-    type: text
-    config:
-      required: true
-    label: URL
-    description: Please give an absolute URL (e.g. https://example.com/cherries-are-nice)
-  - name: link_description
-    type: text
-    config:
-      required: true
-    label: Description
-    description: Short description of link.
-  - name: link_image
-    type: file
-    config:
-      maxSize: 2
-    label: Image
-    default: "/uploads/img_0254.jpg"
-  - name: link_tags
-    type: tag_list
-    default: []
-    label: Tags
-    description: Tag this link with the technologies or concepts used.
   - name: link_role
     type: list
     config:
@@ -114,17 +85,49 @@ fields:
         type: simple
       options:
       - Designer
-      - Back-end developer
-      - Front-end developer
-      - SEO
-      - Project manager
-      - DevOps
-      - QA Engineer
-      - UI designer
       - UX designer
+      - UI designer
+      - Front-end developer
+      - Back-end developer
+      - Data analyst
+      - QA engineer
+      - Project manager
       - Product manager
+      - SEO
+      - Social media manager
+      - DevOps
     label: Role
-    description: Add the role(s) you played in the creation of this project.
+  - name: link_tags
+    type: tag_list
+    default: []
+    label: Tags
+    description: Tag this link with the technologies or concepts used.
+  - name: link_image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+    default: "/uploads/img_0254.jpg"
+  - name: link_description
+    type: text
+    config:
+      required: false
+    label: Description
+  - name: link_url
+    type: text
+    config:
+      required: false
+    label: URL
+    description: Please provide the absolute URL (e.g. https://example.com/nice-example)
+  - name: link_title
+    type: text
+    config:
+      required: false
+    label: Title
+  config:
+    min: 
+    max: 
+    labelField: 
   label: Links
 pages:
 - content/squad/adryenne-w.md
