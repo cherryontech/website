@@ -134,13 +134,12 @@ fields:
   default: []
   config:
     required: false
-    options:
-    - ok
+    options: []
     source:
-      type: simple
-      section: 
-      file: 
-      path: 
+      type: documents
+      section: taxonomy-collections
+      file: content/taxonomy/asdf.md
+      path: test2
   label: Primary role
 pages:
 - content/squad/adryenne-w.md
