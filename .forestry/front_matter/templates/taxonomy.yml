@@ -2,6 +2,11 @@
 label: Taxonomy
 hide_body: true
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title of vocab
 - name: test
   type: list
   config:
