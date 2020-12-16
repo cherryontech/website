@@ -127,7 +127,7 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: link_title
   label: Links
 pages:
 - content/squad/adryenne-w.md
