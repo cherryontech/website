@@ -3,6 +3,9 @@
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
+const config = require("./src/assets/content/data/config.json")
+const infoData = require("./src/assets/content/data/info.json")
+
 const tailwind = require('tailwindcss')
 
 const postcssPlugins = [
