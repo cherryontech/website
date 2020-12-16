@@ -5,13 +5,6 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: content/taxonomy
-  label: Taxonomy collections
-  create: all
-  match: "**/*"
-  templates:
-  - taxonomy
-- type: directory
   path: content/dictionary
   label: Dictionary entries
   create: documents
