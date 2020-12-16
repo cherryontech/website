@@ -1,0 +1,32 @@
+---
+label: Blog Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- name: author
+  type: select
+  default: ''
+  config:
+    required: true
+    options: []
+    source:
+      type: documents
+      section: authors-list
+      file: src/assets/content/data/authors.json
+      path: authors
+  label: Author
+  description: Choose author, to add a new author go to the Authors List file
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: hero_image
+  label: hero_image
+pages:
+- src/assets/content/blog/an-essay-on-walking.md
+- src/assets/content/blog/ne-te-quaesiveris-extra.md
+- src/assets/content/blog/on-the-geneology-of-morals.md
+- src/assets/content/blog/song-of-myself.md
+- src/assets/content/blog/sunflower-sutra.md
