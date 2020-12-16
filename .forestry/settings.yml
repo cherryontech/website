@@ -32,7 +32,7 @@ sections:
   match: "**/*"
   templates:
   - vocabulary
-upload_dir: uploads
+upload_dir: src/assets/images/uploads
 public_path: "/src/assets/images/uploads"
 front_matter_path: ''
 use_front_matter_path: false
