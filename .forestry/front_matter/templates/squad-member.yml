@@ -72,6 +72,60 @@ fields:
       required: false
     label: Personal site/portfolio URL
   label: Contact Links
+- name: project_links
+  type: field_group
+  config: {}
+  fields:
+  - name: link_title
+    type: text
+    config:
+      required: true
+    label: Title
+  - name: link_url
+    type: text
+    config:
+      required: true
+    label: URL
+    description: Please give an absolute URL (e.g. https://example.com/cherries-are-nice)
+  - name: link_description
+    type: text
+    config:
+      required: true
+    label: Description
+    description: Short description of link.
+  - name: link_image
+    type: file
+    config:
+      maxSize: 2
+    label: Image
+    default: "/uploads/img_0254.jpg"
+  - name: link_tags
+    type: tag_list
+    default: []
+    label: Tags
+    description: Tag this link with the technologies or concepts used.
+  - name: link_role
+    type: list
+    config:
+      use_select: true
+      min: 
+      max: 
+      source:
+        type: simple
+      options:
+      - Designer
+      - Back-end developer
+      - Front-end developer
+      - SEO
+      - Project manager
+      - DevOps
+      - QA Engineer
+      - UI designer
+      - UX designer
+      - Product manager
+    label: Role
+    description: Add the role(s) you played in the creation of this project.
+  label: Links
 pages:
 - content/squad/adryenne-w.md
 - content/squad/allie-quintano.md
