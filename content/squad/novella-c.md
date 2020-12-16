@@ -26,6 +26,23 @@ contact_links:
   instagram_name: ''
   twitter_name: novelladev
   github_name: novellac
+links:
+- link_image: "/uploads/img_0254.jpg"
+  link_tags:
+  - concept1
+  - trains
+  - horses
+  - dogs
+  - cats
+  - fishes
+  - deers
+  - cows
+  link_title: Great Link 1
+  link_description: FPO This is an outside link. It goes somewhere v magical.
+  link_url: https://example.com/special-link-nice
+  link_role:
+  - UI designer
+  - Front-end developer
 
 ---
 Novella is a frontend software engineer who specializes in VueJS. When she's not off bedazzling the web, she enjoys puppies, desserts, and punny jokes.
