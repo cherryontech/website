@@ -21,6 +21,11 @@ contact_links:
   instagram_url: julietafb
   twitter_url: julietafb
   github_url: julietafb
+  medium_name: julietafb
+  dribble_name: julietafb
+  instagram_name: julietafb
+  twitter_name: julietafb
+  github_name: julietafb
 
 ---
 Julieth is a curious and courageous UX/UI designer, that leverages conceptual thinking, researches and critical reason to bring a unique design perspective on the overall user experience. She loves to eat donuts, ride her scooter and lift heavy.
