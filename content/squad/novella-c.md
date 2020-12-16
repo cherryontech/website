@@ -41,19 +41,20 @@ links:
   link_description: FPO This is an outside link. It goes somewhere v magical.
   link_url: https://example.com/special-link-nice
   link_role:
-  - UI designer
-  - Front-end developer
+  - product manager
+  - front-end developer
+  - QA engineer
 - link_title: Fpo project about something nice
   link_description: We made a project and it turned out really nice. FPO This is not
     text we want actually. tktk
   link_url: https://cherryon.tech/about
   link_image: "/uploads/img_0254.jpg"
   link_role:
-  - Data analyst
+  - designer
   link_tags:
   - onething
   - cows
-primary_role: pear
+primary_role: front-end developer
 
 ---
 Novella is a frontend software engineer who specializes in VueJS. When she's not off bedazzling the web, she enjoys puppies, desserts, and punny jokes.
