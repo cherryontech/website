@@ -79,31 +79,31 @@ fields:
     config:
       required: false
     label: LinkedIn URL
-  - name: medium_url
+  - name: medium_name
     type: text
     config:
       required: false
-    label: Medium URL
-  - name: dribble_url
+    label: Medium name
+  - name: dribble_name
     type: text
     config:
       required: false
-    label: Dribble URL
-  - name: instagram_url
+    label: Dribble name
+  - name: instagram_name
     type: text
     config:
       required: false
-    label: Instagram URL
-  - name: twitter_url
+    label: Instagram handle
+  - name: twitter_name
     type: text
     config:
       required: false
-    label: Twitter URL
-  - name: github_url
+    label: Twitter handle
+  - name: github_name
     type: text
     config:
       required: false
-    label: Github URL
+    label: Github username
   - name: portfolio_url
     type: text
     config:
