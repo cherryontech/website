@@ -27,16 +27,6 @@ contact_links:
   twitter_name: novelladev
   github_name: novellac
 links:
-- link_title: Fpo project about something nice
-  link_description: We made a project and it turned out really nice. FPO This is not
-    text we want actually. tktk
-  link_url: https://cherryon.tech/about
-  link_image: "/uploads/img_0254.jpg"
-  link_role:
-  - Data analyst
-  link_tags:
-  - onething
-  - cows
 - link_image: "/uploads/img_0254.jpg"
   link_tags:
   - concept1
@@ -53,6 +43,16 @@ links:
   link_role:
   - UI designer
   - Front-end developer
+- link_title: Fpo project about something nice
+  link_description: We made a project and it turned out really nice. FPO This is not
+    text we want actually. tktk
+  link_url: https://cherryon.tech/about
+  link_image: "/uploads/img_0254.jpg"
+  link_role:
+  - Data analyst
+  link_tags:
+  - onething
+  - cows
 
 ---
 Novella is a frontend software engineer who specializes in VueJS. When she's not off bedazzling the web, she enjoys puppies, desserts, and punny jokes.
