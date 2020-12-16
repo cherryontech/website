@@ -1,4 +1,10 @@
 ---
 label: Vocabulary
 hide_body: true
-fields: []
+fields:
+- name: terms
+  type: tag_list
+  default: []
+  label: Vocabulary Terms
+  description: Add terms to your vocabulary. For example, if we create a vocabulary
+    titled "fruits," then we might add the terms "pineapple" "orange" and "grape".
