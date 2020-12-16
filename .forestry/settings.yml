@@ -5,13 +5,6 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: content/dictionary
-  label: Dictionary entries
-  create: documents
-  match: "**/*"
-  templates:
-  - dictionary-entry
-- type: directory
   path: content/blog
   label: Blog posts
   create: documents
@@ -19,14 +12,28 @@ sections:
   templates:
   - bog-post
 - type: directory
+  path: content/dictionary
+  label: Dictionary entries
+  create: documents
+  match: "**/*"
+  templates:
+  - dictionary-entry
+- type: directory
   path: content/squad
   label: Squad Members
   create: documents
   match: "**/*"
   templates:
   - squad-member
+- type: directory
+  path: content/vocabulary
+  label: Vocabulary collections
+  create: all
+  match: "**/*"
+  templates:
+  - vocabulary
 upload_dir: uploads
-public_path: "/uploads"
+public_path: "/src/assets/images/uploads"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"

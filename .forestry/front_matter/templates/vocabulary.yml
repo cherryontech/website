@@ -1,0 +1,19 @@
+---
+label: Vocabulary
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title of vocabulary
+  description: Give the vocabulary a title. For example, if you are creating a vocabulary
+    of fruits, call the vocabulary "Fruits".
+- name: terms
+  type: tag_list
+  default: []
+  label: Vocabulary Terms
+  description: Add terms to your vocabulary. For example, if we create a vocabulary
+    titled "fruits," then we might add the terms "pineapple" "orange" and "grape".
+pages:
+- content/vocabulary/roles.md

@@ -26,6 +26,18 @@ fields:
     required: false
   label: Cherry nickname
   description: Think spice girls :)
+- name: primary_role
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: vocabulary-collections
+      file: content/vocabulary/roles.md
+      path: terms
+  label: Primary role
 - name: memberImage
   type: file
   config:
@@ -104,7 +116,10 @@ fields:
       min: 
       max: 
       source:
-        type: simple
+        type: documents
+        section: vocabulary-collections
+        file: content/vocabulary/roles.md
+        path: terms
       options:
       - Designer
       - UX designer
