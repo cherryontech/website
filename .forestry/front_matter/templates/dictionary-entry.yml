@@ -2,7 +2,24 @@
 label: Dictionary entry
 hide_body: true
 fields:
-  - name: title
+- name: title
+  type: text
+  config:
+    required: true
+  label: Word/phrase to be defined
+  default: replaceme
+- name: definition
+  type: text
+  config:
+    required: false
+  label: Definition
+  description: If you believe there is <em>one</em> definition which readily explains
+    this word, add it here.
+  default: ''
+- name: sources
+  type: field_group_list
+  fields:
+  - name: sourceurl
     type: text
     config:
       required: true
@@ -13,341 +30,317 @@ fields:
     config:
       required: false
     label: Definition
-    description:
-      If you believe there is <em>one</em> definition which readily explains
+    description: If you believe there is <em>one</em> definition which readily explains
       this word, add it here.
-    default: ""
+    default: 
   - name: sources
     type: field_group_list
     fields:
-      - name: sourceurl
-        type: text
-        config:
-          required: true
-        label: Word/phrase to be defined
-        default: replaceme
-      - name: definition
-        type: text
-        config:
-          required: false
-        label: Definition
-        description:
-          If you believe there is <em>one</em> definition which readily explains
-          this word, add it here.
-        default:
-      - name: sources
-        type: field_group_list
-        fields:
-          - name: sourceurl
-            type: text
-            config:
-              required: false
-            label: Link to source
-            description: Add a citation if you have quoted anyone.
-            default: replace with with your own source link
-        config:
-          min:
-          max:
-          labelField:
-        label: Sources
-      - name: perspectives
-        type: field_group_list
-        fields:
-          - name: meaning
-            type: text
-            config:
-              required: false
-            label: Meaning
-            description:
-              This should be the &lt;meaning&gt; in the sentence, "As a &lt;role&gt;,
-              &lt;term&gt; means &lt;meaning&gt;."
-            default: replace with with your own meaning
-          - name: role
-            type: text
-            config:
-              required: false
-            label: Role
-            description:
-              This is the &lt;role&gt; in the sentence, "As a &lt;role&gt;, &lt;term&gt;
-              means &lt;meaning&gt;."
-            default: replace with with your own role
-        config:
-          min:
-          max:
-          labelField: role
-        label: Perspectives
+    - name: sourceurl
+      type: text
+      config:
+        required: false
+      label: Link to source
+      description: Add a citation if you have quoted anyone.
+      default: replace with with your own source link
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Sources
+  - name: perspectives
+    type: field_group_list
+    fields:
+    - name: meaning
+      type: text
+      config:
+        required: false
+      label: Meaning
+      description: This should be the &lt;meaning&gt; in the sentence, "As a &lt;role&gt;,
+        &lt;term&gt; means &lt;meaning&gt;."
+      default: replace with with your own meaning
+    - name: role
+      type: text
+      config:
+        required: false
+      label: Role
+      description: This is the &lt;role&gt; in the sentence, "As a &lt;role&gt;, &lt;term&gt;
+        means &lt;meaning&gt;."
+      default: replace with with your own role
+    config:
+      min: 
+      max: 
+      labelField: role
+    label: Perspectives
 pages:
-  - content/dictionary/.net.md
-  - content/dictionary/1-on-1.md
-  - content/dictionary/1.md
-  - content/dictionary/10x-developer.md
-  - content/dictionary/3-click-rule.md
-  - content/dictionary/32-bit.md
-  - content/dictionary/42.md
-  - content/dictionary/5-planes.md
-  - content/dictionary/60-30-10-rule.md
-  - content/dictionary/64-bit.md
-  - content/dictionary/80-20-rule.md
-  - content/dictionary/a-b-testing.md
-  - content/dictionary/accessibility-a11y.md
-  - content/dictionary/adaptive.md
-  - content/dictionary/aesthetic.md
-  - content/dictionary/affordance.md
-  - content/dictionary/agile.md
-  - content/dictionary/alfred.md
-  - content/dictionary/analytics.md
-  - content/dictionary/android.md
-  - content/dictionary/angular.md
-  - content/dictionary/api.md
-  - content/dictionary/app.md
-  - content/dictionary/application-programming-interface-api.md
-  - content/dictionary/argument.md
-  - content/dictionary/artificial-intelligence-ai.md
-  - content/dictionary/ascii-art.md
-  - content/dictionary/ascii.md
-  - content/dictionary/atomic-design.md
-  - content/dictionary/automated-testing.md
-  - content/dictionary/automation.md
-  - content/dictionary/avatar.md
-  - content/dictionary/backlog.md
-  - content/dictionary/bar.md
-  - content/dictionary/baz.md
-  - content/dictionary/behavior-driven-development.md
-  - content/dictionary/bitmap.md
-  - content/dictionary/blog.md
-  - content/dictionary/branch.md
-  - content/dictionary/branching.md
-  - content/dictionary/brand-book.md
-  - content/dictionary/breadcrumb.md
-  - content/dictionary/bug.md
-  - content/dictionary/burnout.md
-  - content/dictionary/c-level.md
-  - content/dictionary/c.md
-  - content/dictionary/cache.md
-  - content/dictionary/call-to-action-cta.md
-  - content/dictionary/callback-hell.md
-  - content/dictionary/card-sorting.md
-  - content/dictionary/cascading-style-sheets-css.md
-  - content/dictionary/case-study.md
-  - content/dictionary/catalina.md
-  - content/dictionary/chatbot.md
-  - content/dictionary/chief-executive-officer-ceo.md
-  - content/dictionary/chief-operations-officer-ceo.md
-  - content/dictionary/chief-technical-officer-cto.md
-  - content/dictionary/ci-cd.md
-  - content/dictionary/class.md
-  - content/dictionary/clickstream.md
-  - content/dictionary/color-contrast.md
-  - content/dictionary/color-wheel.md
-  - content/dictionary/command-line-application-cli.md
-  - content/dictionary/commit-history.md
-  - content/dictionary/commit.md
-  - content/dictionary/consistency.md
-  - content/dictionary/context-of-use-analysis.md
-  - content/dictionary/contribute.md
-  - content/dictionary/conversion-rate-1.md
-  - content/dictionary/conversion-rate.md
-  - content/dictionary/corporate-identity-guideline.md
-  - content/dictionary/crazy-8s.md
-  - content/dictionary/crm.md
-  - content/dictionary/css.md
-  - content/dictionary/customer-experience-cx.md
-  - content/dictionary/customer-journey-map-cjm.md
-  - content/dictionary/data-science.md
-  - content/dictionary/data-sets.md
-  - content/dictionary/database.md
-  - content/dictionary/design-debt.md
-  - content/dictionary/design-thinking.md
-  - content/dictionary/desktop.md
-  - content/dictionary/developer.md
-  - content/dictionary/devops.md
-  - content/dictionary/devsecops.md
-  - content/dictionary/diary-study.md
-  - content/dictionary/div.md
-  - content/dictionary/diversity-and-inclusion-d-i.md
-  - content/dictionary/diversity-equity-and-inclusion-dei.md
-  - content/dictionary/divitis.md
-  - content/dictionary/dots-per-inch-dpi.md
-  - content/dictionary/drop-dead-date.md
-  - content/dictionary/edge-case.md
-  - content/dictionary/em.md
-  - content/dictionary/empathy-map.md
-  - content/dictionary/end-to-end-test-e2e.md
-  - content/dictionary/end-user.md
-  - content/dictionary/end-users.md
-  - content/dictionary/engineering-manager.md
-  - content/dictionary/error-prevention.md
-  - content/dictionary/example-phrase.md
-  - content/dictionary/eye-tracking.md
-  - content/dictionary/f-shaped-pattern.md
-  - content/dictionary/feature-branch.md
-  - content/dictionary/feature.md
-  - content/dictionary/fishbone-diagram.md
-  - content/dictionary/fitts-law.md
-  - content/dictionary/flat-design.md
-  - content/dictionary/flowchart.md
-  - content/dictionary/fontface.md
-  - content/dictionary/foo.md
-  - content/dictionary/footer.md
-  - content/dictionary/gamification.md
-  - content/dictionary/general-data-protection-regulation-gdpr.md
-  - content/dictionary/gestalt-principles.md
-  - content/dictionary/git.md
-  - content/dictionary/github.md
-  - content/dictionary/gitlab.md
-  - content/dictionary/go-live.md
-  - content/dictionary/golden-ratio.md
-  - content/dictionary/grandboss.md
-  - content/dictionary/graphical-user-interface-gui.md
-  - content/dictionary/grid-system.md
-  - content/dictionary/grid.md
-  - content/dictionary/happy-path.md
-  - content/dictionary/hardware.md
-  - content/dictionary/head.md
-  - content/dictionary/header.md
-  - content/dictionary/heat-map.md
-  - content/dictionary/heat-maps.md
-  - content/dictionary/hero-page.md
-  - content/dictionary/heuristic-evaluation.md
-  - content/dictionary/homepage.md
-  - content/dictionary/human-computer-interaction.md
-  - content/dictionary/hybrid-app.md
-  - content/dictionary/hypertext-markup-language-html.md
-  - content/dictionary/ideation.md
-  - content/dictionary/information-architecture.md
-  - content/dictionary/integration-test.md
-  - content/dictionary/interaction-design.md
-  - content/dictionary/internationalization-i18n.md
-  - content/dictionary/ios.md
-  - content/dictionary/ip-address.md
-  - content/dictionary/issue.md
-  - content/dictionary/it-works-on-my-machine.md
-  - content/dictionary/iteration.md
-  - content/dictionary/jamstack.md
-  - content/dictionary/java.md
-  - content/dictionary/javascript.md
-  - content/dictionary/jenkins.md
-  - content/dictionary/jira.md
-  - content/dictionary/junior.md
-  - content/dictionary/kpi.md
-  - content/dictionary/landing-page-1.md
-  - content/dictionary/landing-page.md
-  - content/dictionary/lean-ux.md
-  - content/dictionary/leaner-style-sheets-less.md
-  - content/dictionary/level-of-effort-loe.md
-  - content/dictionary/linux.md
-  - content/dictionary/mac.md
-  - content/dictionary/machine-learning-ml.md
-  - content/dictionary/manual-qa.md
-  - content/dictionary/markup.md
-  - content/dictionary/material-design.md
-  - content/dictionary/mental-model.md
-  - content/dictionary/mentorship.md
-  - content/dictionary/microcopy.md
-  - content/dictionary/microservices.md
-  - content/dictionary/midlevel.md
-  - content/dictionary/migration.md
-  - content/dictionary/mindmap.md
-  - content/dictionary/mobile-development.md
-  - content/dictionary/mobile-web.md
-  - content/dictionary/mockup.md
-  - content/dictionary/mvp.md
-  - content/dictionary/n-1.md
-  - content/dictionary/nav.md
-  - content/dictionary/navigation.md
-  - content/dictionary/nix.md
-  - content/dictionary/nth.md
-  - content/dictionary/numeronym.md
-  - content/dictionary/onboarding.md
-  - content/dictionary/open-source-software-oss.md
-  - content/dictionary/pairing-development-pairing-programming.md
-  - content/dictionary/persona.md
-  - content/dictionary/personal-computer-pc.md
-  - content/dictionary/personal-improvement-plan-pip.md
-  - content/dictionary/picture-in-picture-pip.md
-  - content/dictionary/pixel.md
-  - content/dictionary/png.md
-  - content/dictionary/prod.md
-  - content/dictionary/product-manager-pm.md
-  - content/dictionary/project-manager-pm.md
-  - content/dictionary/prototype.md
-  - content/dictionary/pull-request-pr.md
-  - content/dictionary/quality-assurance-qa.md
-  - content/dictionary/random-access-memory-ram.md
-  - content/dictionary/raster-graphics.md
-  - content/dictionary/raw.md
-  - content/dictionary/react.md
-  - content/dictionary/refactoring.md
-  - content/dictionary/rem.md
-  - content/dictionary/replaceme.md
-  - content/dictionary/repository.md
-  - content/dictionary/responsive.md
-  - content/dictionary/ruby-on-rails.md
-  - content/dictionary/ruby.md
-  - content/dictionary/saas.md
-  - content/dictionary/sassy-css-scss.md
-  - content/dictionary/scalable-vector-graphic-svg.md
-  - content/dictionary/scrum.md
-  - content/dictionary/sdk.md
-  - content/dictionary/search-engine-optimization-seo.md
-  - content/dictionary/search-engine.md
-  - content/dictionary/select.md
-  - content/dictionary/semantic-html.md
-  - content/dictionary/senior.md
-  - content/dictionary/seo.md
-  - content/dictionary/site-map.md
-  - content/dictionary/sketching.md
-  - content/dictionary/skip-level.md
-  - content/dictionary/slack.md
-  - content/dictionary/software-as-a-service-saas.md
-  - content/dictionary/software-engineer-swe.md
-  - content/dictionary/splash-page.md
-  - content/dictionary/sponsorship.md
-  - content/dictionary/sprints.md
-  - content/dictionary/staging.md
-  - content/dictionary/sticker-driven-developer.md
-  - content/dictionary/story-points.md
-  - content/dictionary/storyboard.md
-  - content/dictionary/storybook.md
-  - content/dictionary/stream.md
-  - content/dictionary/svg.md
-  - content/dictionary/syntactically-awesome-style-sheets-sass.md
-  - content/dictionary/task-analysis.md
-  - content/dictionary/tech-squad.md
-  - content/dictionary/technical-debt-1.md
-  - content/dictionary/technical-debt.md
-  - content/dictionary/technical-lead.md
-  - content/dictionary/technical-writer.md
-  - content/dictionary/test-case.md
-  - content/dictionary/test-driven-development-tdd.md
-  - content/dictionary/tl-dr.md
-  - content/dictionary/trello-board.md
-  - content/dictionary/turing-complete.md
-  - content/dictionary/ubuntu.md
-  - content/dictionary/ui-element.md
-  - content/dictionary/ui-pattern.md
-  - content/dictionary/unit-test.md
-  - content/dictionary/unit-testing.md
-  - content/dictionary/unix.md
-  - content/dictionary/usability-testing.md
-  - content/dictionary/user-centered-design.md
-  - content/dictionary/user-engagement.md
-  - content/dictionary/user-experience-ux.md
-  - content/dictionary/user-flow.md
-  - content/dictionary/user-interface.md
-  - content/dictionary/user-journey-maps.md
-  - content/dictionary/user-research.md
-  - content/dictionary/user-scenario.md
-  - content/dictionary/user-stories.md
-  - content/dictionary/vector.md
-  - content/dictionary/version-control-system-vcs.md
-  - content/dictionary/vertical-rhythm.md
-  - content/dictionary/visibility-of-system-status.md
-  - content/dictionary/vlog.md
-  - content/dictionary/vue.md
-  - content/dictionary/waterfall-1.md
-  - content/dictionary/waterfall.md
-  - content/dictionary/webpack.md
-  - content/dictionary/white-space.md
-  - content/dictionary/whiteboard-interview.md
-  - content/dictionary/wireframe.md
+- content/dictionary/.net.md
+- content/dictionary/1-on-1.md
+- content/dictionary/1.md
+- content/dictionary/10x-developer.md
+- content/dictionary/3-click-rule.md
+- content/dictionary/32-bit.md
+- content/dictionary/42.md
+- content/dictionary/5-planes.md
+- content/dictionary/60-30-10-rule.md
+- content/dictionary/64-bit.md
+- content/dictionary/80-20-rule.md
+- content/dictionary/a-b-testing.md
+- content/dictionary/accessibility-a11y.md
+- content/dictionary/adaptive.md
+- content/dictionary/aesthetic.md
+- content/dictionary/affordance.md
+- content/dictionary/agile.md
+- content/dictionary/alfred.md
+- content/dictionary/analytics.md
+- content/dictionary/android.md
+- content/dictionary/angular.md
+- content/dictionary/app.md
+- content/dictionary/application-programming-interface-api.md
+- content/dictionary/argument.md
+- content/dictionary/artificial-intelligence-ai.md
+- content/dictionary/ascii-art.md
+- content/dictionary/ascii.md
+- content/dictionary/atomic-design.md
+- content/dictionary/automated-testing.md
+- content/dictionary/automation.md
+- content/dictionary/avatar.md
+- content/dictionary/backlog.md
+- content/dictionary/bar.md
+- content/dictionary/baz.md
+- content/dictionary/behavior-driven-development.md
+- content/dictionary/bitmap.md
+- content/dictionary/blog.md
+- content/dictionary/branch.md
+- content/dictionary/branching.md
+- content/dictionary/brand-book.md
+- content/dictionary/breadcrumb.md
+- content/dictionary/bug.md
+- content/dictionary/burnout.md
+- content/dictionary/c-level.md
+- content/dictionary/c.md
+- content/dictionary/cache.md
+- content/dictionary/call-to-action-cta.md
+- content/dictionary/callback-hell.md
+- content/dictionary/card-sorting.md
+- content/dictionary/cascading-style-sheets-css.md
+- content/dictionary/case-study.md
+- content/dictionary/catalina.md
+- content/dictionary/chatbot.md
+- content/dictionary/chief-executive-officer-ceo.md
+- content/dictionary/chief-operations-officer-ceo.md
+- content/dictionary/chief-technical-officer-cto.md
+- content/dictionary/ci-cd.md
+- content/dictionary/class.md
+- content/dictionary/clickstream.md
+- content/dictionary/color-contrast.md
+- content/dictionary/color-wheel.md
+- content/dictionary/command-line-application-cli.md
+- content/dictionary/commit-history.md
+- content/dictionary/commit.md
+- content/dictionary/consistency.md
+- content/dictionary/context-of-use-analysis.md
+- content/dictionary/contribute.md
+- content/dictionary/conversion-rate-1.md
+- content/dictionary/conversion-rate.md
+- content/dictionary/corporate-identity-guideline.md
+- content/dictionary/crazy-8s.md
+- content/dictionary/crm.md
+- content/dictionary/css.md
+- content/dictionary/customer-experience-cx.md
+- content/dictionary/customer-journey-map-cjm.md
+- content/dictionary/data-science.md
+- content/dictionary/data-sets.md
+- content/dictionary/database.md
+- content/dictionary/design-debt.md
+- content/dictionary/design-thinking.md
+- content/dictionary/desktop.md
+- content/dictionary/developer.md
+- content/dictionary/devops.md
+- content/dictionary/devsecops.md
+- content/dictionary/diary-study.md
+- content/dictionary/div.md
+- content/dictionary/diversity-and-inclusion-d-i.md
+- content/dictionary/diversity-equity-and-inclusion-dei.md
+- content/dictionary/divitis.md
+- content/dictionary/dots-per-inch-dpi.md
+- content/dictionary/drop-dead-date.md
+- content/dictionary/edge-case.md
+- content/dictionary/em.md
+- content/dictionary/empathy-map.md
+- content/dictionary/end-to-end-test-e2e.md
+- content/dictionary/end-user.md
+- content/dictionary/engineering-manager.md
+- content/dictionary/error-prevention.md
+- content/dictionary/example-phrase.md
+- content/dictionary/eye-tracking.md
+- content/dictionary/f-shaped-pattern.md
+- content/dictionary/feature-branch.md
+- content/dictionary/feature.md
+- content/dictionary/fishbone-diagram.md
+- content/dictionary/fitts-law.md
+- content/dictionary/flat-design.md
+- content/dictionary/flowchart.md
+- content/dictionary/fontface.md
+- content/dictionary/foo.md
+- content/dictionary/footer.md
+- content/dictionary/gamification.md
+- content/dictionary/general-data-protection-regulation-gdpr.md
+- content/dictionary/gestalt-principles.md
+- content/dictionary/git.md
+- content/dictionary/github.md
+- content/dictionary/gitlab.md
+- content/dictionary/go-live.md
+- content/dictionary/golden-ratio.md
+- content/dictionary/grandboss.md
+- content/dictionary/graphical-user-interface-gui.md
+- content/dictionary/grid-system.md
+- content/dictionary/grid.md
+- content/dictionary/happy-path.md
+- content/dictionary/hardware.md
+- content/dictionary/head.md
+- content/dictionary/header.md
+- content/dictionary/heat-map.md
+- content/dictionary/hero-page.md
+- content/dictionary/heuristic-evaluation.md
+- content/dictionary/homepage.md
+- content/dictionary/human-computer-interaction.md
+- content/dictionary/hybrid-app.md
+- content/dictionary/hypertext-markup-language-html.md
+- content/dictionary/ideation.md
+- content/dictionary/information-architecture.md
+- content/dictionary/integration-test.md
+- content/dictionary/interaction-design.md
+- content/dictionary/internationalization-i18n.md
+- content/dictionary/ios.md
+- content/dictionary/ip-address.md
+- content/dictionary/issue.md
+- content/dictionary/it-works-on-my-machine.md
+- content/dictionary/iteration.md
+- content/dictionary/jamstack.md
+- content/dictionary/java.md
+- content/dictionary/javascript.md
+- content/dictionary/jenkins.md
+- content/dictionary/jira.md
+- content/dictionary/junior.md
+- content/dictionary/kpi.md
+- content/dictionary/landing-page-1.md
+- content/dictionary/landing-page.md
+- content/dictionary/lean-ux.md
+- content/dictionary/leaner-style-sheets-less.md
+- content/dictionary/level-of-effort-loe.md
+- content/dictionary/linux.md
+- content/dictionary/mac.md
+- content/dictionary/machine-learning-ml.md
+- content/dictionary/manual-qa.md
+- content/dictionary/markup.md
+- content/dictionary/material-design.md
+- content/dictionary/mental-model.md
+- content/dictionary/mentorship.md
+- content/dictionary/microcopy.md
+- content/dictionary/microservices.md
+- content/dictionary/midlevel.md
+- content/dictionary/migration.md
+- content/dictionary/mindmap.md
+- content/dictionary/mobile-development.md
+- content/dictionary/mobile-web.md
+- content/dictionary/mockup.md
+- content/dictionary/mvp.md
+- content/dictionary/n-1.md
+- content/dictionary/nav.md
+- content/dictionary/navigation.md
+- content/dictionary/nix.md
+- content/dictionary/nth.md
+- content/dictionary/numeronym.md
+- content/dictionary/onboarding.md
+- content/dictionary/open-source-software-oss.md
+- content/dictionary/pairing-development-pairing-programming.md
+- content/dictionary/persona.md
+- content/dictionary/personal-computer-pc.md
+- content/dictionary/personal-improvement-plan-pip.md
+- content/dictionary/picture-in-picture-pip.md
+- content/dictionary/pixel.md
+- content/dictionary/png.md
+- content/dictionary/prod.md
+- content/dictionary/product-manager-pm.md
+- content/dictionary/project-manager-pm.md
+- content/dictionary/prototype.md
+- content/dictionary/pull-request-pr.md
+- content/dictionary/quality-assurance-qa.md
+- content/dictionary/random-access-memory-ram.md
+- content/dictionary/raster-graphics.md
+- content/dictionary/raw.md
+- content/dictionary/react.md
+- content/dictionary/refactoring.md
+- content/dictionary/rem.md
+- content/dictionary/replaceme.md
+- content/dictionary/repository.md
+- content/dictionary/responsive.md
+- content/dictionary/ruby-on-rails.md
+- content/dictionary/ruby.md
+- content/dictionary/saas.md
+- content/dictionary/sassy-css-scss.md
+- content/dictionary/scalable-vector-graphic-svg.md
+- content/dictionary/scrum.md
+- content/dictionary/sdk.md
+- content/dictionary/search-engine-optimization-seo.md
+- content/dictionary/search-engine.md
+- content/dictionary/select.md
+- content/dictionary/semantic-html.md
+- content/dictionary/senior.md
+- content/dictionary/seo.md
+- content/dictionary/site-map.md
+- content/dictionary/sketching.md
+- content/dictionary/skip-level.md
+- content/dictionary/slack.md
+- content/dictionary/software-as-a-service-saas.md
+- content/dictionary/software-engineer-swe.md
+- content/dictionary/splash-page.md
+- content/dictionary/sponsorship.md
+- content/dictionary/sprints.md
+- content/dictionary/staging.md
+- content/dictionary/sticker-driven-developer.md
+- content/dictionary/story-points.md
+- content/dictionary/storyboard.md
+- content/dictionary/storybook.md
+- content/dictionary/stream.md
+- content/dictionary/svg.md
+- content/dictionary/syntactically-awesome-style-sheets-sass.md
+- content/dictionary/task-analysis.md
+- content/dictionary/tech-squad.md
+- content/dictionary/technical-debt-1.md
+- content/dictionary/technical-debt.md
+- content/dictionary/technical-lead.md
+- content/dictionary/technical-writer.md
+- content/dictionary/test-case.md
+- content/dictionary/test-driven-development-tdd.md
+- content/dictionary/tl-dr.md
+- content/dictionary/trello-board.md
+- content/dictionary/turing-complete.md
+- content/dictionary/ubuntu.md
+- content/dictionary/ui-element.md
+- content/dictionary/ui-pattern.md
+- content/dictionary/unit-test.md
+- content/dictionary/unit-testing.md
+- content/dictionary/unix.md
+- content/dictionary/usability-testing.md
+- content/dictionary/user-centered-design.md
+- content/dictionary/user-engagement.md
+- content/dictionary/user-experience-ux.md
+- content/dictionary/user-flow.md
+- content/dictionary/user-interface.md
+- content/dictionary/user-journey-maps.md
+- content/dictionary/user-research.md
+- content/dictionary/user-scenario.md
+- content/dictionary/user-stories.md
+- content/dictionary/vector.md
+- content/dictionary/version-control-system-vcs.md
+- content/dictionary/vertical-rhythm.md
+- content/dictionary/visibility-of-system-status.md
+- content/dictionary/vlog.md
+- content/dictionary/vue.md
+- content/dictionary/waterfall-1.md
+- content/dictionary/waterfall.md
+- content/dictionary/webpack.md
+- content/dictionary/white-space.md
+- content/dictionary/whiteboard-interview.md
+- content/dictionary/wireframe.md
