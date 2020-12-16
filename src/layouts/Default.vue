@@ -1,21 +1,13 @@
 <template>
-  <div class="wrapper">
-    <div class="max-w-screen-md my-0 mx-auto px-5">
-      <header class="header">
-        <g-link to="/">
-          <g-image
-            width="50"
-            src="~/assets/images/squareLogoBgPinkMainGreen.png"
-            alt="cherry on tech logo"
-          />
-        </g-link>
-        <nav class="nav">
-          <g-link class="nav__link" to="/">Home</g-link>
-          <g-link class="nav__link" to="/about/">About</g-link>
-          <g-link class="nav__link" to="/dictionary/">Dictionary</g-link>
-        </nav>
-      </header>
-      <slot />
+  <div class="h-screen">
+    <div class="flex flex-col items-stretch justify-between h-full">
+      <Header />
+      <div class="flex-grow p-6">
+        <slot />
+      </div>
+      <div>
+        <Footer />
+      </div>
     </div>
   </div>
 </template>
@@ -28,22 +20,19 @@ query {
 }
 </static-query>
 
-<style>
-.wrapper {
-  background-color: #8878a5;
-  background-size: cover;
-  background-position: center top;
-}
+<script>
+import Header from "@/components/navigation/Header.vue";
+import Footer from "@/components/navigation/Footer.vue";
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
-}
+export default {
+  components: { Header, Footer },
+};
+</script>
 
-.nav__link {
-  margin-left: 20px;
+<style scoped>
+nav a.active--exact {
+  @apply bg-white;
+  @apply text-pink-500;
+  @apply rounded-lg;
 }
 </style>

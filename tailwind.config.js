@@ -14,4 +14,8 @@ module.exports = {
       }
     }
   },
+  variants: {
+    textColor: ['responsive', 'hover', 'active'],
+    backgroundColor: ['responsive', 'hover', 'active'],
+  }
 };

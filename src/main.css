@@ -3,3 +3,7 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+html {
+  @apply bg-purple-100;
+}
