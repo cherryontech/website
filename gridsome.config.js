@@ -31,7 +31,20 @@ module.exports = {
         },
       },
     },
-        {
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Blog',
+        baseDir: "./src/assets/content/",
+        path: 'blog/**/*.md',
+        resolveAbsolutePaths: true,
+        remark: {
+          externalLinksTarget: "_blank",
+          externalLinksRel: ["nofollow", "noopener", "noreferrer"]
+        }
+      }
+    },
+    {
       use: "@gridsome/source-filesystem",
       options: {
         path: "content/squad/**/*.md",

@@ -51,6 +51,21 @@
       <!-- <div class="bg-pink-300">
         Rest of page down here
       </div> -->
+
+      <!-- Just trying out the other blog starter -->
+    <!-- <div v-for="(post, index) in $page.posts.edges" :key="index">
+      <p>{{ post.node.hero_image }}</p>
+      <g-image
+        :src="post.node.hero_image"
+        :alt="post.node.title"
+        width="300"
+        height="300"
+        quality="75"
+      >
+      </g-image>
+    </div> -->
+    <BlogList :posts="$page.posts.edges" />
+      <!-- End blog starter -->
     </main>
     <Footer />
   </div>
@@ -61,9 +76,10 @@ import BaseButton from "@/components/controls/base/BaseButton.vue";
 import Dialog from "@/components/controls/dialogs/Dialog.vue";
 import Header from "@/components/navigation/Header.vue";
 import Footer from "@/components/navigation/Footer.vue";
+import BlogList from "~/components/BlogList.vue";
 
 export default {
-  components: { BaseButton, Dialog, Header, Footer },
+  components: { BaseButton, Dialog, Header, Footer, BlogList },
   metaInfo: {
     title: "Coming soon! Cherry on Tech",
   },
@@ -79,3 +95,21 @@ export default {
   },
 };
 </script>
+
+<page-query>
+    query getAllBlogData {
+        posts: allBlog {
+            edges {
+                node {
+                    id
+                    title
+                    path
+                    author
+                    date  (format: "MMMM DD YYYY")
+                    hero_image (width:1000, quality: 75)
+                    content
+                }
+            }
+        }
+    }
+</page-query>

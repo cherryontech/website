@@ -1,0 +1,12 @@
+{
+    "title": "Cherry on Tech",
+    "description": "Website for the tech squad and organization Cherry on Tech",
+    "contact": {
+      "email": "cherryontech@gmail.com",
+      "twitter_handle": "cherryontech",
+      "github_handle": "cherryontech"
+    },
+    "primary_color": "#EB1562",
+    "repository_url": "https://github.com/cherryontech/website"
+  }
+  
