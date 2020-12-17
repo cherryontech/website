@@ -26,6 +26,8 @@ contact_links:
   instagram_name: julietafb
   twitter_name: julietafb
   github_name: julietafb
+primary_role: designer
+links: []
 
 ---
-Julieth is a curious and courageous UX/UI designer, that leverages conceptual thinking, researches and critical reason to bring a unique design perspective on the overall user experience. She loves to eat donuts, ride her scooter and lift heavy. 
+Julieth is a curious and courageous UX/UI designer, that leverages conceptual thinking, researches and critical reason to bring a unique design perspective on the overall user experience. She loves to eat donuts, ride her scooter and lift heavy.
