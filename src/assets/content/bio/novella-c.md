@@ -54,7 +54,7 @@ links:
   link_tags:
   - onething
   - cows
-primary_role: front-end developer
+primary_role: ''
 
 ---
-Novella is a frontend software engineer who specializes in VueJS. When she's not off bedazzling the web, she enjoys puppies, desserts, and punny jokes.
+Novella is a frontend software engineer who specializes in VueJS. When she's not off bedazzling the web, she enjoys puppies, desserts, and punny jokes. 
