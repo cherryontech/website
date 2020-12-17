@@ -23,4 +23,4 @@ contact_links:
   portfolio_url: ''
 
 ---
-Allie is passionate about building quality software products that are practical, creative, and fun to use. She believes in working collaboratively, cross-functionally, and with empathy. In her free time, Allie loves to play games inside, outside, online, and table-top.
+Allie is passionate about building quality software products that are practical, creative, and fun to use. She believes in working collaboratively, cross-functionally, and with empathy. In her free time, Allie loves to play games inside, outside, online, and table-top. 
