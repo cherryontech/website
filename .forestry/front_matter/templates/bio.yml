@@ -145,10 +145,10 @@ fields:
     labelField: link_title
   label: Links
 pages:
-- src/assets/content/bio/allie-quintano.md
 - src/assets/content/bio/adryenne-w.md
+- src/assets/content/bio/allie-quintano.md
 - src/assets/content/bio/gabi.md
 - src/assets/content/bio/julieth-fajardo.md
 - src/assets/content/bio/nia-lay.md
 - src/assets/content/bio/novella-c.md
-- src/assets/content/bio/yoonie-lee.md 
+- src/assets/content/bio/yoonie-lee.md
