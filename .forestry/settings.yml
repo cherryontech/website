@@ -11,6 +11,13 @@ sections:
   match: "**/*"
   templates:
   - blog-post
+- type: directory
+  path: src/assets/content/bio
+  label: Bios
+  create: documents
+  match: "**/*"
+  templates:
+  - bio
 - type: document
   path: src/assets/content/data/authors.json
   label: Authors List

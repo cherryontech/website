@@ -65,6 +65,7 @@
       </g-image>
     </div> -->
     <BlogList :posts="$page.posts.edges" />
+    <BioList :posts="$page.bios.edges" />
       <!-- End blog starter -->
     </main>
     <Footer />
@@ -77,9 +78,10 @@ import Dialog from "@/components/controls/dialogs/Dialog.vue";
 import Header from "@/components/navigation/Header.vue";
 import Footer from "@/components/navigation/Footer.vue";
 import BlogList from "~/components/BlogList.vue";
+import BioList from "~/components/BioList.vue";
 
 export default {
-  components: { BaseButton, Dialog, Header, Footer, BlogList },
+  components: { BaseButton, Dialog, Header, Footer, BlogList, BioList },
   metaInfo: {
     title: "Coming soon! Cherry on Tech",
   },
@@ -97,19 +99,29 @@ export default {
 </script>
 
 <page-query>
-    query getAllBlogData {
-        posts: allBlog {
-            edges {
-                node {
-                    id
-                    title
-                    path
-                    author
-                    date  (format: "MMMM DD YYYY")
-                    hero_image (width:1000, quality: 75)
-                    content
-                }
-            }
+  query {
+    posts: allBlog {
+      edges {
+        node {
+          id
+          title
+          path
+          author
+          date  (format: "MMMM DD YYYY")
+          hero_image (width:1000, quality: 75)
+          content
         }
+      }
     }
+    bios: allBio {
+      edges {
+        node {
+          title
+          path
+          content
+          memberImage
+        }
+      }
+    }
+  }
 </page-query>

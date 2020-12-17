@@ -48,6 +48,19 @@ module.exports = {
       }
     },
     {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Bio',
+        baseDir: "./src/assets/content/",
+        path: 'bio/**/*.md',
+        resolveAbsolutePaths: true,
+        remark: {
+          externalLinksTarget: "_blank",
+          externalLinksRel: ["nofollow", "noopener", "noreferrer"]
+        }
+      }
+    },
+    {
       use: "@gridsome/source-filesystem",
       options: {
         path: "content/squad/**/*.md",

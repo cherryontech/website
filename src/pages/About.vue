@@ -2,7 +2,18 @@
   <Layout>
     <h1>About us</h1>
     <div class="grid md:grid-cols-3 md:gap-8">
-      <div v-for="(member, index) in $page.squadposts.edges" :key="index">
+      <div v-for="(member, index) in $page.bios.edges" :key="index">
+        <div class="w-full border-4 border-pink-600 h-26">
+            <g-image 
+              v-if="member.node.memberImage"
+              :src="member.node.memberImage" 
+              :alt="member.node.title" 
+              class="object-cover h-full"
+              width="300" 
+              height="300"
+              quality="75">
+            </g-image>
+        </div>
         {{ member.node.title }}
       </div>
     </div>
@@ -10,8 +21,9 @@
 </template>
 
 <page-query>
-query Squadposts {
-  squadposts: allSquadpost(
+query 
+{
+  bios: allBio(
     filter: { 
       draft: { 
         eq: false 
@@ -19,36 +31,13 @@ query Squadposts {
     }, 
     sortBy: "title", 
     order: ASC 
-  ) {
-    totalCount
+  ){
     edges {
       node {
-        draft
         title
-        pronouns
-        cherryNickname
-        memberImage
-        contact_links {
-          linkedin_url
-          medium_name
-          dribble_name
-          instagram_name
-          twitter_name
-          github_name
-          portfolio_url
-        }
-        links {
-          link_title
-          link_description
-          link_url
-          link_image
-          link_role
-          link_tags
-        }
         path
-        fileInfo {
-          path
-        }
+        content
+        memberImage
       }
     }
   }

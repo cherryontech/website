@@ -1,5 +1,5 @@
 {
-  "description": "<p>This blog was created using <a href=\"https://forestry.io/\" title=\"Forestry Link\">Forestry</a> &amp; <a href=\"https://gridsome.org/\" title=\"Gridsome Link\">Gridsome</a></p>",
+  "description": "<p>This website was created using <a href=\"https://forestry.io/\" title=\"Forestry Link\">Forestry</a> &amp; <a href=\"https://gridsome.org/\" title=\"Gridsome Link\">Gridsome</a></p>",
   "cta": "<p>You can follow our progress at <a href=\"https://cherryon.tech\" title=\"Cherry on Tech website\">our website</a>, and you can <a href=\"https://github.com/cherryontech/website\" title=\"CoT website\">fork the repository</a>.</p>",
   "contact": {
     "email": "cherryontech@gmail.com",
