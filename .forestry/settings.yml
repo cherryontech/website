@@ -36,6 +36,10 @@ sections:
   - squad-member
 - type: heading
   label: Taxonomy
+- type: document
+  path: src/assets/content/vocabulary/roles.md
+  label: Roles
+  match: "**/*"
 - type: directory
   path: content/vocabulary
   label: Vocabulary collections
