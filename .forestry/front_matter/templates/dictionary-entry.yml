@@ -72,6 +72,9 @@ fields:
       max: 
       labelField: role
     label: Perspectives
+  config:
+    labelField: sourceurl
+  label: Sources
 pages:
 - content/dictionary/.net.md
 - content/dictionary/1-on-1.md
