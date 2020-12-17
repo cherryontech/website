@@ -37,7 +37,7 @@ sections:
 - type: heading
   label: Taxonomy
 - type: directory
-  path: content/vocabulary
+  path: src/assets/content/vocabulary
   label: Vocabulary collections
   create: all
   match: "**/*"
