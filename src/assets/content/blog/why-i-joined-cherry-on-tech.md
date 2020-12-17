@@ -5,9 +5,10 @@ tags:
 - inspiration
 draft: true
 title: Why Found a Tech Squad?
-datePublished: 2020-08-23T04:00:00Z
+datePublished: '2020-08-23T04:00:00.000+00:00'
 authors:
-- content/squad/novella-c.md
+- src/assets/content/bio/novella-c.md
+hero_image: "/src/assets/content/images/ren-ran-bBiuSdck8tU-unsplash.jpg"
 
 ---
 ## **Welcome!**
