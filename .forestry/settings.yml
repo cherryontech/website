@@ -34,6 +34,8 @@ sections:
   match: "**/*"
   templates:
   - squad-member
+- type: heading
+  label: Taxonomy
 - type: directory
   path: content/vocabulary
   label: Vocabulary collections
