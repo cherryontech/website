@@ -4,7 +4,7 @@ title: Nia Lay
 pronouns: she/her
 cherryNickname: Cherry Cola
 cherryBirthDay: '2020-12-16T05:00:00.000+00:00'
-memberImage: "/src/assets/content/images/tortillapup.jpg"
+memberImage: "/src/assets/content/images/nia.png"
 portfolioUrl: ''
 githubName: NiaCLay
 twitterHandle: ''
@@ -29,4 +29,3 @@ primary_role: ''
 links: []
 
 ---
- 
