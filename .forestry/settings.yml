@@ -52,9 +52,6 @@ sections:
   path: src/assets/content/data/info.json
   label: Info Page
 - type: document
-  path: src/assets/content/data/authors.json
-  label: Authors List
-- type: document
   path: src/assets/content/data/config.json
   label: Site Config
 upload_dir: src/assets/content/images
