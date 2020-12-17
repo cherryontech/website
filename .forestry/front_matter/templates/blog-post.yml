@@ -29,7 +29,3 @@ fields:
   type: tag_list
   default: []
   label: Tags
-pages:
-- src/assets/content/blog/an-essay-on-walking.md
-- src/assets/content/blog/ne-te-quaesiveris-extra.md
-- src/assets/content/blog/on-the-geneology-of-morals.md
