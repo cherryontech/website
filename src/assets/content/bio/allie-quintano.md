@@ -3,7 +3,7 @@ title: Allie Quintano
 pronouns: she/her
 cherryNickname: Cheerry
 cherryBirthDay: '2020-07-22T04:00:00.000+00:00'
-memberImage: ''
+memberImage: "/src/assets/content/images/allie.png"
 portfolioUrl: ''
 githubName: alliequintano
 twitterHandle: alliequintano
@@ -21,6 +21,8 @@ contact_links:
   twitter_name: alliequintano
   github_name: alliequintano
   portfolio_url: ''
+primary_role: ''
+links: []
 
 ---
-Allie is passionate about building quality software products that are practical, creative, and fun to use. She believes in working collaboratively, cross-functionally, and with empathy. In her free time, Allie loves to play games inside, outside, online, and table-top. 
+Allie is passionate about building quality software products that are practical, creative, and fun to use. She believes in working collaboratively, cross-functionally, and with empathy. In her free time, Allie loves to play games inside, outside, online, and table-top.
