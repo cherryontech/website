@@ -20,7 +20,7 @@ contact_links:
   twitter_name: dreamy26_
   github_name: dreamy26
   portfolio_url: ''
-primary_role: ''
+primary_role: back-end developer
 links: []
 
 ---
