@@ -3,7 +3,7 @@ title: Adryenne W.
 pronouns: she/her
 cherryNickname: Fuji Cherry-Picker
 cherryBirthDay: '2020-10-26T04:00:00.000+00:00'
-memberImage: ''
+memberImage: "/src/assets/content/images/screen-shot-2020-12-15-at-6-53-57-pm.png"
 portfolioUrl: ''
 githubName: dreamy26
 twitterHandle: dreamy26_
@@ -20,6 +20,8 @@ contact_links:
   twitter_name: dreamy26_
   github_name: dreamy26
   portfolio_url: ''
+primary_role: ''
+links: []
 
 ---
 Adryenne is a backend developer that codes in C# when not behind the scenes you can find her roller skating at the rink, watching cartoons, eating dessert and evolving creatively.
