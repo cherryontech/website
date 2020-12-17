@@ -4,29 +4,28 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
-- name: author
-  type: select
-  default: ''
+  label: Title
+- name: draft
+  type: boolean
+  label: Draft Status
+  default: true
+- name: authors
+  type: list
   config:
-    required: true
-    options: []
+    use_select: true
+    min: 
+    max: 
     source:
-      type: documents
-      section: authors-list
-      file: src/assets/content/data/authors.json
-      path: authors
-  label: Author
-  description: Choose author, to add a new author go to the Authors List file
+      type: pages
+      section: bios
+  label: Author(s)
 - type: datetime
   name: date
-  label: date
+  label: Date
 - type: file
   name: hero_image
-  label: hero_image
-pages:
-- src/assets/content/blog/an-essay-on-walking.md
-- src/assets/content/blog/ne-te-quaesiveris-extra.md
-- src/assets/content/blog/on-the-geneology-of-morals.md
-- src/assets/content/blog/song-of-myself.md
-- src/assets/content/blog/sunflower-sutra.md
+  label: Hero Image
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags

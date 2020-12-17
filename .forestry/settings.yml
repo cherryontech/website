@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Content
 - type: directory
   path: src/assets/content/blog
   label: Blog Posts
@@ -11,17 +13,13 @@ sections:
   match: "**/*"
   templates:
   - blog-post
-- type: document
-  path: src/assets/content/data/authors.json
-  label: Authors List
-- type: document
-  path: src/assets/content/data/info.json
-  label: Info Page
-- type: heading
-  label: Config
-- type: document
-  path: src/assets/content/data/config.json
-  label: Site Config
+- type: directory
+  path: src/assets/content/bio
+  label: Bios
+  create: documents
+  match: "**/*"
+  templates:
+  - bio
 - type: directory
   path: content/dictionary
   label: Dictionary entries
@@ -29,20 +27,26 @@ sections:
   match: "**/*"
   templates:
   - dictionary-entry
+- type: heading
+  label: Taxonomy
 - type: directory
-  path: content/squad
-  label: Squad Members
-  create: documents
-  match: "**/*"
-  templates:
-  - squad-member
-- type: directory
-  path: content/vocabulary
-  label: Vocabulary collections
+  path: src/assets/content/vocabulary
+  label: All Vocabularies
   create: all
   match: "**/*"
   templates:
   - vocabulary
+- type: document
+  path: src/assets/content/vocabulary/roles.md
+  label: Roles
+- type: heading
+  label: Config
+- type: document
+  path: src/assets/content/data/info.json
+  label: Info Page
+- type: document
+  path: src/assets/content/data/config.json
+  label: Site Config
 upload_dir: src/assets/content/images
 public_path: "/src/assets/content/images"
 front_matter_path: ''

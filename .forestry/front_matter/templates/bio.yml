@@ -1,0 +1,155 @@
+---
+label: Bio
+hide_body: false
+fields:
+- name: draft
+  type: boolean
+  label: Draft
+  description: If the draft status is ON, then this content will NOT appear on the
+    website.
+- name: title
+  type: text
+  config:
+    required: false
+  label: Member name
+  description: This field will be user-facing.
+- name: pronouns
+  type: text
+  config:
+    required: false
+  label: Pronouns
+  description: Pronouns are often written in the format pronoun/possessive (e.g. she/her).
+    Please use whatever best identifies you!
+- name: cherryNickname
+  type: text
+  config:
+    required: false
+  label: Cherry nickname
+  description: Think spice girls :)
+- name: primary_role
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: vocabulary-collections
+      file: src/assets/content/vocabulary/roles.md
+      path: terms
+  label: Primary role
+- name: memberImage
+  type: file
+  config:
+    maxSize: 64
+  label: Member Image
+  description: 'Upload an image to use on the members bio.  '
+- name: contact_links
+  type: field_group
+  config: {}
+  fields:
+  - name: linkedin_url
+    type: text
+    config:
+      required: false
+    label: LinkedIn URL
+  - name: medium_name
+    type: text
+    config:
+      required: false
+    label: Medium name
+  - name: dribble_name
+    type: text
+    config:
+      required: false
+    label: Dribble name
+  - name: instagram_name
+    type: text
+    config:
+      required: false
+    label: Instagram handle
+  - name: twitter_name
+    type: text
+    config:
+      required: false
+    label: Twitter handle
+  - name: github_name
+    type: text
+    config:
+      required: false
+    label: Github username
+  - name: portfolio_url
+    type: text
+    config:
+      required: false
+    label: Personal site/portfolio URL
+  label: Contact Links
+- name: links
+  type: field_group_list
+  fields:
+  - name: link_title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: link_description
+    type: text
+    config:
+      required: false
+    label: Description
+  - name: link_url
+    type: text
+    config:
+      required: false
+    label: URL
+    description: Please provide the absolute URL (e.g. https://example.com/nice-example)
+  - name: link_image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+    default: "/uploads/img_0254.jpg"
+  - name: link_role
+    type: list
+    config:
+      use_select: true
+      min: 
+      max: 
+      source:
+        type: documents
+        section: vocabulary-collections
+        file: content/vocabulary/roles.md
+        path: terms
+      options:
+      - Designer
+      - UX designer
+      - UI designer
+      - Front-end developer
+      - Back-end developer
+      - Data analyst
+      - QA engineer
+      - Project manager
+      - Product manager
+      - SEO
+      - Social media manager
+      - DevOps
+    label: Role
+  - name: link_tags
+    type: tag_list
+    default: []
+    label: Tags
+    description: Tag this link with the technologies or concepts used.
+  config:
+    min: 
+    max: 
+    labelField: link_title
+  label: Links
+pages:
+- src/assets/content/bio/adryenne-w.md
+- src/assets/content/bio/allie-quintano.md
+- src/assets/content/bio/flor-marshall.md
+- src/assets/content/bio/gabi.md
+- src/assets/content/bio/julieth-fajardo.md
+- src/assets/content/bio/nia-lay.md
+- src/assets/content/bio/novella-c.md
+- src/assets/content/bio/yoonie-lee.md

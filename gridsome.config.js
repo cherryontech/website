@@ -48,24 +48,18 @@ module.exports = {
       }
     },
     {
-      use: "@gridsome/source-filesystem",
+      use: '@gridsome/source-filesystem',
       options: {
-        path: "content/squad/**/*.md",
-        typeName: "Squadpost",
-        route: "squad/:title",
+        typeName: 'Bio',
+        baseDir: "./src/assets/content/",
+        path: 'bio/**/*.md',
+        resolveAbsolutePaths: true,
         remark: {
-          // remark options
-          plugins: [
-            [
-              "@noxify/gridsome-plugin-remark-embed",
-              {
-                enabledProviders: ["Youtube", "Twitter", "Gist"],
-              },
-            ],
-          ],
-        },
-      },
-    },
+          externalLinksTarget: "_blank",
+          externalLinksRel: ["nofollow", "noopener", "noreferrer"]
+        }
+      }
+    }
   ],
   css: {
     loaderOptions: {

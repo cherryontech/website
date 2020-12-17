@@ -1,25 +1,29 @@
 <template>
   <Layout>
     <h1>About us</h1>
-    <div class="grid md:grid-cols-3 md:gap-8">
-      <div v-for="(member, index) in $page.squadposts.edges" :key="index">
-        <g-image :src="member.node.memberImage" :alt="member.node.title" />
-        {{ member.node.memberImage }}
+    <div class="flex flex-wrap overflow-hidden sm:-mx-2">
+      <div v-for="(member, index) in $page.bios.edges" :key="index" class="flex flex-col w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:w-1/3">
+        <div class="h-40 border-4 border-pink-600">
+            <g-image 
+              v-if="member.node.memberImage"
+              :src="member.node.memberImage" 
+              :alt="member.node.title" 
+              class="object-contain h-full m-auto"
+              width="300" 
+              height="300"
+              quality="75">
+            </g-image>
+        </div>
+        {{ member.node.title }}
       </div>
-    </div>
-    <div>
-      <g-image
-        width="100"
-        src="~/assets/images/uploads/tortillapup.jpg"
-        alt="cherry on tech logo"
-      />
     </div>
   </Layout>
 </template>
 
 <page-query>
-query Squadposts {
-  squadposts: allSquadpost(
+query 
+{
+  bios: allBio(
     filter: { 
       draft: { 
         eq: false 
@@ -27,36 +31,13 @@ query Squadposts {
     }, 
     sortBy: "title", 
     order: ASC 
-  ) {
-    totalCount
+  ){
     edges {
       node {
-        draft
         title
-        pronouns
-        cherryNickname
-        memberImage
-        contact_links {
-          linkedin_url
-          medium_name
-          dribble_name
-          instagram_name
-          twitter_name
-          github_name
-          portfolio_url
-        }
-        links {
-          link_title
-          link_description
-          link_url
-          link_image
-          link_role
-          link_tags
-        }
         path
-        fileInfo {
-          path
-        }
+        content
+        memberImage
       }
     }
   }
@@ -67,6 +48,6 @@ query Squadposts {
 export default {
   metaInfo: {
     title: "About us",
-  },
+  }
 };
 </script>
