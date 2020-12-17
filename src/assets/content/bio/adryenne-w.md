@@ -22,4 +22,4 @@ contact_links:
   portfolio_url: ''
 
 ---
-Adryenne is a backend developer that codes in C# when not behind the scenes you can find her roller skating at the rink, watching cartoons, eating dessert and evolving creatively .
+Adryenne is a backend developer that codes in C# when not behind the scenes you can find her roller skating at the rink, watching cartoons, eating dessert and evolving creatively.
