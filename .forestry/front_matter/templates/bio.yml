@@ -35,7 +35,7 @@ fields:
     source:
       type: documents
       section: vocabulary-collections
-      file: content/vocabulary/roles.md
+      file: src/assets/content/vocabulary/roles.md
       path: terms
   label: Primary role
 - name: memberImage
