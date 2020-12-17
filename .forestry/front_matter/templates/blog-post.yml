@@ -12,9 +12,9 @@ fields:
     required: true
     options: []
     source:
-      type: documents
-      section: authors-list
-      file: src/assets/content/data/authors.json
+      type: pages
+      section: bios
+      file: 
       path: authors
   label: Author
   description: Choose author, to add a new author go to the Authors List file
