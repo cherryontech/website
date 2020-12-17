@@ -1,6 +1,7 @@
 ---
 label: Vocabulary
 hide_body: true
+display_field: title
 fields:
 - name: title
   type: text
@@ -15,5 +16,3 @@ fields:
   label: Vocabulary Terms
   description: Add terms to your vocabulary. For example, if we create a vocabulary
     titled "fruits," then we might add the terms "pineapple" "orange" and "grape".
-pages:
-- content/vocabulary/roles.md
