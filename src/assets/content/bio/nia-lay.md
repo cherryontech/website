@@ -25,7 +25,7 @@ contact_links:
   instagram_name: ''
   twitter_name: ''
   github_name: NiaCLay
-primary_role: ''
+primary_role: QA engineer
 links: []
 
 ---
