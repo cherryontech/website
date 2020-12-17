@@ -1,5 +1,5 @@
 ---
-primary_role: ''
+primary_role: front-end developer
 draft: false
 title: Flor Marshall
 pronouns: she/her
