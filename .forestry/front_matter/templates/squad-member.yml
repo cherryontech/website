@@ -144,10 +144,3 @@ fields:
     max: 
     labelField: link_title
   label: Links
-pages:
-- content/squad/adryenne-w.md
-- content/squad/allie-quintano.md
-- content/squad/julieth-fajardo.md
-- content/squad/nia-lay.md
-- content/squad/novella-c.md
-- content/squad/yoonie-lee.md
