@@ -48,13 +48,6 @@ query
 export default {
   metaInfo: {
     title: "About us",
-  },
-  computed: {
-    publishedMembers() {
-      return this.$page.squadposts.edges.filter((entry) => {
-        return entry.node.draft === false;
-      });
-    },
-  },
+  }
 };
 </script>

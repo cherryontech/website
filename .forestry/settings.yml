@@ -27,13 +27,6 @@ sections:
   match: "**/*"
   templates:
   - dictionary-entry
-- type: directory
-  path: content/squad
-  label: Squad Members
-  create: documents
-  match: "**/*"
-  templates:
-  - squad-member
 - type: heading
   label: Taxonomy
 - type: directory
