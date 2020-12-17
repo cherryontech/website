@@ -21,7 +21,7 @@ contact_links:
   twitter_name: alliequintano
   github_name: alliequintano
   portfolio_url: ''
-primary_role: ''
+primary_role: product manager
 links: []
 
 ---
