@@ -37,7 +37,7 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        typeName: 'Blog',
+        typeName: 'Blogpost',
         baseDir: "./src/assets/content/",
         path: 'blog/**/*.md',
         resolveAbsolutePaths: true,

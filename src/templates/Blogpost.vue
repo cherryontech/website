@@ -1,17 +1,18 @@
 <template>
-    <Layout page="blog">
+    <Layout>
          <article class="blog">
             <figure class="blog__hero">
-                <g-image :src="$page.post.hero_image" :alt="$page.post.title"></g-image>
+                <g-image :src="$page.blogpost.hero_image" :alt="$page.blogpost.title"></g-image>
             </figure>
             <div class="blog__info" >
-            <h1>{{ $page.post.title }}</h1>
-            <h3>{{ $page.post.date }}</h3>
+            <h1>{{ $page.blogpost.title }}</h1>
+            <h3>{{ $page.blogpost.date }}</h3>
             </div>
-            <div class="blog__body" v-html="$page.post.content"></div>
+            <div class="blog__body" v-html="$page.blogpost.content"></div>
             <div class="blog__footer">
-                <h2>Written By: {{ $page.post.author }}</h2>
+                <!-- <h2>Written By: <a v-for="(author, index) in $page.blogpost.authors" :src="`~${author}`" :key="index">Person {{ index }}</a></h2> -->
                 <g-link :to="nextBlogPath">
+                    Read next blog post 
                     <svg xmlns="http://www.w3.org/2000/svg"  version="1.1" x="0px" y="0px" viewBox="0 0 26 26" enableBackground="new 0 0 26 26" >
                         <path d="M23.021,12.294l-8.714-8.715l-1.414,1.414l7.007,7.008H2.687v2h17.213l-7.007,7.006l1.414,1.414l8.714-8.713  C23.411,13.317,23.411,12.685,23.021,12.294z"/>
                     </svg>
@@ -25,14 +26,14 @@
     export default {
         metaInfo() {
             return {
-                title: this.$page.post.title
+                title: this.$page.blogpost.title
             }
         }, 
         computed: {
             nextBlogPath: function() {
                 const allBlogs = this.$page.all.edges
                 const firstBlogPath = allBlogs[0].node.path
-                const currentBlog = allBlogs.filter(node => node.node.title === this.$page.post.title)
+                const currentBlog = allBlogs.filter(node => node.node.title === this.$page.blogpost.title)
                 function isNull(item) {
                     return item == null || item == undefined
                 }
@@ -44,14 +45,13 @@
 
 <page-query>
 query getPostData ($path: String!) {
-    post: blog(path: $path) {
+    blogpost: blogpost(path: $path) {
         title
-        date (format: "MMMM DD YYYY")
-        author
         content
+        authors
         hero_image (quality: 80)
     }
-    all: allBlog {
+    all: allBlogpost {
         edges {
             node {
                 path
