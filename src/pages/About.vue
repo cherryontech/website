@@ -19,7 +19,7 @@
           >
           </g-image>
           <h3 class="mt-10 text-2xl font-bold">{{ member.node.title }}</h3>
-          <p class="mt-1 text-xl">{{ member.node.primary_role }}</p>
+          <p class="mt-1 text-xl capitalize">{{ member.node.primary_role }}</p>
           <p class="mb-3">{{ member.node.pronouns }}</p>
           <div v-html="member.node.content" />
           <p class="mt-6 font-bold">
