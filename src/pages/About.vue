@@ -2,7 +2,7 @@
   <Layout>
     <h1>About us</h1>
     <div class="grid max-w-screen-lg m-auto md:grid-cols-3 md:gap-8">
-      <div
+      <article
         v-for="(member, index) in $page.bios.edges"
         :key="index"
         class="flex flex-col justify-between w-full max-w-sm p-6 border rounded border-grey-300"
@@ -16,18 +16,19 @@
             width="300"
             height="300"
             quality="75"
+          />
+          <g-link :to="member.node.path"
+            ><h3 class="mt-10 text-2xl font-bold">
+              {{ member.node.title }}
+            </h3></g-link
           >
-          </g-image>
-          <h3 class="mt-10 text-2xl font-bold">{{ member.node.title }}</h3>
           <p class="mt-1 text-xl capitalize">{{ member.node.primary_role }}</p>
           <p class="mb-3">{{ member.node.pronouns }}</p>
-          <div v-html="member.node.content" />
+          <p>{{ member.node.short_intro }}</p>
           <p class="mt-6 font-bold">
             Tech squad:
             {{
-              member.node.squad_name
-                ? member.node.squade_name
-                : "Cherry on Tech"
+              member.node.squad_name ? member.node.squad_name : "Cherry on Tech"
             }}
           </p>
         </div>
@@ -37,7 +38,7 @@
           :href="member.node.contact_links.portfolio_url"
           >site</a
         >
-      </div>
+      </article>
     </div>
   </Layout>
 </template>
@@ -45,7 +46,7 @@
 <page-query>
 query 
 {
-  bios: allBio(
+  bios: allBiopost(
     filter: { 
       draft: { 
         eq: false 
@@ -60,8 +61,9 @@ query
         path
         pronouns
         primary_role
-        content
         memberImage
+        squad_name
+        short_intro
         contact_links {
           portfolio_url
         }

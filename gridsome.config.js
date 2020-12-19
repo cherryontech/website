@@ -50,7 +50,7 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        typeName: 'Bio',
+        typeName: 'Biopost',
         baseDir: "./src/assets/content/",
         path: 'bio/**/*.md',
         resolveAbsolutePaths: true,
