@@ -22,6 +22,8 @@ contact_links:
   portfolio_url: ''
 primary_role: back-end developer
 links: []
+squad_name: Cherry on Tech
+short_intro: ''
 
 ---
 Adryenne is a backend developer that codes in C# when not behind the scenes you can find her roller skating at the rink, watching cartoons, eating dessert and evolving creatively.
