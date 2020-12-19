@@ -62,6 +62,11 @@ fields:
     maxSize: 64
   label: Member Image
   description: 'Upload an image to use on the members bio.  '
+- name: resume
+  type: file
+  config:
+    maxSize: 4
+  label: Resume / CV
 - name: contact_links
   type: field_group
   config: {}
@@ -101,6 +106,12 @@ fields:
     config:
       required: false
     label: Personal site/portfolio URL
+  - name: email
+    type: text
+    config:
+      required: false
+    label: Email
+    description: This is totally optional!
   label: Contact Links
 - name: links
   type: field_group_list
