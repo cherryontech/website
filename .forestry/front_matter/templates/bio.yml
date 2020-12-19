@@ -156,6 +156,12 @@ fields:
       file: src/assets/content/vocabulary/squads.md
       path: terms
   label: Squad name
+- name: short_intro
+  type: text
+  config:
+    required: false
+  label: Short intro
+  description: The intro should be no more than 180 characters.
 pages:
 - src/assets/content/bio/adryenne-w.md
 - src/assets/content/bio/allie-quintano.md
