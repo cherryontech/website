@@ -27,5 +27,7 @@ contact_links:
   github_name: NiaCLay
 primary_role: QA engineer
 links: []
+squad_name: Cherry on Tech
+short_intro: ''
 
 ---
