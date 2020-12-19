@@ -26,6 +26,7 @@ contact_links:
   instagram_name: ''
   twitter_name: novelladev
   github_name: novellac
+  email: maybedontemailme@example.com
 links:
 - link_image: "/uploads/img_0254.jpg"
   link_tags:
@@ -58,6 +59,7 @@ primary_role: front-end developer
 squad_name: Cherry on Tech
 short_intro: By day, I bedazzle the web as a front-end SWE. After work, it's picnics,
   puppies, and puns!
+resume: "/src/assets/content/images/tortillapup-1.jpg"
 
 ---
 Novella is a frontend software engineer who specializes in VueJS. When she's not off bedazzling the web, she enjoys puppies, desserts, and punny jokes.
