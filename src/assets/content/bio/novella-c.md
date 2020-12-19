@@ -59,7 +59,7 @@ primary_role: front-end developer
 squad_name: Cherry on Tech
 short_intro: By day, I bedazzle the web as a front-end SWE. After work, it's picnics,
   puppies, and puns!
-resume: "/src/assets/content/images/tortillapup-1.jpg"
+resume: "/src/assets/content/images/cotexamplepdf.pdf"
 
 ---
 Novella is a frontend software engineer who specializes in VueJS. When she's not off bedazzling the web, she enjoys puppies, desserts, and punny jokes.
