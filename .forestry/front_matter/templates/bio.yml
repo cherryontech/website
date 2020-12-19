@@ -9,7 +9,7 @@ fields:
     website.
 - name: squad_name
   type: select
-  default: []
+  default: Cherry on Tech
   config:
     required: false
     options: []
@@ -50,18 +50,18 @@ fields:
       file: src/assets/content/vocabulary/roles.md
       path: terms
   label: Primary role
-- name: memberImage
-  type: file
-  config:
-    maxSize: 64
-  label: Member Image
-  description: 'Upload an image to use on the members bio.  '
 - name: short_intro
   type: text
   config:
     required: false
   label: Short intro
   description: The intro should be no more than about 180 characters.
+- name: memberImage
+  type: file
+  config:
+    maxSize: 64
+  label: Member Image
+  description: 'Upload an image to use on the members bio.  '
 - name: contact_links
   type: field_group
   config: {}
