@@ -144,6 +144,18 @@ fields:
     max: 
     labelField: link_title
   label: Links
+- name: squad_name
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: vocabulary-collections
+      file: src/assets/content/vocabulary/squads.md
+      path: terms
+  label: Squad name
 pages:
 - src/assets/content/bio/adryenne-w.md
 - src/assets/content/bio/allie-quintano.md
