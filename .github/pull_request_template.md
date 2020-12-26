@@ -6,17 +6,15 @@ Ex: This PR fixes #999. We didn't have a unicorn, so we went to the unicorn stor
 ## What I did...
 
 _Remove the example below. Then, list out the work you have done, in bullet form._
-Ex:
 
-- one
-- two
+- Fed my cat
+- Brushed my teeth
 
 ## How to test...
 
-_In a list format, tell us how to test this PR._
-Ex:
+_Remove the example below. Then, in a list format, tell us how to test this PR._
 
-1. Navigate to https://example.com/cats
+1. Run `gridsome develop` in the root folder and open the local address it gives in a browser window.
 1. Click on magic button
 1. See coolest cat
 
