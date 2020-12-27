@@ -18,7 +18,11 @@
       >
       to get started!
     </p>
-    <BaseInput v-model="search" label="Search the dictionary: " />
+    <SearchBar
+      v-model="search"
+      label="Search the dictionary"
+      placeholderText="type a word"
+    />
     <div
       v-for="post in filteredTerms"
       :key="post.id"
@@ -75,10 +79,11 @@ query Dictionaryposts {
 </page-query>
 
 <script>
-import BaseInput from "@/components/controls/base/BaseInput.vue";
+import SearchBar from "@/components/controls/SearchBar.vue";
+
 export default {
   components: {
-    BaseInput,
+    SearchBar,
   },
   metaInfo: {
     title: "Dictionary",
