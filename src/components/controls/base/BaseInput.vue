@@ -1,6 +1,6 @@
 <template>
   <div>
-    <label for="baseInput" v-if="label">
+    <label for="baseInput" :class="{ 'sr-only': hideLabel }">
       {{ label }}
     </label>
     <input
@@ -8,6 +8,7 @@
       @input="$emit('input', $event.target.value)"
       id="baseInput"
       type="text"
+      :placeholder="placeholderText"
     />
   </div>
 </template>
@@ -20,6 +21,14 @@ export default {
       default: "",
     },
     label: {
+      type: String,
+      required: true,
+    },
+    hideLabel: {
+      type: Boolean,
+      default: false,
+    },
+    placeholderText: {
       type: String,
       default: "",
     },
