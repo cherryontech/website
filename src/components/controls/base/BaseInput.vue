@@ -9,6 +9,8 @@
       id="baseInput"
       type="text"
       :placeholder="placeholderText"
+      class="rounded"
+      :class="setWidth"
     />
   </div>
 </template>
@@ -31,6 +33,11 @@ export default {
     placeholderText: {
       type: String,
       default: "",
+    },
+    setWidth: {
+      type: String,
+      default: "",
+      required: true,
     },
   },
 };
