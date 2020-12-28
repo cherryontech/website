@@ -30,3 +30,4 @@ squad_name: Cherry on Tech
 short_intro: ''
 
 ---
+Rie is currently in her last year of a Communications and Economics degree at Simon Fraser University. As she explores marketing and communications roles, she has developed skill in writing, media strategy, and public/community relations. She is passionate about gender and racial equality and is driven to maintain an equitable stance in every new role. In her free time, she can be found outdoors or searching for a new favorite restaurant.
