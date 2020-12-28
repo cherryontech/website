@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="rounded bg-gray-400 p-5 h-1 w-1/4 flex flex-row">
     <BaseInput
       v-on="$listeners"
       :value="value"
