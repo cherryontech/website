@@ -9,7 +9,7 @@
       id="baseInput"
       type="text"
       :placeholder="placeholderText"
-      class="rounded"
+      class="rounded pl-5"
       :class="setWidth"
     />
   </div>
