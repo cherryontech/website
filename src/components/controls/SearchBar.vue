@@ -1,6 +1,6 @@
 <template>
   <div
-    class="rounded bg-gray-400 p-5 h-1 w-1/4 flex flex-row justify-around items-center"
+    class="rounded bg-gray-400 p-5 h-1 w-4/12 flex flex-row justify-between items-center"
   >
     <BaseInput
       v-on="$listeners"
@@ -8,6 +8,7 @@
       :label="label"
       hideLabel
       :placeholderText="placeholderText"
+      :setWidth="setWidth"
     />
     <font-awesome :icon="['fas', 'search']" />
   </div>
@@ -32,6 +33,11 @@ export default {
     placeholderText: {
       type: String,
       default: "Enter a search term",
+    },
+    setWidth: {
+      type: String,
+      default: "",
+      required: true,
     },
   },
 };
