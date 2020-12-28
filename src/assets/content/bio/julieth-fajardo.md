@@ -3,7 +3,7 @@ title: Julieth Fajardo
 pronouns: she/her
 cherryNickname: Latinx Cereza
 cherryBirthDay: '2020-09-10T04:00:00.000+00:00'
-memberImage: "/uploads/cereza.png"
+memberImage: "/src/assets/content/images/julieth.png"
 portfolioUrl: www.juliethfajardo.com
 githubName: julietafb
 twitterHandle: julietafb
