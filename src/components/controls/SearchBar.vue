@@ -1,5 +1,5 @@
 <template>
-  <div class="rounded bg-gray-400 p-5 h-1 w-1/4 flex flex-row">
+  <div class="rounded bg-gray-400 p-5 h-1 w-1/4 flex flex-row justify-around">
     <BaseInput
       v-on="$listeners"
       :value="value"
@@ -7,6 +7,7 @@
       hideLabel
       :placeholderText="placeholderText"
     />
+    <font-awesome :icon="['fas', 'search']" />
   </div>
 </template>
 
