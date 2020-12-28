@@ -2,7 +2,6 @@
 title: Yoonie Lee
 pronouns: she/her
 cherryNickname: Voyaging Cherry
-cherryBirthDay: '2020-05-10T04:00:00.000+00:00'
 memberImage: ''
 portfolioUrl: www.yoonielee.com
 githubName: yoonie458

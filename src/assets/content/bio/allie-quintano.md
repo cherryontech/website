@@ -2,7 +2,6 @@
 title: Allie Quintano
 pronouns: she/her
 cherryNickname: Cheerry
-cherryBirthDay: '2020-07-22T04:00:00.000+00:00'
 memberImage: "/src/assets/content/images/allie.png"
 portfolioUrl: ''
 githubName: alliequintano

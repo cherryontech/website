@@ -2,7 +2,6 @@
 title: Adryenne W.
 pronouns: she/her
 cherryNickname: Fuji Cherry-Picker
-cherryBirthDay: '2020-10-26T04:00:00.000+00:00'
 memberImage: "/src/assets/content/images/screen-shot-2020-12-15-at-6-53-57-pm.png"
 portfolioUrl: ''
 githubName: dreamy26

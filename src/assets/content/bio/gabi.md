@@ -2,7 +2,6 @@
 title: Gabi Cruz
 pronouns: she/her
 cherryNickname: ''
-cherryBirthDay: '2020-10-02T04:00:00.000+00:00'
 memberImage: ''
 portfolioUrl: ''
 githubName: gcruzsb
