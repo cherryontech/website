@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="w-full">
     <label for="baseInput" :class="{ 'sr-only': hideLabel }">
       {{ label }}
     </label>
@@ -9,8 +9,7 @@
       id="baseInput"
       type="text"
       :placeholder="placeholderText"
-      class="rounded pl-5"
-      :class="setWidth"
+      class="rounded pl-5 w-full"
     />
   </div>
 </template>
@@ -33,11 +32,6 @@ export default {
     placeholderText: {
       type: String,
       default: "",
-    },
-    setWidth: {
-      type: String,
-      default: "",
-      required: true,
     },
   },
 };
