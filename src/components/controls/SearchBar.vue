@@ -8,9 +8,8 @@
       :label="label"
       hideLabel
       :placeholderText="placeholderText"
-      :setWidth="setWidth"
     />
-    <font-awesome :icon="['fas', 'search']" />
+    <font-awesome :icon="['fas', 'search']" class="ml-5" />
   </div>
 </template>
 
@@ -33,11 +32,6 @@ export default {
     placeholderText: {
       type: String,
       default: "Enter a search term",
-    },
-    setWidth: {
-      type: String,
-      default: "",
-      required: true,
     },
   },
 };
