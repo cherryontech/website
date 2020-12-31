@@ -22,7 +22,7 @@
       v-model="search"
       label="Search the dictionary"
       placeholderText="type a word"
-      setWidth="w-72"
+      class="mb-2"
     />
     <div
       v-for="post in filteredTerms"
