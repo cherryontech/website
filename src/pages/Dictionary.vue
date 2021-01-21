@@ -32,7 +32,7 @@
       <g-link
         v-if="!post.node.definition && !post.node.perspectives.length"
         :to="
-          `https://github.com/cherryontech/website/blob/pit/${
+          `https://github.com/cherryontech/website/blob/pit/src/assets/content/${
             post.node.fileInfo.path
           }`
         "
