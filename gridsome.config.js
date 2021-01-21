@@ -19,7 +19,7 @@ module.exports = {
       use: "@gridsome/source-filesystem",
       options: {
         typeName: "Dictionarypost",
-        baseDir: "./content/",
+        baseDir: "./src/assets/content/",
         path: "dictionary/**/*.md",
         remark: {
           // remark options
