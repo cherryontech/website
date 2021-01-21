@@ -1,6 +1,18 @@
 <template>
   <Layout>
-    <h1>About us</h1>
+    <template v-slot:hero>
+    <div class="w-screen py-24 bg-gray-100">
+      <div class="grid max-w-screen-lg m-auto md:grid-cols-2 md:gap-8">
+        <div>
+          <h1 class="font-serif text-5xl font-bold leading-relaxed">About us</h1>
+          <p class="text-3xl">
+            <span class="font-bold">Cherry on Tech</span> is a volunteer run organization whose mission is to support people of marginalized genders who are new into the world of tech. We are dedicated to developing and creating a community that focuses on empowering women while promoting the power of being part of a <span class="font-bold">tech squad</span>.
+          </p>
+        </div>
+      </div>
+    </div>
+    </template>
+    
     <div class="grid max-w-screen-lg m-auto md:grid-cols-3 md:gap-8">
       <article
         v-for="(member, index) in $page.bios.edges"
