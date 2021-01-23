@@ -28,6 +28,7 @@
       v-for="post in filteredTerms"
       :key="post.id"
       :post="post"
+      class="mb-4 last:mb-0"
     />
   </Layout>
 </template>
