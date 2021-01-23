@@ -1,12 +1,12 @@
 <template>
-  <div class="flex flex-col border border-gray-900 md:flex-row">
+  <div class="flex flex-col text-3xl border border-gray-900 md:flex-row">
 
   <!-- Entry name -->
     <div 
       class="flex flex-col justify-between w-1/2 pt-8 pl-8 pr-16 md:border-r md:border-gray-200"
       :class="post.node.perspectives.length ? 'pb-4' : 'pb-8'"
     >
-      <g-link :to="post.node.path" class="font-bold">{{
+      <g-link :to="post.node.path" class="text-3xl font-bold">{{
         post.node.title
       }}</g-link>
 
