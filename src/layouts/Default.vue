@@ -2,8 +2,11 @@
   <div class="h-screen">
     <div class="flex flex-col items-stretch justify-between h-full">
       <Header />
-      <div class="flex-grow p-6">
-        <slot />
+      <div class="flex-grow">
+        <slot name="hero"/>
+        <div class="p-6">
+          <slot />
+        </div>
       </div>
       <div>
         <Footer />
