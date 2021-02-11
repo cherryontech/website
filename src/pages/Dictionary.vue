@@ -24,36 +24,12 @@
       placeholderText="type a word"
       class="mb-2"
     />
-    <div
+    <DictionaryCard
       v-for="post in filteredTerms"
       :key="post.id"
-      class="py-2 border-t border-purple-900"
-    >
-      <g-link
-        v-if="!post.node.definition && !post.node.perspectives.length"
-        :to="
-          `https://github.com/cherryontech/website/blob/pit/src/assets/content/${
-            post.node.fileInfo.path
-          }`
-        "
-        class="font-bold"
-        >{{ post.node.title }}
-        <span class="font-normal"
-          >doesn't have any definition or perspectives yet.</span
-        ><span class="font-normal underline"> Add yours!</span></g-link
-      >
-      <g-link v-else :to="post.node.path" class="font-bold">{{
-        post.node.title
-      }}</g-link>
-      <p class="italic">{{ post.node.definition }}</p>
-      <div v-for="(perspective, index) in post.node.perspectives" :key="index">
-        <p>
-          As a <em>{{ perspective.role }}</em
-          >, <span v-if="post.node.title">"{{ post.node.title }}"</span> means
-          {{ perspective.meaning }}.
-        </p>
-      </div>
-    </div>
+      :post="post"
+      class="mb-4 last:mb-0"
+    />
   </Layout>
 </template>
 
@@ -81,10 +57,12 @@ query Dictionaryposts {
 
 <script>
 import SearchBar from "@/components/controls/SearchBar.vue";
+import DictionaryCard from '@/components/cards/DictionaryCard.vue';
 
 export default {
   components: {
     SearchBar,
+    DictionaryCard
   },
   metaInfo: {
     title: "Dictionary",
