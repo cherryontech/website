@@ -33,7 +33,7 @@ All entries must be written in the following format, so that they can be process
 ```
 ---
 title: naptime
-definition: 'a nap is a short period of sleep'
+definition: A nap is a short period of sleep.
 sources:
 - sourceurl: https://example.com/things-i-need/naptime
 perspectives:
@@ -44,4 +44,4 @@ perspectives:
 
 ---
 ```
-
+Note: Please write a `definition` as a complete sentence. Write the perspective's `meaning` with no puncuation or capitalization.
