@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: Nia Lay
 pronouns: she/her
 cherryNickname: Cherry Cola
@@ -24,9 +24,11 @@ contact_links:
   instagram_name: ''
   twitter_name: ''
   github_name: NiaCLay
+  email: ''
 primary_role: QA engineer
 links: []
 squad_name: Cherry on Tech
 short_intro: ''
+resume: ''
 
 ---
