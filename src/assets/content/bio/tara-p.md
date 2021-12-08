@@ -5,7 +5,7 @@ draft: false
 title: Tara P.
 pronouns: she/her
 cherryNickname: Cherry Pie
-short_intro: Tara ia a UX designer, focused on making experiences easy, intuitive,
+short_intro: Tara is a UX designer, focused on making experiences easy, intuitive,
   and accessible. She studied Cognitive Science and Linguistics at the University
   of California, San Diego, and loves to hike, do yoga, and cook.
 memberImage: "/src/assets/content/images/tara-cherry.png"
@@ -22,3 +22,4 @@ contact_links:
 links: []
 
 ---
+Tara is a UX designer, focused on making experiences easy, intuitive, and accessible. She studied Cognitive Science and Linguistics at the University of California, San Diego, and loves to hike, do yoga, and cook.
