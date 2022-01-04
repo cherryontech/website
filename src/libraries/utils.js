@@ -12,7 +12,7 @@
     const trimmedUrl = url.trim();
   
     if (trimmedUrl.includes(https) || trimmedUrl.includes("http://")) {
-      return url;
+      return trimmedUrl;
     }
     return https + trimmedUrl;
   };
