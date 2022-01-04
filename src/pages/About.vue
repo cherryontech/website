@@ -47,7 +47,7 @@
         <a
           class="ml-auto text-xl font-extrabold"
           v-if="member.node.contact_links.portfolio_url"
-          :href="member.node.contact_links.portfolio_url"
+          :href="validUrl(member.node.contact_links.portfolio_url)"
           >site</a
         >
       </article>
@@ -86,9 +86,14 @@ query
 </page-query>
 
 <script>
+import {validUrl} from "../libraries/utils";  
 export default {
   metaInfo: {
     title: "About us",
   },
+  methods: {
+    validUrl
+  }
+
 };
 </script>

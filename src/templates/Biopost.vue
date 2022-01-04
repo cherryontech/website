@@ -16,13 +16,13 @@
         />
         <a
           v-if="$page.biopost.contact_links.email"
-          :href="`mailto:${$page.biopost.contact_links.email}`"
+          href="`mailto:${$page.biopost.contact_links.email}`"
           class="font-bold underline"
           >Email</a
         >
         <a
           v-if="$page.biopost.contact_links.portfolio_url"
-          :href="$page.biopost.contact_links.portfolio_url"
+          :href="validUrl($page.biopost.contact_links.portfolio_url)"
           class="font-bold underline"
           >Portfolio</a
         >
@@ -63,12 +63,16 @@
 </template>
 
 <script>
+import {validUrl} from "../libraries/utils";
 export default {
   metaInfo() {
     return {
       title: this.$page.biopost.title,
     };
   },
+  methods: {
+    validUrl
+  }
 };
 </script>
 
