@@ -91,9 +91,16 @@ export default {
   metaInfo: {
     title: "About us",
   },
-  methods: {
+    methods: {
     validUrl
   }
-
+  // methods: {
+  //   validUrl
+  // },
+  // computed: {
+  //   portfolioUrl() {
+  //     // return this.validUrl(member.node.contact_links.portfolio_url)
+  //  }
+  // }
 };
 </script>

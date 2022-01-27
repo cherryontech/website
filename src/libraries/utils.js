@@ -1,3 +1,13 @@
+/**
+ * Verifies whether the url starts with http:// or https://
+ * @function
+ * @param {string} url - The url of the portfolio site
+ * @returns {boolean} 
+ */
+ const isValidUrl = (url) => {
+  return url.indexOf("https://") === 0 || url.indexOf("http://") === 0
+ }
+ 
  /**
  * Our CMS does not validate urls,
  * urls are entered in manually by the author,
@@ -11,7 +21,7 @@
     const https = "https://";
     const trimmedUrl = url.trim();
   
-    if (trimmedUrl.includes(https) || trimmedUrl.includes("http://")) {
+    if (isValidUrl(trimmedUrl)) {
       return trimmedUrl;
     }
     return https + trimmedUrl;

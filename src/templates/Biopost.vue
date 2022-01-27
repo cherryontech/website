@@ -22,7 +22,7 @@
         >
         <a
           v-if="$page.biopost.contact_links.portfolio_url"
-          :href="validUrl($page.biopost.contact_links.portfolio_url)"
+          :href="portfolioUrl"
           class="font-bold underline"
           >Portfolio</a
         >
@@ -72,6 +72,11 @@ export default {
   },
   methods: {
     validUrl
+  },
+  computed: {
+    portfolioUrl() {
+      return this.validUrl(this.$page.biopost.contact_links.portfolio_url)
+    }
   }
 };
 </script>
