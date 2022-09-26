@@ -1,7 +1,7 @@
 ---
 squad_name: Cherry on Tech
 primary_role: front-end developer
-draft: false
+draft: true
 title: Tish G.
 pronouns: She/Her
 cherryNickname: Cherry Berry
