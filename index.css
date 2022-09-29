@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#game{
+    height: 500px;
+    width: 490px;
+    margin: 1rem auto;
+    background: url(bg.jpg);
+    background-size: contain;
+    align-content: center;
+    overflow: hidden;
+}
+
+#bluecar{
+    
+    height: 100px;
+    width: 70px;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    position: relative;
+    animation: move 1s linear 1s infinite ;
+}
+#bluecar img{
+    height: 100px;
+}
+@keyframes move {
+    0%{
+        top: 0px;
+    }
+    100%{
+       top:500px;
+    }
+}
+
+#redcar{
+    height: 130px;
+    width: 95px;
+    top: 220px;
+    left: 210px;
+    position: relative;
+
+}
+#redcar img{
+    height: 100px;
+}
+
+#GameOver{
+    background-color: aqua;
+    height: 200px;
+    width: 1000px;
+    margin: 10px;
+    margin-left: 130px; 
+    position: relative;
+    border-radius: 20px;
+    display: none;
+
+}
+
+#heading1{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 10ex;
+    font-family: "Luckiest Guy", cursive;
+    text-decoration: line-through;
+    text-shadow: -2px 2px black;
+    position: relative;
+    
+}
+
+#score{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#btn{
+    padding: 10px;
+    margin-left: 460px;
+    margin-top: 20px;
+    width: 10%;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: crimson;
+    background-color: antiquewhite;
+    box-shadow: 2px 6px ;
+    border-radius: 10px;
+}
+  
+ 
+
