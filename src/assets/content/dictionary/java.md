@@ -6,11 +6,12 @@ sources:
 perspectives:
 - meaning: A perspective designed for working with Java projects. It consists of an editor area and the following views:
 Declaration
-  role:Package Explorer
-  Type Hierarchy
-  Outline
-  Problems
-  Javadoc
+
+ role:Package Explorer
+      Type Hierarchy
+      Outline
+      Problems
+      Javadoc
 - meaning: A Programming language for developing apps and tools.
 
 ---
