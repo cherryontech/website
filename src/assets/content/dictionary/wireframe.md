@@ -4,7 +4,7 @@ definition: 'A wireframe is a two-dimensional skeletal outline of a webpage or a
 sources:
 - sourceurl: https://careerfoundry.com/en/blog/ux-design/what-is-a-wireframe-guide/
 perspectives:
-- meaning: is tool to get organized and visualize a project before I start writing code
+- meaning: a tool to get organized and visualize a project before I start writing code
   role: web developer
 
 ---
