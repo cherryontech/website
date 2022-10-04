@@ -1,8 +1,8 @@
-# Welcome to Cherry On Tech's website
+# Welcome To Cherry On Tech's website
 
 We are a tech squad! We support each other as we learn and grow in our tech careers. We got the idea from [Mo Hampton](https://twitter.com/MoxieHampton)'s [JuneteenthConf](https://www.juneteenthconf.com/) talk, "[Breaking into Tech](https://www.youtube.com/watch?v=2N5fI5j-IIs)." Learn more about us in an upcoming blog post!
 
-## Tech stack
+## Tech Stack
 
 This website is built using [Gridsome](https://gridsome.org/), a static site generator based on [VueJS](https://vuejs.org/). It's under pretty heavy construction, but we love it already, and we hope you do, too!
 
