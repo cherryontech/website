@@ -4,6 +4,6 @@ definition: a diagram that shows step-by-step progression through a procedure or
 sources:
 - sourceurl: https://www.merriam-webster.com/dictionary/flowchart
 perspectives:
-- meaning: which step/functionality work after which step. this roadmap is flowchart.
+- meaning: which step/functionality comes after which step. A roadmap is a flowchart
   role: product manager
 ---
