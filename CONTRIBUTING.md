@@ -28,6 +28,7 @@ https://www.youtube.com/watch?v=I7WsK5amUTA
 
 All entries must be written in the following format, so that they can be processed properly. Please note that admins may edit the entry for clarity and/or formatting.
 
+**Note:** You do not need to be assigned an issue in order to contribute a dictionary definition. You can make a PR for any term you like!
 ### Tech Dictionary example
 
 ```
@@ -44,4 +45,4 @@ perspectives:
 
 ---
 ```
-Note: Please write a `definition` as a complete sentence. Write the perspective's `meaning` with no puncuation or capitalization.
+**Note:** Write the perspective's `meaning` with no puncuation or capitalization. The strings will be compiled to make a sentence that looks like this: `As a <role>, <term> means <meaning>.`
