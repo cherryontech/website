@@ -6,4 +6,3 @@ sources:
 perspectives:
 - meaning: A language to be used for backend for developing mobile applications and also used for problem solving for data structures and algorithms.
  role: Developer
----
