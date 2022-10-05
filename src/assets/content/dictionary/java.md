@@ -4,6 +4,6 @@ definition: Java is an object-oriented programming language that produces softwa
 sources:
 - sourceurl: https://www.techopedia.com/definition/3927/java
 perspectives:
-- meaning: As a developer i used java for backend for developing mobile applications and also used for problem solving for data structures and algorithms.
-role:Developer
+- meaning: A language to be used for backend for developing mobile applications and also used for problem solving for data structures and algorithms.
+ role: Developer
 ---
