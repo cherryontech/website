@@ -4,7 +4,7 @@ definition: Webpack is a static module bundler for modern JavaScript application
 sources:
 - sourceurl: https://webpack.js.org/concepts/
 perspectives:
-- meaning: It takes disparate dependencies, creates modules for them and bundles the entire network up into manageable output files
+- meaning: it takes disparate dependencies, creates modules for them and bundles the entire network up into manageable output files
   role: module bundler
 
 ---
