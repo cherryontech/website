@@ -1,6 +1,6 @@
 ---
 title: bug
-definition: A bug is a problem causing a program to crash or produce invalid output
+definition: A bug is a problem causing a program to crash or produce invalid output.
 sources:
 - sourceurl: https://en.wikipedia.org/wiki/Software_bug
 perspectives:
