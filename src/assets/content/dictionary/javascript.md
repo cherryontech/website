@@ -5,6 +5,6 @@ definition: 'JavaScript is a programming or scripting language that allows one t
 sources:
 - sourceurl: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript
 perspectives:
-- meaning: a programming language I can use to bring concepts to life. I can use it to implement designs and site interactions.
+- meaning: a programming language I can use to bring concepts to life. I can use it to implement designs and site interactions
   role: frontend developer
 ---
