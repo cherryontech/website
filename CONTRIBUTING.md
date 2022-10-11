@@ -46,3 +46,19 @@ perspectives:
 ---
 ```
 **Note:** Write the perspective's `meaning` with no puncuation or capitalization. The strings will be compiled to make a sentence that looks like this: `As a <role>, <term> means <meaning>.`
+
+### How do I test my contribution?
+
+#### Check the deploy preview build on Netlify
+One way to test your contribution is to make a PR and then check your deploy preview build. To do this:
+- Make a PR with your fabulous changes! ([Github documentation on how to make a PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request))
+- Go to the Github page of your PR (Note: you may have to wait a few minutes for the deploy preview to be ready!)
+- In the checks table, click on the "details" link to the right of the "netlify/cherryontech/deploy-preview — Deploy Preview ready!"
+- Navigate to the page where your contribution will live (likely the /dictionary page)
+
+### Serve locally
+If you are interested in learning more about web development, serving locally is a great way to experiment with your contribution before you make a PR. To do this:
+- Follow the installation steps on our [README.md file](README.md)
+- Make your fabulous changes!
+- Go to the URL you got when you ran the serve command
+- Navigate to the page where your contribution will live (likely the /dictionary page)
