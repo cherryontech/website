@@ -1,6 +1,6 @@
 ---
 title: Affordance
-definition: 'An affordance is an action that a specific user can take with any physical or digital object'
+definition: 'An affordance is an action that a specific user can take with any physical or digital object.'
 sources:
 - sourceurl: https://www.interaction-design.org/literature/topics/affordances
 perspectives:
