@@ -6,4 +6,3 @@ sources:
 perspectives:
 - meaning: someone who uses or who is intended to use a finished product
   role: Anyone can be an end user.
----
