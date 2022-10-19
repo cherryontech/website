@@ -4,6 +4,6 @@ definition: 'Machine learning is a growing technology which enables computers to
 sources:
 - sourceurl: https://www.javatpoint.com/machine-learning
 perspectives:
-- meaning: it enables a machine to automatically learn from data, improve performance from experiences, and predict things without being explicitly programmed.
+- meaning: As a developer , machine learnning enables a machine to automatically learn from data, improve performance from experiences, and predict things without being explicitly programmed
   role: Developer
 ---
