@@ -4,7 +4,7 @@ definition: Key Performance Indicators (KPIs) is a critical (key) indicator of p
 sources:
 - sourceurl: https://kpi.org/KPI-Basics
 perspectives:
-- meaning: is a metric or indicator to measure the work done by software teams in order to remain accountable to set objectives. Eg lines of code, bugs, task completion dealines.
-  role: Software developer
+- meaning: a metric or indicator to measure the work done by software teams in order to remain accountable to set objectives. Eg lines of code, bugs, task completion dealines
+  role: software developer
 
 ---
