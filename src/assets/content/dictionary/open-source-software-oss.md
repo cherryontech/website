@@ -5,7 +5,7 @@ definition: Open source software is software that is available for anyone to vie
 sources: 
 - sourceurl: https://en.wikipedia.org/wiki/Open-source_software, https://hacktoberfest.com
 perspectives: 
-- meaninig: are an important part of the software development community, allowing collaboration of large numbers of programmers with diverse perspectives, increasing the speed of innovation 
+- meaning: is an important part of the software development community, allowing collaboration of large numbers of programmers with diverse perspectives, increasing the speed of innovation 
 role: Software Engineer
 
 ---
