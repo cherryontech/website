@@ -1,6 +1,6 @@
 ---
 title: Open Source Software (OSS)
-definition: Open source software is software that is available for anyone to view, copy, change, or distribute for any purpose. Some notable examples of open source software include the Linux operating system, the Mozilla Firefox browser, Apache HTTP Server software, and LibreOffice productivity software. Every year, open source software contributions are celebrated during October as part of a month-long event called Hacktoberfest
+definition: Open source software is software that is available for anyone to view, copy, change, or distribute for any purpose. Some notable examples of open source software include the Linux operating system, the Mozilla Firefox browser, Apache HTTP Server software, and LibreOffice productivity software. Every year, open source software contributions are celebrated during October as part of a month-long event called Hacktoberfest.
 
 sources: 
 - sourceurl: https://en.wikipedia.org/wiki/Open-source_software, https://hacktoberfest.com
