@@ -16,10 +16,6 @@ We have created a dictionary of tech terms that we think will help squad members
 
 ### How do I contribute?
 
-Video Tutorial:
-https://www.youtube.com/watch?v=I7WsK5amUTA 
-
-
 1. Navigate to the [Dictionary page](https://cherryon.tech/dictionary/) of our website, and find an entry you would like contribute to.
 1. If you see a dictionary entry on our site that does not yet have a definition, you may submit a pull request to address it. Here's how we think about the dictionary entries:
 
