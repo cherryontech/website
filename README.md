@@ -15,6 +15,11 @@ This website is built using [Gridsome](https://gridsome.org/), a static site gen
 1. `npm install` or `yarn install`
 1. Run `gridsome develop` to start a local dev server. In the terminal, you will see an address such as `http://localhost:8080/`. Navigate to that address in a browser to see the project in action.
 
+## Debugging
+
+If you run into `[ERR_PACKAGE_PATH_NOT_EXPORTED]` errors while trying to start the server:
+- run `npm update` or `yarn upgrade` to update package dependencies
+
 ## Contributing
 
 We welcome you to contribute to our "Tech Dictionary," where we share tech terms from different _perspectives_. To get involved, read [CONTRIBUTING.md](CONTRIBUTING.md).

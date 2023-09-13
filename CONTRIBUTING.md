@@ -56,5 +56,5 @@ One way to test your contribution is to make a PR and then check your deploy pre
 If you are interested in learning more about web development, serving locally is a great way to experiment with your contribution before you make a PR. To do this:
 - Follow the installation steps on our [README.md file](README.md)
 - Make your fabulous changes!
-- Go to the URL you got when you ran the serve command
+- Go to the URL you got when you ran the `develop` command
 - Navigate to the page where your contribution will live (likely the /dictionary page)
