@@ -1,6 +1,6 @@
 ---
 title: MVP
-definition: An MVP, or Minimum Viable Product, is a version of a new product that has just enough features to be shipped to customers. This version is then furthur developed based on the feedback from these initial users. 
+definition: An MVP, or Minimum Viable Product, is a version of a new product that has just enough features to be shipped to customers. This version is then further developed based on the feedback from these initial users. 
 sources:
 - sourceurl: https://www.techopedia.com/definition/27809/minimum-viable-product-mvp
 perspectives:
