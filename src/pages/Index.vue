@@ -6,11 +6,10 @@
     </div>
     <main
       class="flex flex-col flex-grow bg-pink-500"
-      @keydown.esc="showDialog = false"
     >
       <!-- Intro / Outerspace theme -->
       <!-- Since we want our bg image to come up beneath the header, match the margins to the height of the header -->
-      <div class="flex flex-grow px-8 -mt-20 bg-cover bg-outerspace" :aria-hidden="hideContentAria">
+      <div class="flex flex-grow px-8 -mt-20 bg-cover bg-outerspace">
         <div class="flex flex-col items-center w-full mt-20">
           <g-image
             class="max-w-full mt-4 sm:max-w-sm"
@@ -25,26 +24,11 @@
           </h1>
 
           <!-- Newsletter dialog -->
-          <BaseButton
-            @click="showDialog = true"
-            class="block mt-4 bg-gray-100"
-            >Keep me updated</BaseButton
-          >
-          <Dialog v-if="showDialog === true" @close="showDialog = false" />
+        <h3 class="max-w-full my-8 mb-2 font-serif leading-tight text-white sm:max-w-sm">
+          Get updates about Cherry on Tech. We don't send emails often, but when we do, they're sweet!
+        </h3>
+        <Mailchimp />
 
-          <p class="self-start mt-auto font-light text-white lg:ml-16">
-            Photo by
-            <a
-              target="_blank"
-              href="https://unsplash.com/@andyjh07?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
-              >Andy Holmes</a
-            >
-            on
-            <a
-              href="https://unsplash.com/@andyjh07?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
-              >Unsplash</a
-            >
-          </p>
         </div>
       </div>
       <!-- Tech squad benefits grid -->
@@ -57,25 +41,14 @@
 </template>
 
 <script>
-import BaseButton from "@/components/controls/base/BaseButton.vue";
-import Dialog from "@/components/controls/dialogs/Dialog.vue";
 import Header from "@/components/navigation/Header.vue";
 import Footer from "@/components/navigation/Footer.vue";
+import Mailchimp from "@/components/external/Mailchimp.vue";
 
 export default {
-  components: { BaseButton, Dialog, Header, Footer },
+  components: { Header, Footer, Mailchimp },
   metaInfo: {
     title: "Cherry on Tech",
-  },
-  data() {
-    return {
-      showDialog: false,
-    };
-  },
-  computed: {
-    hideContentAria() {
-      return this.showDialog.toString();
-    },
-  },
+  }
 };
 </script>

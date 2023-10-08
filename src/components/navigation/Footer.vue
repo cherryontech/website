@@ -32,8 +32,23 @@
         <a href="mailt:cherryontech@gmail.com">cherryontech@gmail.com</a>
       </div>
     </div>
-    <p class="my-4 text-sm text-center md:mb-20 md:mt-16">
-      Copyright 2023 Cherry on Tech. All rights reserved.
-    </p>
+    <div class="my-4 text-sm text-center md:mb-20 md:mt-16">
+      <p>
+        Copyright 2023 Cherry on Tech. All rights reserved.
+      </p>
+      <p>
+        Galaxy photo by
+        <a
+          target="_blank"
+          href="https://unsplash.com/@andyjh07?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+          >Andy Holmes</a
+        >
+        on
+        <a
+          href="https://unsplash.com/@andyjh07?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+          >Unsplash</a
+        >
+      </p>
+    </div>
   </div>
 </template>

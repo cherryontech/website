@@ -12,15 +12,15 @@
     >
       <div
         id="mc_embed_signup_scroll"
-        class="flex items-stretch justify-between bg-white p-5 rounded"
+        class="flex items-stretch justify-between p-2 bg-white rounded"
       >
-        <div class="mc-field-group w-full">
+        <div class="w-full mc-field-group">
           <label for="mce-EMAIL" class="sr-only">Email Address </label>
           <input
             type="email"
             value=""
             name="EMAIL"
-            class="required email w-full h-full"
+            class="w-full h-full required email"
             id="mce-EMAIL"
             v-model="email"
             placeholder="Type your email"
@@ -53,7 +53,7 @@
             value="Subscribe"
             name="subscribe"
             id="mc-embedded-subscribe"
-            class="button bg-gray-400 py-2 px-12 rounded"
+            class="px-4 py-2 text-white bg-pink-600 rounded button"
             :disabled="disableBtn"
             :aria-disabled="disableBtn"
           />
