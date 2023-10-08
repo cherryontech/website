@@ -65,7 +65,7 @@ import Footer from "@/components/navigation/Footer.vue";
 export default {
   components: { BaseButton, Dialog, Header, Footer },
   metaInfo: {
-    title: "Coming soon! Cherry on Tech",
+    title: "Cherry on Tech",
   },
   data() {
     return {
