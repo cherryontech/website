@@ -10,29 +10,29 @@
     >
       <!-- Intro / Outerspace theme -->
       <!-- Since we want our bg image to come up beneath the header, match the margins to the height of the header -->
-      <div class="-mt-20 bg-cover bg-outerspace" :aria-hidden="hideContentAria">
-        <div class="mt-20">
+      <div class="flex flex-grow px-8 -mt-20 bg-cover bg-outerspace" :aria-hidden="hideContentAria">
+        <div class="flex flex-col items-center w-full mt-20">
           <g-image
-            class="m-auto max-w-screen lg:max-w-lg"
-            width="500"
+            class="max-w-full mt-4 sm:max-w-sm"
+            width="800"
             src="~/assets/images/cot-name.png"
-            alt="Coming Soon - Cherry on Tech"
+            alt="A pair of bright red cherries sit on the top left of block text that reads Cherry on Tech. In the center of the top of the block text rests an anthropomorphized cherry face, smiling brightly in an astronaut helmet."
           />
           <h1
-            class="font-serif text-5xl font-bold text-center text-white uppercase"
+            class="font-serif text-5xl font-bold text-center text-white uppercase sr-only"
           >
-            We are a tech squad
+           Cherry on Tech - We are a tech squad
           </h1>
 
           <!-- Newsletter dialog -->
           <BaseButton
             @click="showDialog = true"
-            class="block m-auto bg-gray-100"
+            class="block mt-4 bg-gray-100"
             >Keep me updated</BaseButton
           >
           <Dialog v-if="showDialog === true" @close="showDialog = false" />
 
-          <p class="mt-24 mb-16 font-light text-gray-500 lg:ml-16">
+          <p class="self-start mt-auto font-light text-white lg:ml-16">
             Photo by
             <a
               target="_blank"
