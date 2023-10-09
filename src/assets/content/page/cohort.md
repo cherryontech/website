@@ -21,7 +21,8 @@ And the best part is to have an impact on each other while having fun. [Learn mo
 ​
 To be a good fit, **you**:
 ​
-1. Identify as an underrepresented gender 
+
+1. Identify as an underrepresented gender
 2. Are aspiring to be a:
     - Developer
     - Product Manager
