@@ -13,12 +13,11 @@ A **tech squad** is a group of people committed to:
 - work together on projects where each member can develop their skills,
 - celebrate successes, and be there for each other
 ​
-And the best part is to have an impact on each other while having fun.
+
+And the best part is to have an impact on each other while having fun. [Learn more about tech squads.](https://cherryon.tech/blog/why-i-joined-cherry-on-tech/)
 ​
-[Learn more about tech squads](https://cherryon.tech/blog/why-i-joined-cherry-on-tech/)
 ​
-​
-🤓 **Who should join?**
+### Who should join?
 ​
 To be a good fit, **you**:
 ​
@@ -28,40 +27,43 @@ To be a good fit, **you**:
     - Product Manager
     - UX Designer
 3. Have been or will begin looking for a role in the next 1-3 months
-    1. You are new to tech
-    2. You don't have relevant experience
-    3. You want to practice and develop skills in your field 
+    - You are new to tech
+    - You don't have relevant experience
+    - You want to practice and develop skills in your field 
 4. Are seeking to work and gain experience in a multidisciplinary and agile environment
 5. Are looking to add a new and real project to your portfolio
 6. Are interested in learning how to build accessible websites
 7. Are able to make a 13-week commitment to the program (estimated 5-7hrs/week)
 8. Want to empower your tech squad members to grow, learn and feel excited about working toward a common goal
 ​
+
 [Apply here!](https://docs.google.com/forms/d/e/1FAIpQLSclSWDD2FqKBqisJr_7HwzQawMtpcjXzGZhWmxo5nMza38Ffg/viewform?usp=sf_link)
 ​
 ##  Program Details
 ​
 The Cherry on Tech Cohort program connects you with other like-minded individuals to form your own **tech squad**.
 ​
+
 We will walk your squad through a **13-week** project with weekly tasks and mentorship to help your squad define, build, and deploy a live website.
+
 ​
 Your squad will have a **weekly meeting** to discuss your project, share knowledge, and support each other on your tech career journeys. You will spend **5-7 hours per week on your project**, with a mix of independent work, co-working time, and mentorship.
+
 ​
 We host **global meetings** for all squads to get a brief overview of the upcoming week, hear from guest speakers, participate in breakout sessions, and come together as a larger community of tech squads.
+
 ​
 **⭐️ This is a NO COST program ⭐️**
 
 ​
 ### Key features
-​
 - **Cross-functional** - We put devs, designers, and product managers together on a tech squad so you can gain experience working with the common roles in the industry.
 - **Build a static site** - Go from idea to launch. Work within the constraint of building a static site in order to deliver a high-quality MVP in 13 weeks.
 - **Focus on accessibility** - We believe web accessibility is essential. We encourage our tech squads to think about accessibility at every step of the design and coding process.
 - **Lifelong career support** - Tech squads continue beyond the program, and we continue to support your squad’s success as a member of our community of tech squads.
 - **Mentorship** - We provide each squad with a mentor for each role. Our mentors are experienced professionals who are volunteering their time for mentoring.
 ​
-### Tech Stack and Tools
-​
+### Tech stack and tools
 - React
 - Netlify
 - npm
@@ -70,7 +72,6 @@ We host **global meetings** for all squads to get a brief overview of the upcomi
 - tailwind
 - VScode
 - ESLint
-​
 - Prettier
 - axe Accessibility Linter
 - Figma
@@ -80,17 +81,10 @@ We host **global meetings** for all squads to get a brief overview of the upcomi
 - Jamboard
 ​
 ### Important dates
-​
-- July 29th, 2023: Our next cohort registration opens - [Apply here](https://docs.google.com/forms/d/e/1FAIpQLSclSWDD2FqKBqisJr_7HwzQawMtpcjXzGZhWmxo5nMza38Ffg/viewform)!
-- Attend an info session about the upcoming cohort:
-    - [Thursday August 3rd, 2023 4pm PST/7pm EST](https://www.linkedin.com/events/7090860045847953408/)
-    - [Monday August 7th, 5pm PST/8pm EST](https://www.linkedin.com/events/7090860779565953024)
-- August 27th, 2023 - September 9th, 2023: Onboarding period
-- September 9th, 2023: Our next cohort begins!
+- ~~September 9th, 2023: Our next cohort begins!~~
 - December 9th, 2023: End of the Cohort, final presentation!
 ​
-##  Program Schedule
-​
+##  Program schedule
 ### **Week 0: Onboarding**
 ​
 Join the Cherry on Tech Slack and meet your squad. Pick the problem space your squad will build a solution for.
