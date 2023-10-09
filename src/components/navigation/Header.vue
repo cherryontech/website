@@ -35,6 +35,7 @@ export default {
     return {
       links: [
         { url: "/", title: "Home" },
+        { url: "/page/cohort/", title: "Cohort" },
         { url: "/dictionary/", title: "Dictionary" },
       ],
     };

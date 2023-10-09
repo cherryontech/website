@@ -13,21 +13,21 @@ const postcssPlugins = [
 ]
 
 module.exports = {
-  siteName: "Cherry On Tech",
+  siteName: 'Cherry On Tech',
   plugins: [
     {
-      use: "@gridsome/source-filesystem",
+      use: '@gridsome/source-filesystem',
       options: {
-        typeName: "Dictionarypost",
-        baseDir: "./src/assets/content/",
-        path: "dictionary/**/*.md",
+        typeName: 'Dictionarypost',
+        baseDir: './src/assets/content/',
+        path: 'dictionary/**/*.md',
         remark: {
           // remark options
           plugins: [
             [
-              "@noxify/gridsome-plugin-remark-embed",
+              '@noxify/gridsome-plugin-remark-embed',
               {
-                enabledProviders: ["Youtube", "Twitter", "Gist"],
+                enabledProviders: ['Youtube', 'Twitter', 'Gist'],
               },
             ],
           ],
@@ -38,34 +38,47 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'Blogpost',
-        baseDir: "./src/assets/content/",
+        baseDir: './src/assets/content/',
         path: 'blog/**/*.md',
         resolveAbsolutePaths: true,
         remark: {
-          externalLinksTarget: "_blank",
-          externalLinksRel: ["nofollow", "noopener", "noreferrer"]
-        }
-      }
+          externalLinksTarget: '_blank',
+          externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+        },
+      },
     },
     {
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'Biopost',
-        baseDir: "./src/assets/content/",
+        baseDir: './src/assets/content/',
         path: 'bio/**/*.md',
         resolveAbsolutePaths: true,
         remark: {
-          externalLinksTarget: "_blank",
-          externalLinksRel: ["nofollow", "noopener", "noreferrer"]
-        }
-      }
-    }
+          externalLinksTarget: '_blank',
+          externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+        },
+      },
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Pagepost',
+        baseDir: './src/assets/content/',
+        path: 'page/**/*.md',
+        resolveAbsolutePaths: true,
+        remark: {
+          externalLinksTarget: '_blank',
+          externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+        },
+      },
+    },
   ],
   css: {
     loaderOptions: {
-        postcss: {
-            plugins: postcssPlugins,
-        },
+      postcss: {
+        plugins: postcssPlugins,
+      },
     },
   },
-};
+}

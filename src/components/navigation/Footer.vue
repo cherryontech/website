@@ -1,38 +1,18 @@
 <template>
-  <div>
-    <div
-      class="flex flex-wrap items-start justify-between gap-6 mx-4 mt-16 xl:mx-16"
-    >
-      <!-- Lettermark -->
-      <div class="flex">
-        <g-link class="flex items-center" to="/">
-          <g-image
-            width="100"
-            src="~/assets/images/squareLogoBgPinkMainGreen.png"
-            alt="cherry on tech logo"
-          />
-        </g-link>
-      </div>
-
-      <!-- Nav -->
-      <nav class="flex flex-col" aria-label="Footer navigation">
-        <g-link class="font-semibold leading-10" to="/">Home</g-link>
-        <g-link class="font-semibold leading-10" to="/dictionary/"
-          >Dictionary</g-link
-        >
-      </nav>
-
-      <!-- Avatar and Contact -->
-      <div class="flex flex-col">
+  <div class="flex flex-wrap items-center gap-6 mx-4 mt-6 mb-6 xl:mx-16">
+    <!-- Lettermark -->
+    <div class="flex">
+      <g-link class="flex items-center" to="/">
         <g-image
           width="100"
-          src="~/assets/images/cherry--lengua.png"
-          alt="Cartoon drawing of a blushing, anthropomorphized cherry with big sparkly eyes. The cherry's tongue is blepping a little."
+          src="~/assets/images/squareLogoBgPinkMainGreen.png"
+          alt="cherry on tech logo"
         />
-        <a href="mailt:cherryontech@gmail.com">cherryontech@gmail.com</a>
-      </div>
+      </g-link>
     </div>
-    <div class="my-4 text-sm text-center md:mb-20 md:mt-16">
+
+    <div class="text-sm">
+      <p>Contact us at cherryontech@gmail.com</p>
       <p>
         Copyright 2023 Cherry on Tech. All rights reserved.
       </p>

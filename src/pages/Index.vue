@@ -24,7 +24,7 @@
           </h1>
 
           <!-- Newsletter dialog -->
-        <h3 class="max-w-full my-8 mb-2 font-serif leading-tight text-white sm:max-w-sm">
+        <h3 class="max-w-full my-8 mb-2 font-serif leading-tight text-center text-white sm:max-w-sm">
           Get updates about Cherry on Tech. We don't send emails often, but when we do, they're sweet!
         </h3>
         <Mailchimp />
