@@ -18,18 +18,24 @@
       >
       to get started!
     </p>
+
+    <h2 class="mt-2 text-xl font-semibold">
+      Terms
+    </h2>
     <SearchBar
       v-model="search"
       label="Search the dictionary"
-      placeholderText="type a word"
       class="mb-2"
     />
-    <DictionaryCard
-      v-for="post in filteredTerms"
-      :key="post.id"
-      :post="post"
-      class="mb-4 last:mb-0"
-    />
+    
+    <ul>
+      <DictionaryCard
+        v-for="post in filteredTerms"
+        :key="post.id"
+        :post="post"
+        class="mb-4 last:mb-0"
+      />
+    </ul>
   </Layout>
 </template>
 
@@ -56,48 +62,48 @@ query Dictionaryposts {
 </page-query>
 
 <script>
-import SearchBar from "@/components/controls/SearchBar.vue";
-import DictionaryCard from '@/components/cards/DictionaryCard.vue';
+import SearchBar from '@/components/controls/SearchBar.vue'
+import DictionaryCard from '@/components/cards/DictionaryCard.vue'
 
 export default {
   components: {
     SearchBar,
-    DictionaryCard
+    DictionaryCard,
   },
   metaInfo: {
-    title: "Dictionary",
+    title: 'Tech Dictionary',
   },
   data() {
     return {
-      search: "",
+      search: '',
       entries: [],
-    };
+    }
   },
   created() {
-    this.entries = this.sortEntries(this.$page.dictionaryposts.edges);
+    this.entries = this.sortEntries(this.$page.dictionaryposts.edges)
   },
   computed: {
     filteredTerms() {
       return this.entries.filter((entry) => {
-        return entry.node.title.toLowerCase().match(this.search.toLowerCase());
-      });
+        return entry.node.title.toLowerCase().match(this.search.toLowerCase())
+      })
     },
   },
   methods: {
     sortEntries(allentries) {
       // sort by title, a property of the node object
       return allentries.sort(function(a, b) {
-        var nameA = a.node.title.toUpperCase(); // ignore upper and lowercase
-        var nameB = b.node.title.toUpperCase(); // ignore upper and lowercase
+        var nameA = a.node.title.toUpperCase() // ignore upper and lowercase
+        var nameB = b.node.title.toUpperCase() // ignore upper and lowercase
         if (nameA < nameB) {
-          return -1; //nameA comes first
+          return -1 //nameA comes first
         }
         if (nameA > nameB) {
-          return 1; // nameB comes first
+          return 1 // nameB comes first
         }
-        return 0; // names must be equal
-      });
+        return 0 // names must be equal
+      })
     },
   },
-};
+}
 </script>

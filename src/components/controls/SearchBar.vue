@@ -1,6 +1,6 @@
 <template>
   <div
-    class="rounded bg-gray-400 p-5 h-1 w-4/12 flex flex-row justify-between items-center"
+    class="flex flex-row items-center justify-between h-1 max-w-xs p-5 bg-pink-600 rounded"
   >
     <BaseInput
       v-on="$listeners"
