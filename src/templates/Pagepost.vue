@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <template v-slot:hero>
-      <div class="w-screen py-24 bg-gray-100">
+      <div class="py-24 bg-gray-100">
         <div class="flex flex-col max-w-screen-lg gap-8 px-4 m-auto md:flex-row">
           <div class="md:w-1/2">
             <h1 class="font-serif text-5xl font-bold leading-relaxed">
