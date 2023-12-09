@@ -2,6 +2,8 @@
 title: Cohort program
 draft: false
 banner_text: The Cherry on Tech Cohort program connects you with other like-minded individuals to form your own tech squad.
+banner_image: "/src/assets/content/images/cohort2-2023-12-02.png"
+banner_alt: "A zoom screen filled with images of cohort participants, featuring many smiling faces and user avatars."
 ---
 🍒 **Cherry on Tech** is a volunteer-run organization whose **mission** is to support people of **marginalized genders** who are **new to the tech world**. We are dedicated to developing a community that empowers women, non-binary, and trans folks while promoting the power of being part of **a tech squad**.
 ​
