@@ -85,7 +85,8 @@ We host **global meetings** for all squads to get a brief overview of the upcomi
 ​
 ### Important dates
 - ~~September 9th, 2023: Our next cohort begins!~~
-- December 9th, 2023: End of the Cohort, final presentation!
+- ~~December 9th, 2023: End of the Cohort, final presentation!~~
+- 2024 Spring cohort announcement coming soon!
 ​
 ##  Program schedule
 ### **Week 0: Onboarding**
