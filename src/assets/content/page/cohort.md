@@ -5,131 +5,120 @@ banner_text: The Cherry on Tech Cohort program connects you with other like-mind
 banner_image: "/src/assets/content/images/cohort2-2023-12-02.png"
 banner_alt: "A zoom screen filled with images of cohort participants, featuring many smiling faces and user avatars."
 ---
-🍒 **Cherry on Tech** is a volunteer-run organization whose **mission** is to support people of **marginalized genders** who are **new to the tech world**. We are dedicated to developing a community that empowers women, non-binary, and trans folks while promoting the power of being part of **a tech squad**.
-​
-## What is a tech squad?
-​
-A **tech squad** is a group of people committed to:
-​
-- help every member to enter and level up in the tech industry,
-- work together on projects where each member can develop their skills,
-- celebrate successes, and be there for each other
-​
+🍒 **Cherry on Tech** is a volunteer-run organization whose **mission** is to support people of **women, non-binary, and trans folks who are new to the tech world.** We are dedicated to developing a community that empowers **marginalized genders** while promoting the power of being part of **a tech squad**.
 
-And the best part is to have an impact on each other while having fun. [Learn more about tech squads.](https://cherryon.tech/blog/why-i-joined-cherry-on-tech/)
-​
-​
-### Who should join?
-​
-To be a good fit, **you**:
-​
+## **Understanding Tech Squads**
 
-1. Identify as an underrepresented gender
-2. Are aspiring to be a:
-    - Developer
-    - Product Manager
-    - UX Designer
-3. Have been or will begin looking for a role in the next 1-3 months
-    - You are new to tech
-    - You don't have relevant experience
-    - You want to practice and develop skills in your field 
-4. Are seeking to work and gain experience in a multidisciplinary and agile environment
-5. Are looking to add a new and real project to your portfolio
-6. Are interested in learning how to build accessible websites
-7. Are able to make a 13-week commitment to the program (estimated 5-7hrs/week)
-8. Want to empower your tech squad members to grow, learn and feel excited about working toward a common goal
-​
+A **tech squad** is more than just a group – it's a supportive community committed to mutual growth and success in the tech industry. 
 
-[Apply here!](https://docs.google.com/forms/d/e/1FAIpQLSclSWDD2FqKBqisJr_7HwzQawMtpcjXzGZhWmxo5nMza38Ffg/viewform?usp=sf_link)
-​
-##  Program Details
-​
-The Cherry on Tech Cohort program connects you with other like-minded individuals to form your own **tech squad**.
-​
+For more insights on tech squads, **[check out our blog here.](https://cherryon.tech/blog/why-i-joined-cherry-on-tech/)**
 
-We will walk your squad through a **13-week** project with weekly tasks and mentorship to help your squad define, build, and deploy a live website.
+👀 Curious to see the projects of our tech squads?  [Explore the Fall 2023 cohort summary page!](https://www.notion.so/da0605ef4ea5451eb4ce278d7c7bc3c9?pvs=21)
 
-​
-Your squad will have a **weekly meeting** to discuss your project, share knowledge, and support each other on your tech career journeys. You will spend **5-7 hours per week on your project**, with a mix of independent work, co-working time, and mentorship.
+---
 
-​
-We host **global meetings** for all squads to get a brief overview of the upcoming week, hear from guest speakers, participate in breakout sessions, and come together as a larger community of tech squads.
+## **😍 Who Should Join?**
 
-​
-**⭐️ This is a NO COST program ⭐️**
+To thrive in our program and tech squads, you should:
 
-​
-### Key features
-- **Cross-functional** - We put devs, designers, and product managers together on a tech squad so you can gain experience working with the common roles in the industry.
-- **Build a static site** - Go from idea to launch. Work within the constraint of building a static site in order to deliver a high-quality MVP in 13 weeks.
-- **Focus on accessibility** - We believe web accessibility is essential. We encourage our tech squads to think about accessibility at every step of the design and coding process.
-- **Lifelong career support** - Tech squads continue beyond the program, and we continue to support your squad’s success as a member of our community of tech squads.
-- **Mentorship** - We provide each squad with a mentor for each role. Our mentors are experienced professionals who are volunteering their time for mentoring.
-​
-### Tech stack and tools
-- React
-- Netlify
-- npm
-- git
-- GitHub
-- tailwind
-- VScode
-- ESLint
-- Prettier
-- axe Accessibility Linter
-- Figma
-- Jira
-- Notion
-- Slack
-- Jamboard
-​
-### Important dates
-- ~~September 9th, 2023: Our next cohort begins!~~
-- ~~December 9th, 2023: End of the Cohort, final presentation!~~
-- 2024 Spring cohort announcement coming soon!
-​
-##  Program schedule
+- **Identify as an underrepresented gender:** Women, non-binary, and trans individuals.
+- **Aspire to roles such as:** Developer, Product Manager, or UX Designer.
+- **Commit to a 15-week program:** With a time commitment of **7-10 hours per week**, including meetings and hands-on tasks. Hours may vary depending on your role and the project's specific requirements.
+- **Begin or plan to start your job search within the next 1-3 months:** Whether you're new to tech or lacking experience, our program helps you practice and develop essential skills.
+- **Desire to enhance your portfolio:** Add a real project to your portfolio while learning.
+- **Interest in accessible web design:** Learn how to build websites with accessibility in mind.
+- **Empower others:** Encourage growth, learning, and excitement within your tech squad.
+
+🌟 Excited to learn more? We've got a bunch of events lined up for February! [**Check out our LinkedIn page for the latest news and updates.**](https://www.linkedin.com/company/cherry-on-tech)
+
+---
+
+## **📋 Program Details**
+
+The Cherry on Tech Cohort program connects you with like-minded individuals to form your own tech squad. Here's what you can expect:
+
+- **Program Duration:** 15 weeks with a time commitment of **7-10 hours per week**
+- **Weekly Tasks:** Guided tasks and mentorship to define, build, and deploy a live website.
+- **Weekly Meetings:** Collaborate, share knowledge, and support each other on your tech career journeys.
+- **Global Meetings:** Engage with guest speakers, participate in breakout sessions, and connect with the wider tech squad community.
+- **Cost:** **Participating in this program won't cost you a dime!** You'll give back by volunteering your time to assist fellow community members and collaborating with your tech squad even after the program ends.
+
+## **🗓 Important Dates**
+
+- **Registration Period:**
+    
+    February 17th - March 2, 2024
+    
+- **Cohort Begins:**
+    
+    March 16th, 2024
+    
+- **Cohort Ends:**
+    
+    June 29th, 2024
+    
+
+### **✌️Ready to join? [Apply here!](https://docs.google.com/forms/d/e/1FAIpQLSclSWDD2FqKBqisJr_7HwzQawMtpcjXzGZhWmxo5nMza38Ffg/viewform?usp=sf_link)**
+
+---
+
+## **📔 Program Structure**
+
 ### **Week 0: Onboarding**
-​
-Join the Cherry on Tech Slack and meet your squad. Pick the problem space your squad will build a solution for.
-​
+
+- Join the Cherry on Tech Slack and meet your squad.
+- Choose the problem space your squad will address.
+
 ### **Week 1-3: Discovery, Prototyping, and User Story Mapping**
-​
-Research, ideate, and test a lo-fi prototype. Build your user flow and personas for a story-mapping workshop.
-​
+
+- Conduct research, ideation, and test a lo-fi prototype.
+- Develop user flows and personas for a story-mapping workshop.
+
 ### **Week 4: Baseline**
-​
-Establish a shared understanding of the Software Development Life Cycle and practices you will use to build quality software.
-​
+
+- Establish a shared understanding of the Software Development Life Cycle.
+- Define practices for building quality software.
+
 ### **Week 5 - 12: Sprints**
-​
-Work as a cross-functional team in an agile workflow to deliver features of your project.
-​
+
+- Collaborate as a cross-functional team in an agile workflow.
+- Deliver project features in iterative sprints.
+
 ### **Week 13: Final Presentation**
-​
-Present your project and celebrate completing your first project with your tech squad!
-​
-### After that…
-​
-We encourage your squad to continue to work together at your own pace so you can continue to support each other in your careers.
-​
-##  How to join
-​
-👉 [Apply here](https://docs.google.com/forms/d/e/1FAIpQLSclSWDD2FqKBqisJr_7HwzQawMtpcjXzGZhWmxo5nMza38Ffg/viewform?usp=sf_link)
-​
 
-​
- **Are you interested in volunteering with us?** 
-​
+- Present your project and celebrate your achievements with your tech squad!
 
-➡️ [**Sign me up!**](https://forms.gle/fV4iKrZHDtnK3vEd6)
-​
+### **Final Week: What’s Next…**
 
-​
-## ✉️  Contact us
-​
-Have questions or comments? 
-​
+- Set your own pace to continue working with your squad and supporting each other in your careers.
 
-🍒 Reach out to us via email at **cherryontech@gmail.com** 🌸
-​
+---
+
+## **🔑 Key Features**
+
+- **Experience cross-functional collaboration in an agile environment:** Work alongside developers, UX designers, and product managers.
+- **Build a High-Quality Static Site:** Take your project from concept to launch, creating a top-notch Minimum Viable Product (MVP) within just 15 weeks.
+- **Accessibility Focus:** Prioritize accessibility at every stage of the design and coding process to ensure inclusivity.
+- **Ongoing Career Support:** Benefit from continuous support and guidance from the tech squad community as you progress in your career.
+- **Mentorship Program:** Receive valuable guidance from seasoned professionals who volunteer their time as mentors.
+- **Hands-On Experience with Essential Tools:** Work with industry-standard tools and technologies used in the workspace, including:
+    - **Tech Tools:** Work with React, npm, tailwind, ESLint, Prettier, and axe Accessibility Linter.
+        - Note: These projects won't involve backend usage.
+    - **General Tools:** Familiarize yourself with Slack, Figma, Jira, Notion, GitHub, and Netlify.
+    
+
+**Join us and take the first step towards an exciting career in tech!**
+
+## **How to Join**
+
+👉 **[Apply here](https://docs.google.com/forms/d/e/1FAIpQLSclSWDD2FqKBqisJr_7HwzQawMtpcjXzGZhWmxo5nMza38Ffg/viewform?usp=sf_link)**
+
+**Interested in Volunteering?**
+
+➡️ **[Sign up here!](https://forms.gle/fV4iKrZHDtnK3vEd6)**
+
+## **✉️ Contact Us**
+
+Questions or Comments?
+
+🍒 Reach out via email at **[cherryontech@gmail.com](mailto:cherryontech@gmail.com)** 🌸
