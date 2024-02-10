@@ -56,9 +56,6 @@ The Cherry on Tech Cohort program connects you with like-minded individuals to f
 - **Cohort Ends:**
     
     June 29th, 2024
-    
-
-### **✌️Ready to join? [Apply here!](https://docs.google.com/forms/d/e/1FAIpQLSclSWDD2FqKBqisJr_7HwzQawMtpcjXzGZhWmxo5nMza38Ffg/viewform?usp=sf_link)**
 
 ---
 
@@ -111,9 +108,9 @@ The Cherry on Tech Cohort program connects you with like-minded individuals to f
 
 ## **How to Join**
 
-👉 **[Apply here](https://docs.google.com/forms/d/e/1FAIpQLSclSWDD2FqKBqisJr_7HwzQawMtpcjXzGZhWmxo5nMza38Ffg/viewform?usp=sf_link)**
+👉 **Check back here when our registration opens on February 17th**
 
-**Interested in Volunteering?**
+Interested in Volunteering?
 
 ➡️ **[Sign up here!](https://forms.gle/fV4iKrZHDtnK3vEd6)**
 
