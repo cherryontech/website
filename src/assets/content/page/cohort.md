@@ -35,7 +35,7 @@ To thrive in our program and tech squads, you should:
 
 ## **📋 Program Details**
 
-Our Spring 2024 Cohort is now OPEN! [Apply now!](https://forms.gle/s9iP5qECnW1U688L6)
+Our Spring 2024 Cohort is has closed. Stay tuned for announcements about the next cohort!
 
 The Cherry on Tech Cohort program connects you with like-minded individuals to form your own tech squad. Here's what you can expect:
 
@@ -46,20 +46,14 @@ The Cherry on Tech Cohort program connects you with like-minded individuals to f
 - **Cost:** **Participating in this program won't cost you a dime!** You'll give back by volunteering your time to assist fellow community members and collaborating with your tech squad even after the program ends.
 
 ## **🗓 Important Dates**
-
-- **Registration Period:**
     
-    February 17th - March 2, 2024
-    
-- **Cohort Begins:**
+- **Spring 2024 Cohort Begins:**
     
     March 16th, 2024
     
-- **Cohort Ends:**
+- **Spring 2024 Cohort Ends:**
     
     June 29th, 2024
-
-👉 Ready to apply? **[Apply now!](https://forms.gle/s9iP5qECnW1U688L6)**
 
 ---
 
@@ -112,7 +106,7 @@ The Cherry on Tech Cohort program connects you with like-minded individuals to f
 
 ## **How to Join**
 
-👉 **[Apply now!](https://forms.gle/s9iP5qECnW1U688L6)**
+Applications have closed for our Spring 2024 cohort. Stay tuned for announcements about the next cohort.
 
 Interested in Mentoring?
 
