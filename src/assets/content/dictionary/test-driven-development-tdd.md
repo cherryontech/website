@@ -1,6 +1,6 @@
 ---
 title: test-driven development (TDD)
-definition: ''
+definition: 'Test-driven development is a software development approach where tests are written before the implementation code.'
+sources: 'https://testdriven.io/test-driven-development/'
 perspectives: []
-
 ---
