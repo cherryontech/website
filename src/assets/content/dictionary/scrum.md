@@ -4,6 +4,6 @@ definition: An agile team collaboration framework that assists teams in breaking
 sources: 
 - sourceurl: [https://www.scrum.org/resources/what-scrum-module]
 perspectives:
-- meaning: Set product goals, start sprint planning to spread work between different specific teams, and associate sprint goals. Spring teams have daily/weekly scrums where they work or discuss their goals. Finally, a sprint review is done to go over tasks and goals accomplished. Then either goals can be reset or go back into sprint planning if goals were not completed. This is a cycle that continues until the project is finished. 
-  role: Any Development Team
+- meaning: to start with setting product goals, then starting sprint planning to spread work between different specific teams. These teams have daily/weekly scrums where they work or discuss their goals. Finally, a sprint review is done to go over tasks and goals accomplished. Then either goals can be reset or go back into sprint planning if goals were not completed. This is a cycle that continues until the project is finished successfully. 
+  role: member on a development team, 
 ---
