@@ -47,13 +47,7 @@ The Cherry on Tech Cohort program connects you with like-minded individuals to f
 
 ## **🗓 Important Dates**
     
-- **Spring 2024 Cohort Begins:**
-    
-    March 16th, 2024
-    
-- **Spring 2024 Cohort Ends:**
-    
-    June 29th, 2024
+Our Spring 2024 Cohort has finished. We are not currently planning a fall cohort, but keep an eye out for Spring 2025!
 
 ---
 
