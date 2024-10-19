@@ -14,7 +14,7 @@
     <div class="text-sm">
       <p>Contact us at cherryontech@gmail.com</p>
       <p>
-        Copyright 2023 Cherry on Tech. All rights reserved.
+        Copyright 2024 Cherry on Tech. All rights reserved.
       </p>
       <p>
         Galaxy photo by
