@@ -1,5 +1,5 @@
 ---
-title: CSS
+title: Cascading Style Sheets (CSS)
 definition: 'A computer language used to define the presentation of a document written in HTML or XML. This includes elements like web pages, mobile apps, and email. CSS controls the layout, colors, fonts, spacing, animations, and other visual aspects, separating content from its presentation.'
 sources:
 - sourceurl: https://developer.mozilla.org/en-US/docs/Web/CSS
