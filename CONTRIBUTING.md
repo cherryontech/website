@@ -6,6 +6,8 @@ This is an open source website, currently licensed under the MIT license. While 
 
 We always welcome you to [submit a bug report](https://github.com/cherryontech/website/issues/new?assignees=&labels=bug&template=bug_report.md&title=) if you see something wrong or confusing on the website.
 
+One especially helpful way to contribute to bug reports is to check for broken links in the [tech dictionary](https://cherryon.tech/dictionary). Bonus points for making a pull request to fix them (for more information on how to do that, read on to the next section of this file)!
+
 ## Contribute to our Tech Dictionary
 
 We also welcome contributions to our [tech dictionary](https://cherryon.tech/dictionary).
