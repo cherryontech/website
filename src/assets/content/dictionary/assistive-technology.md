@@ -4,5 +4,5 @@ definition: 'an umbrella term for assistive products and their related systems a
 source: https://www.who.int/news-room/fact-sheets/detail/assistive-technology
 perspectives:
 - meaning: products help maintain or improve an individual’s functioning related to cognition, communication, hearing, mobility, self-care and vision, thus enabling their health, well-being, inclusion and participation
-  role: General Public
+  role: general public
 ---
