@@ -12,9 +12,9 @@
     </div>
 
     <div class="text-sm">
-      <p>Contact us at cherryontech@gmail.com</p>
+      <p>Contact us at info@cherryontech.org</p>
       <p>
-        Copyright 2024 Cherry on Tech. All rights reserved.
+        Copyright 2024 CherryOnTech. All rights reserved.
       </p>
       <p>
         Galaxy photo by
