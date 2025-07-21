@@ -35,8 +35,6 @@ To thrive in our program and tech squads, you should:
 
 ## **📋 Program Details**
 
-Our Spring 2024 Cohort is has closed. Stay tuned for announcements about the next cohort!
-
 The Cherry on Tech Cohort program connects you with like-minded individuals to form your own tech squad. Here's what you can expect:
 
 - **Program Duration:** 15 weeks with a time commitment of **7-10 hours per week**
@@ -44,10 +42,6 @@ The Cherry on Tech Cohort program connects you with like-minded individuals to f
 - **Weekly Meetings:** Collaborate, share knowledge, and support each other on your tech career journeys.
 - **Global Meetings:** Engage with guest speakers, participate in breakout sessions, and connect with the wider tech squad community.
 - **Cost:** **Participating in this program won't cost you a dime!** You'll give back by volunteering your time to assist fellow community members and collaborating with your tech squad even after the program ends.
-
-## **🗓 Important Dates**
-    
-Our Spring 2024 Cohort has finished. We are not currently planning a fall cohort, but keep an eye out for Spring 2025!
 
 ---
 
@@ -98,16 +92,9 @@ Our Spring 2024 Cohort has finished. We are not currently planning a fall cohort
 
 **Join us and take the first step towards an exciting career in tech!**
 
-## **How to Join**
-
-Applications have closed for our Spring 2024 cohort. Stay tuned for announcements about the next cohort.
-
-Interested in Mentoring?
-
-➡️ **[Sign up here!](https://forms.gle/Hd1wmfHgmiKM2g9T8)**
 
 ## **✉️ Contact Us**
 
 Questions or Comments?
 
-🍒 Reach out via email at **[cherryontech@gmail.com](mailto:cherryontech@gmail.com)** 🌸
+🍒 Reach out via email at **[programs@cherryontech.org](mailto:programs@cherryontech.org)** 🌸
