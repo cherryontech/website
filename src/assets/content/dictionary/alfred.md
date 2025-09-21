@@ -4,6 +4,6 @@ definition: "Alfred is a macOS productivity application launcher developed by Ru
 sources:
   - sourceurl: https://en.wikipedia.org/wiki/Alfred_(software)
 perspectives:
-  - meaning: Alfred goes beyond Apple’s built-in Spotlight by focusing on speed, customization, and extensibility. With its paid “Powerpack,” users can unlock powerful workflows, automation, and personalization options, making it a tool not just for launching apps, but for streamlining everyday tasks and boosting productivity.
+  - meaning: it goes beyond Apple’s built-in Spotlight by focusing on speed, customization, and extensibility. With its paid “Powerpack,” users can unlock powerful workflows, automation, and personalization options, making it a tool not just for launching apps, but for streamlining everyday tasks and boosting productivity.
     role: developer
 ---
